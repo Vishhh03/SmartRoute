@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Models
+models/*.pkl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# Backend
+backend/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Environment
+.env
+.env.local

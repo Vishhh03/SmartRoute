@@ -1,0 +1,11 @@
+Metric,Value
+Baseline CO₂ (kg/day),121017
+CO₂ Saved (kg/day),18153
+Annual CO₂ Saved (tonnes),6625.7
+Fuel Saved (liters/day),7892
+Cost Saved (₹/day),789240
+Annual Savings (₹),288072555
+Time Saved (hours/day),15785
+Congestion Reduction (%),15
+Model R² Score,0.8441
+Model MAE,3142
