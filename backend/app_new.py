@@ -53,6 +53,8 @@ CORS(
                 "http://localhost:3000",
                 "http://localhost:5173",
                 "http://localhost:8080",
+                "http://127.0.0.1:3000",
+                "http://127.0.0.1:5173",
             ]
         }
     },
@@ -148,6 +150,7 @@ def api_health():
 
 
 @app.route("/api/predict", methods=["POST"])
+@app.route("/predict", methods=["POST"])
 def api_predict():
     global prediction_engine, carbon_calculator
     if prediction_engine is None or carbon_calculator is None:
@@ -766,7 +769,48 @@ def api_stream_status():
 
 @app.route("/api/routes", methods=["GET"])
 def api_routes():
-    # Multi-Modal "Green Route" Recommendations mock
+    """
+    Get route recommendations.
+    Attempts to use the OpenRouteService (ORS) API if ORS_API_KEY is set.
+    """
+    start_lat = request.args.get("start_lat", type=float)
+    start_lng = request.args.get("start_lng", type=float)
+    end_lat = request.args.get("end_lat", type=float)
+    end_lng = request.args.get("end_lng", type=float)
+
+    # If we have coordinates and an API key, try real routing
+    if all([start_lat, start_lng, end_lat, end_lng]) and ORS_API_KEY:
+        try:
+            ors_data = get_ors_route((start_lat, start_lng), (end_lat, end_lng))
+            if ors_data:
+                # Transform ORS data to our internal format
+                summary = ors_data.get("features", [{}])[0].get("properties", {}).get("summary", {})
+                distance_km = round(summary.get("distance", 0) / 1000, 2)
+                duration_min = round(summary.get("duration", 0) / 60, 1)
+                
+                return jsonify({
+                    "primary": {
+                        "name": "ORS Optimal Route",
+                        "eta_mins": duration_min,
+                        "distance_km": distance_km,
+                        "congestion_level": "Real-time",
+                        "co2_emissions_g": int(distance_km * 250)
+                    },
+                    "alternative": {
+                        "name": "SmartRoute Eco-Path",
+                        "eta_mins": round(duration_min * 1.1, 1),
+                        "distance_km": round(distance_km * 1.05, 2),
+                        "congestion_level": "Low (Predicted)",
+                        "co2_emissions_g": int(distance_km * 180)
+                    },
+                    "source": "OpenRouteService API"
+                })
+        except Exception as e:
+            print(f"ORS Fetch Failed: {e}")
+
+    # Fallback to simulated data if no key or no coordinates
+    status_note = "Using Simulated Data (ORS_API_KEY missing)" if not ORS_API_KEY else "Using Simulated Data (Fallback)"
+    
     return jsonify({
         "primary": {
             "name": "Route A (Faster)",
@@ -781,8 +825,11 @@ def api_routes():
             "distance_km": 14.0,
             "congestion_level": "Low",
             "co2_emissions_g": 2100
-        }
+        },
+        "status": status_note,
+        "api_key_status": "Visible" if ORS_API_KEY else "Hidden/Missing"
     })
+
 
 
 @app.route("/api/feature-importance", methods=["GET"])
