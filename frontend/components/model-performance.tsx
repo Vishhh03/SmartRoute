@@ -1,8 +1,15 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ComposedChart, Bar,
 } from 'recharts'
+import { Info } from 'lucide-react'
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from '@/components/ui/hover-card'
 
 const trafficVolumeData = [
   { time: '00:00', volume: 1200 },
@@ -18,6 +25,21 @@ const trafficVolumeData = [
 ]
 
 export default function ModelPerformance() {
+  const [featureImportance, setFeatureImportance] = useState<any[]>([])
+
+  useEffect(() => {
+    const fetchFeatures = async () => {
+      try {
+        const res = await fetch('http://localhost:5000/api/feature-importance')
+        const data = await res.json()
+        setFeatureImportance(data.features || [])
+      } catch (error) {
+        console.error('Failed to fetch feature importance', error)
+      }
+    }
+    fetchFeatures()
+  }, [])
+
   return (
     <div className="space-y-6">
       {/* Traffic Volume Chart */}
@@ -67,21 +89,46 @@ export default function ModelPerformance() {
             Model Performance
           </h3>
           <div className="space-y-5">
-            {[
-              { label: 'R² Score', value: '0.844', color: 'text-blue-400' },
-              { label: 'MAE (vehicles)', value: '3,142', color: 'text-cyan-400' },
-              { label: 'MAPE (%)', value: '9.59%', color: 'text-green-400' },
-              { label: 'Model Type', value: 'Gradient Boosting', color: 'text-purple-400' },
-            ].map((metric, idx) => (
-              <div key={idx} className="flex items-center justify-between">
-                <span className="text-xs text-muted-foreground font-mono">
-                  {metric.label}
-                </span>
-                <span className={`text-sm font-mono font-bold ${metric.color}`}>
-                  {metric.value}
-                </span>
-              </div>
-            ))}
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-muted-foreground font-mono">R² Score</span>
+              <span className="text-sm font-mono font-bold text-blue-400">0.844</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-muted-foreground font-mono">MAE (vehicles)</span>
+              <span className="text-sm font-mono font-bold text-cyan-400">3,142</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-muted-foreground font-mono">MAPE (%)</span>
+              <span className="text-sm font-mono font-bold text-green-400">9.59%</span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-muted-foreground font-mono flex items-center">
+                Model Type
+                <HoverCard>
+                  <HoverCardTrigger asChild>
+                    <Info className="w-3 h-3 ml-2 cursor-pointer text-slate-500 hover:text-slate-300" />
+                  </HoverCardTrigger>
+                  <HoverCardContent className="w-64 bg-slate-900 border-slate-700 p-4">
+                    <div className="space-y-2">
+                      <h4 className="text-xs font-semibold font-mono text-slate-200">Feature Importance (XAI)</h4>
+                      <p className="text-[10px] text-slate-400 font-mono mb-2">Top factors driving current predictions:</p>
+                      <div className="space-y-1.5">
+                        {featureImportance.map((feat: any, idx: number) => (
+                          <div key={idx} className="flex justify-between items-center text-[10px] font-mono">
+                            <span className="text-slate-300">{feat.name}</span>
+                            <div className="flex items-center w-24">
+                              <div className="h-1.5 bg-blue-500 rounded" style={{ width: `${feat.importance * 100}%` }}></div>
+                              <span className="text-slate-500 ml-2 w-8 text-right">{(feat.importance * 100).toFixed(0)}%</span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </HoverCardContent>
+                </HoverCard>
+              </span>
+              <span className="text-sm font-mono font-bold text-purple-400">Gradient Boosting</span>
+            </div>
           </div>
         </div>
 
@@ -111,3 +158,4 @@ export default function ModelPerformance() {
     </div>
   )
 }
+

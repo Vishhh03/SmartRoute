@@ -1,56 +1,83 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { TrendingUp, Zap, AlertCircle, Activity } from 'lucide-react'
+import { TrendingUp, Zap, AlertCircle, Activity, Leaf, Clock } from 'lucide-react'
 
 export default function DashboardMetrics() {
   const [vehicles, setVehicles] = useState(12847)
   const [avgSpeed, setAvgSpeed] = useState(42)
   const [congestion, setCongestion] = useState(68)
-  const [alerts, setAlerts] = useState(5)
+  const [alerts, setAlerts] = useState(0)
+  const [co2, setCo2] = useState(14.2)
+  const [driftData, setDriftData] = useState<any>(null)
 
-  // Simulate live data updates
+  // Fetch Drift
+  useEffect(() => {
+    const fetchDrift = async () => {
+      try {
+        const res = await fetch('http://localhost:5000/api/peak-drift')
+        const data = await res.json()
+        setDriftData(data)
+      } catch (error) {
+        console.error('Failed to fetch peak drift', error)
+      }
+    }
+    fetchDrift()
+  }, [])
+
+  // Simulate live data updates & automated anomaly detection
   useEffect(() => {
     const interval = setInterval(() => {
-      setVehicles(prev => prev + Math.floor(Math.random() * 20) - 10)
+      const newVehicles = vehicles + Math.floor(Math.random() * 20) - 10
+      setVehicles(newVehicles)
       setAvgSpeed(prev => Math.max(20, Math.min(80, prev + (Math.random() - 0.5) * 4)))
       setCongestion(prev => Math.max(10, Math.min(95, prev + (Math.random() - 0.5) * 8)))
-      setAlerts(Math.floor(Math.random() * 8) + 2)
+      
+      // CO2 Estimation linked to volume
+      setCo2(parseFloat(((newVehicles * 0.0011) + (Math.random() * 0.2)).toFixed(2)))
+      
+      // Automated Incident Detection: High congestion triggers alert
+      if (newVehicles > 12900 || congestion > 80) {
+        setAlerts(prev => Math.min(5, prev + 1))
+      } else {
+        setAlerts(prev => Math.max(0, prev - 1))
+      }
     }, 3000)
     return () => clearInterval(interval)
-  }, [])
+  }, [vehicles, congestion])
 
   const metrics = [
     {
-      label: 'Total Vehicles',
+      label: 'Traffic Volume',
       value: vehicles.toLocaleString(),
+      subtext: 'Live prediction',
       icon: Activity,
       color: 'text-blue-400',
       bgColor: 'bg-blue-500/10',
     },
     {
-      label: 'Average Speed',
-      value: `${avgSpeed.toFixed(1)} km/h`,
-      subtext: 'Sparkline trend',
-      icon: TrendingUp,
+      label: 'CO₂ Footprint',
+      value: `${co2} t`,
+      subtext: 'Emission Impact',
+      icon: Leaf,
+      color: 'text-green-400',
+      bgColor: 'bg-green-500/10',
+    },
+    {
+      label: 'Peak Hour Drift',
+      value: driftData ? driftData.actual_peak : '16:30',
+      subtext: driftData ? `Trend: ${driftData.drift_minutes}m ${driftData.trend}` : 'Historical vs Actual',
+      icon: Clock,
       color: 'text-cyan-400',
       bgColor: 'bg-cyan-500/10',
     },
     {
-      label: 'Congestion Index',
-      value: `${Math.round(congestion)}%`,
-      subtext: 'Peak traffic level',
-      icon: Zap,
-      color: 'text-orange-400',
-      bgColor: 'bg-orange-500/10',
-    },
-    {
-      label: 'Active Alerts',
+      label: 'Incident Alerts',
       value: alerts.toString(),
-      subtext: 'Critical incidents',
+      subtext: alerts > 0 ? 'Anomaly Detected' : 'Network Stable',
       icon: AlertCircle,
-      color: 'text-red-400',
-      bgColor: 'bg-red-500/10',
+      color: alerts > 0 ? 'text-red-400' : 'text-slate-400',
+      bgColor: alerts > 0 ? 'bg-red-500/20 border border-red-500/50 animate-pulse' : 'bg-slate-500/10',
     },
   ]
 
@@ -61,8 +88,8 @@ export default function DashboardMetrics() {
         return (
           <div
             key={idx}
-            className="rounded-lg border backdrop-blur-sm p-6 transition-all cursor-pointer group fade-in"
-            style={{ 
+            className={`rounded-lg border backdrop-blur-sm p-6 transition-all group fade-in ${metric.label === 'Incident Alerts' && alerts > 0 ? 'border-red-500/50 bg-red-950/20' : ''}`}
+            style={metric.label === 'Incident Alerts' && alerts > 0 ? {} : { 
               borderColor: 'rgba(71, 85, 105, 0.5)', 
               backgroundColor: 'rgba(15, 23, 42, 0.5)',
               animationDelay: `${idx * 0.1}s`
@@ -73,11 +100,11 @@ export default function DashboardMetrics() {
                 <p className="text-xs text-muted-foreground font-mono uppercase tracking-wider">
                   {metric.label}
                 </p>
-                <p className="text-2xl font-mono font-bold text-foreground mt-2">
+                <p className={`text-2xl font-mono font-bold mt-2 ${metric.label === 'Incident Alerts' && alerts > 0 ? 'text-red-400' : 'text-foreground'}`}>
                   {metric.value}
                 </p>
                 {metric.subtext && (
-                  <p className="text-xs text-muted-foreground font-mono mt-1">
+                  <p className={`text-xs font-mono mt-1 ${metric.label === 'Incident Alerts' && alerts > 0 ? 'text-red-400/80' : 'text-muted-foreground'}`}>
                     {metric.subtext}
                   </p>
                 )}
@@ -92,3 +119,4 @@ export default function DashboardMetrics() {
     </div>
   )
 }
+

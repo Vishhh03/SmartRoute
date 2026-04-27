@@ -2,6 +2,8 @@
 
 import { MapPin, Zap } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import SimulatorPanel from './simulator-panel'
+import SystemLogsDrawer from './system-logs-drawer'
 
 export default function Navbar() {
   const [currentTime, setCurrentTime] = useState<string>('--:--:-- --')
@@ -23,8 +25,12 @@ export default function Navbar() {
             <span className="text-xs text-muted-foreground font-mono mx-2">/</span>
             <span className="text-xs text-muted-foreground font-mono">Traffic Analytics</span>
           </div>
-          <div className="text-xs text-muted-foreground font-mono">
-            {isMounted ? currentTime : '--:--:-- --'}
+          <div className="flex items-center gap-4">
+            <SystemLogsDrawer />
+            <SimulatorPanel />
+            <div className="text-xs text-muted-foreground font-mono hidden md:block">
+              {isMounted ? currentTime : '--:--:-- --'}
+            </div>
           </div>
         </div>
 

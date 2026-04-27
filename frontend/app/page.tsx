@@ -5,6 +5,7 @@ import Navbar from '@/components/navbar'
 import DashboardMetrics from '@/components/dashboard-metrics'
 import AnalyticsGrid from '@/components/analytics-grid'
 import ModelPerformance from '@/components/model-performance'
+import RouteRecommendations from '@/components/route-recommendations'
 
 export default function Home() {
   return (
@@ -17,8 +18,15 @@ export default function Home() {
         {/* Analytics Grid */}
         <AnalyticsGrid />
 
-        {/* Model Performance */}
-        <ModelPerformance />
+        {/* Model Performance and Routing */}
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+          <div className="xl:col-span-2">
+            <ModelPerformance />
+          </div>
+          <div className="xl:col-span-1">
+            <RouteRecommendations />
+          </div>
+        </div>
 
         {/* Footer Badge */}
         <div className="flex justify-center pt-8 pb-4">

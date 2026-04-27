@@ -1,0 +1,2001 @@
+datetime,city,vehicle_count,weather,day_of_week,temperature_celsius,humidity,hour,is_peak_hour,road_segment
+2024-01-01 00:00:00,Chennai,759,Mist,Monday,36.0,85,0,0,Anna Nagar
+2024-01-01 01:00:00,Chennai,559,Cloudy,Monday,33.1,71,1,0,T Nagar
+2024-01-01 02:00:00,Chennai,799,Clear,Monday,37.5,71,2,0,OMR
+2024-01-01 03:00:00,Chennai,686,Clear,Monday,30.1,85,3,0,Adyar
+2024-01-01 04:00:00,Chennai,272,Cloudy,Monday,33.4,71,4,0,Tambaram
+2024-01-01 05:00:00,Chennai,631,Clear,Monday,37.7,83,5,0,Anna Nagar
+2024-01-01 06:00:00,Chennai,1555,Mist,Monday,35.1,63,6,0,T Nagar
+2024-01-01 07:00:00,Chennai,2112,Cloudy,Monday,26.9,88,7,0,OMR
+2024-01-01 08:00:00,Chennai,4425,Rain,Monday,28.4,83,8,1,Adyar
+2024-01-01 09:00:00,Chennai,4207,Haze,Monday,32.4,60,9,1,Tambaram
+2024-01-01 10:00:00,Chennai,6125,Mist,Monday,33.0,78,10,1,Anna Nagar
+2024-01-01 11:00:00,Chennai,1135,Haze,Monday,33.9,70,11,0,T Nagar
+2024-01-01 12:00:00,Chennai,1688,Cloudy,Monday,34.1,61,12,0,OMR
+2024-01-01 13:00:00,Chennai,841,Drizzle,Monday,26.7,69,13,0,Adyar
+2024-01-01 14:00:00,Chennai,2389,Haze,Monday,32.4,73,14,0,Tambaram
+2024-01-01 15:00:00,Chennai,1124,Haze,Monday,33.5,79,15,0,Anna Nagar
+2024-01-01 16:00:00,Chennai,1772,Haze,Monday,32.6,72,16,0,T Nagar
+2024-01-01 17:00:00,Chennai,3805,Drizzle,Monday,29.4,80,17,1,OMR
+2024-01-01 18:00:00,Chennai,3560,Cloudy,Monday,35.1,88,18,1,Adyar
+2024-01-01 19:00:00,Chennai,6167,Mist,Monday,25.2,78,19,1,Tambaram
+2024-01-01 20:00:00,Chennai,3656,Rain,Monday,36.4,75,20,1,Anna Nagar
+2024-01-01 21:00:00,Chennai,1168,Mist,Monday,34.6,61,21,0,T Nagar
+2024-01-01 22:00:00,Chennai,891,Drizzle,Monday,28.8,63,22,0,OMR
+2024-01-01 23:00:00,Chennai,250,Drizzle,Monday,27.8,76,23,0,Adyar
+2024-01-02 00:00:00,Chennai,348,Cloudy,Tuesday,31.6,87,0,0,Tambaram
+2024-01-02 01:00:00,Chennai,258,Cloudy,Tuesday,26.1,68,1,0,Anna Nagar
+2024-01-02 02:00:00,Chennai,161,Rain,Tuesday,34.3,68,2,0,T Nagar
+2024-01-02 03:00:00,Chennai,382,Rain,Tuesday,27.1,71,3,0,OMR
+2024-01-02 04:00:00,Chennai,480,Mist,Tuesday,32.4,81,4,0,Adyar
+2024-01-02 05:00:00,Chennai,469,Clear,Tuesday,28.2,77,5,0,Tambaram
+2024-01-02 06:00:00,Chennai,1818,Rain,Tuesday,36.6,80,6,0,Anna Nagar
+2024-01-02 07:00:00,Chennai,1708,Drizzle,Tuesday,28.9,84,7,0,T Nagar
+2024-01-02 08:00:00,Chennai,3893,Drizzle,Tuesday,32.6,86,8,1,OMR
+2024-01-02 09:00:00,Chennai,3025,Clear,Tuesday,34.4,75,9,1,Adyar
+2024-01-02 10:00:00,Chennai,3639,Drizzle,Tuesday,30.5,78,10,1,Tambaram
+2024-01-02 11:00:00,Chennai,921,Mist,Tuesday,34.3,68,11,0,Anna Nagar
+2024-01-02 12:00:00,Chennai,1976,Cloudy,Tuesday,30.6,64,12,0,T Nagar
+2024-01-02 13:00:00,Chennai,1579,Mist,Tuesday,32.7,77,13,0,OMR
+2024-01-02 14:00:00,Chennai,1612,Clear,Tuesday,33.5,72,14,0,Adyar
+2024-01-02 15:00:00,Chennai,1421,Drizzle,Tuesday,30.7,86,15,0,Tambaram
+2024-01-02 16:00:00,Chennai,1501,Mist,Tuesday,34.2,63,16,0,Anna Nagar
+2024-01-02 17:00:00,Chennai,4640,Haze,Tuesday,34.3,89,17,1,T Nagar
+2024-01-02 18:00:00,Chennai,6709,Haze,Tuesday,36.3,64,18,1,OMR
+2024-01-02 19:00:00,Chennai,4241,Mist,Tuesday,36.0,84,19,1,Adyar
+2024-01-02 20:00:00,Chennai,3609,Drizzle,Tuesday,25.9,80,20,1,Tambaram
+2024-01-02 21:00:00,Chennai,1280,Rain,Tuesday,37.7,85,21,0,Anna Nagar
+2024-01-02 22:00:00,Chennai,1229,Mist,Tuesday,34.5,65,22,0,T Nagar
+2024-01-02 23:00:00,Chennai,288,Cloudy,Tuesday,29.4,65,23,0,OMR
+2024-01-03 00:00:00,Chennai,509,Rain,Wednesday,29.5,87,0,0,Adyar
+2024-01-03 01:00:00,Chennai,336,Mist,Wednesday,25.4,64,1,0,Tambaram
+2024-01-03 02:00:00,Chennai,465,Drizzle,Wednesday,28.1,88,2,0,Anna Nagar
+2024-01-03 03:00:00,Chennai,592,Drizzle,Wednesday,34.8,88,3,0,T Nagar
+2024-01-03 04:00:00,Chennai,473,Mist,Wednesday,27.8,66,4,0,OMR
+2024-01-03 05:00:00,Chennai,557,Haze,Wednesday,32.4,73,5,0,Adyar
+2024-01-03 06:00:00,Chennai,2001,Drizzle,Wednesday,26.1,61,6,0,Tambaram
+2024-01-03 07:00:00,Chennai,2102,Rain,Wednesday,33.0,76,7,0,Anna Nagar
+2024-01-03 08:00:00,Chennai,4198,Mist,Wednesday,34.7,74,8,1,T Nagar
+2024-01-03 09:00:00,Chennai,5011,Cloudy,Wednesday,32.9,81,9,1,OMR
+2024-01-03 10:00:00,Chennai,4978,Clear,Wednesday,30.9,87,10,1,Adyar
+2024-01-03 11:00:00,Chennai,964,Clear,Wednesday,34.9,69,11,0,Tambaram
+2024-01-03 12:00:00,Chennai,936,Clear,Wednesday,32.6,84,12,0,Anna Nagar
+2024-01-03 13:00:00,Chennai,1911,Clear,Wednesday,36.3,68,13,0,T Nagar
+2024-01-03 14:00:00,Chennai,1411,Rain,Wednesday,37.4,80,14,0,OMR
+2024-01-03 15:00:00,Chennai,1532,Haze,Wednesday,37.3,81,15,0,Adyar
+2024-01-03 16:00:00,Chennai,1270,Haze,Wednesday,27.8,75,16,0,Tambaram
+2024-01-03 17:00:00,Chennai,3276,Rain,Wednesday,30.5,71,17,1,Anna Nagar
+2024-01-03 18:00:00,Chennai,3256,Clear,Wednesday,28.6,77,18,1,T Nagar
+2024-01-03 19:00:00,Chennai,4028,Haze,Wednesday,33.8,68,19,1,OMR
+2024-01-03 20:00:00,Chennai,4006,Cloudy,Wednesday,34.2,73,20,1,Adyar
+2024-01-03 21:00:00,Chennai,1586,Mist,Wednesday,27.7,64,21,0,Tambaram
+2024-01-03 22:00:00,Chennai,2332,Haze,Wednesday,34.9,82,22,0,Anna Nagar
+2024-01-03 23:00:00,Chennai,398,Rain,Wednesday,32.2,77,23,0,T Nagar
+2024-01-04 00:00:00,Chennai,282,Rain,Thursday,33.8,61,0,0,OMR
+2024-01-04 01:00:00,Chennai,750,Clear,Thursday,35.8,89,1,0,Adyar
+2024-01-04 02:00:00,Chennai,734,Clear,Thursday,25.8,74,2,0,Tambaram
+2024-01-04 03:00:00,Chennai,409,Haze,Thursday,29.4,88,3,0,Anna Nagar
+2024-01-04 04:00:00,Chennai,216,Rain,Thursday,37.2,83,4,0,T Nagar
+2024-01-04 05:00:00,Chennai,505,Cloudy,Thursday,36.0,65,5,0,OMR
+2024-01-04 06:00:00,Chennai,1022,Drizzle,Thursday,36.2,83,6,0,Adyar
+2024-01-04 07:00:00,Chennai,1654,Cloudy,Thursday,25.1,68,7,0,Tambaram
+2024-01-04 08:00:00,Chennai,3851,Clear,Thursday,30.6,68,8,1,Anna Nagar
+2024-01-04 09:00:00,Chennai,4615,Drizzle,Thursday,37.7,72,9,1,T Nagar
+2024-01-04 10:00:00,Chennai,6024,Clear,Thursday,29.5,83,10,1,OMR
+2024-01-04 11:00:00,Chennai,1406,Drizzle,Thursday,30.2,69,11,0,Adyar
+2024-01-04 12:00:00,Chennai,1911,Drizzle,Thursday,29.2,88,12,0,Tambaram
+2024-01-04 13:00:00,Chennai,1026,Cloudy,Thursday,35.0,64,13,0,Anna Nagar
+2024-01-04 14:00:00,Chennai,1169,Clear,Thursday,33.7,67,14,0,T Nagar
+2024-01-04 15:00:00,Chennai,1155,Mist,Thursday,32.2,85,15,0,OMR
+2024-01-04 16:00:00,Chennai,1480,Haze,Thursday,28.5,63,16,0,Adyar
+2024-01-04 17:00:00,Chennai,3736,Clear,Thursday,28.9,67,17,1,Tambaram
+2024-01-04 18:00:00,Chennai,3197,Cloudy,Thursday,33.9,80,18,1,Anna Nagar
+2024-01-04 19:00:00,Chennai,3246,Haze,Thursday,29.9,65,19,1,T Nagar
+2024-01-04 20:00:00,Chennai,5057,Drizzle,Thursday,34.1,83,20,1,OMR
+2024-01-04 21:00:00,Chennai,1915,Drizzle,Thursday,29.9,77,21,0,Adyar
+2024-01-04 22:00:00,Chennai,2300,Clear,Thursday,26.7,83,22,0,Tambaram
+2024-01-04 23:00:00,Chennai,750,Cloudy,Thursday,35.4,62,23,0,Anna Nagar
+2024-01-05 00:00:00,Chennai,543,Clear,Friday,29.0,77,0,0,T Nagar
+2024-01-05 01:00:00,Chennai,315,Cloudy,Friday,31.2,83,1,0,OMR
+2024-01-05 02:00:00,Chennai,373,Cloudy,Friday,27.1,64,2,0,Adyar
+2024-01-05 03:00:00,Chennai,483,Drizzle,Friday,29.2,64,3,0,Tambaram
+2024-01-05 04:00:00,Chennai,716,Cloudy,Friday,32.1,73,4,0,Anna Nagar
+2024-01-05 05:00:00,Chennai,619,Cloudy,Friday,34.4,71,5,0,T Nagar
+2024-01-05 06:00:00,Chennai,1846,Haze,Friday,34.0,80,6,0,OMR
+2024-01-05 07:00:00,Chennai,1798,Clear,Friday,25.4,81,7,0,Adyar
+2024-01-05 08:00:00,Chennai,5152,Clear,Friday,25.1,69,8,1,Tambaram
+2024-01-05 09:00:00,Chennai,3606,Mist,Friday,32.7,85,9,1,Anna Nagar
+2024-01-05 10:00:00,Chennai,5214,Mist,Friday,37.4,77,10,1,T Nagar
+2024-01-05 11:00:00,Chennai,1633,Cloudy,Friday,36.8,84,11,0,OMR
+2024-01-05 12:00:00,Chennai,1252,Drizzle,Friday,30.2,61,12,0,Adyar
+2024-01-05 13:00:00,Chennai,974,Mist,Friday,28.4,85,13,0,Tambaram
+2024-01-05 14:00:00,Chennai,1255,Rain,Friday,30.8,71,14,0,Anna Nagar
+2024-01-05 15:00:00,Chennai,1979,Clear,Friday,36.0,76,15,0,T Nagar
+2024-01-05 16:00:00,Chennai,1606,Drizzle,Friday,26.2,61,16,0,OMR
+2024-01-05 17:00:00,Chennai,6654,Haze,Friday,28.1,85,17,1,Adyar
+2024-01-05 18:00:00,Chennai,3834,Haze,Friday,31.7,79,18,1,Tambaram
+2024-01-05 19:00:00,Chennai,6781,Mist,Friday,25.4,77,19,1,Anna Nagar
+2024-01-05 20:00:00,Chennai,3891,Drizzle,Friday,31.4,89,20,1,T Nagar
+2024-01-05 21:00:00,Chennai,1192,Cloudy,Friday,37.9,72,21,0,OMR
+2024-01-05 22:00:00,Chennai,1200,Cloudy,Friday,33.3,74,22,0,Adyar
+2024-01-05 23:00:00,Chennai,585,Mist,Friday,25.8,83,23,0,Tambaram
+2024-01-06 00:00:00,Chennai,238,Clear,Saturday,33.2,87,0,0,Anna Nagar
+2024-01-06 01:00:00,Chennai,451,Rain,Saturday,35.7,82,1,0,T Nagar
+2024-01-06 02:00:00,Chennai,295,Rain,Saturday,30.2,82,2,0,OMR
+2024-01-06 03:00:00,Chennai,586,Haze,Saturday,28.3,71,3,0,Adyar
+2024-01-06 04:00:00,Chennai,559,Cloudy,Saturday,37.9,67,4,0,Tambaram
+2024-01-06 05:00:00,Chennai,448,Mist,Saturday,34.0,61,5,0,Anna Nagar
+2024-01-06 06:00:00,Chennai,818,Haze,Saturday,26.7,71,6,0,T Nagar
+2024-01-06 07:00:00,Chennai,1282,Clear,Saturday,35.3,75,7,0,OMR
+2024-01-06 08:00:00,Chennai,5309,Clear,Saturday,29.6,82,8,1,Adyar
+2024-01-06 09:00:00,Chennai,3342,Drizzle,Saturday,31.8,70,9,1,Tambaram
+2024-01-06 10:00:00,Chennai,4184,Rain,Saturday,34.2,81,10,1,Anna Nagar
+2024-01-06 11:00:00,Chennai,1490,Haze,Saturday,30.8,80,11,0,T Nagar
+2024-01-06 12:00:00,Chennai,1365,Cloudy,Saturday,37.5,62,12,0,OMR
+2024-01-06 13:00:00,Chennai,1026,Rain,Saturday,28.4,66,13,0,Adyar
+2024-01-06 14:00:00,Chennai,1266,Drizzle,Saturday,37.6,60,14,0,Tambaram
+2024-01-06 15:00:00,Chennai,1901,Cloudy,Saturday,28.6,86,15,0,Anna Nagar
+2024-01-06 16:00:00,Chennai,1737,Drizzle,Saturday,37.6,65,16,0,T Nagar
+2024-01-06 17:00:00,Chennai,3388,Drizzle,Saturday,31.7,75,17,1,OMR
+2024-01-06 18:00:00,Chennai,5119,Clear,Saturday,34.2,66,18,1,Adyar
+2024-01-06 19:00:00,Chennai,4240,Cloudy,Saturday,28.5,64,19,1,Tambaram
+2024-01-06 20:00:00,Chennai,5441,Mist,Saturday,28.9,73,20,1,Anna Nagar
+2024-01-06 21:00:00,Chennai,1532,Rain,Saturday,31.5,64,21,0,T Nagar
+2024-01-06 22:00:00,Chennai,1112,Haze,Saturday,25.1,89,22,0,OMR
+2024-01-06 23:00:00,Chennai,471,Haze,Saturday,34.0,80,23,0,Adyar
+2024-01-07 00:00:00,Chennai,363,Cloudy,Sunday,30.9,89,0,0,Tambaram
+2024-01-07 01:00:00,Chennai,335,Mist,Sunday,33.7,73,1,0,Anna Nagar
+2024-01-07 02:00:00,Chennai,264,Clear,Sunday,25.4,87,2,0,T Nagar
+2024-01-07 03:00:00,Chennai,436,Rain,Sunday,31.0,84,3,0,OMR
+2024-01-07 04:00:00,Chennai,511,Haze,Sunday,33.0,64,4,0,Adyar
+2024-01-07 05:00:00,Chennai,353,Clear,Sunday,31.5,87,5,0,Tambaram
+2024-01-07 06:00:00,Chennai,2315,Mist,Sunday,35.8,89,6,0,Anna Nagar
+2024-01-07 07:00:00,Chennai,1257,Clear,Sunday,29.1,67,7,0,T Nagar
+2024-01-07 08:00:00,Chennai,6170,Haze,Sunday,32.5,77,8,1,OMR
+2024-01-07 09:00:00,Chennai,5287,Haze,Sunday,26.9,70,9,1,Adyar
+2024-01-07 10:00:00,Chennai,3893,Rain,Sunday,25.5,61,10,1,Tambaram
+2024-01-07 11:00:00,Chennai,1062,Rain,Sunday,34.3,75,11,0,Anna Nagar
+2024-01-07 12:00:00,Chennai,977,Haze,Sunday,32.8,79,12,0,T Nagar
+2024-01-07 13:00:00,Chennai,1573,Cloudy,Sunday,33.6,68,13,0,OMR
+2024-01-07 14:00:00,Chennai,1596,Clear,Sunday,29.0,72,14,0,Adyar
+2024-01-07 15:00:00,Chennai,1242,Haze,Sunday,30.6,87,15,0,Tambaram
+2024-01-07 16:00:00,Chennai,965,Mist,Sunday,32.7,70,16,0,Anna Nagar
+2024-01-07 17:00:00,Chennai,3313,Clear,Sunday,35.7,72,17,1,T Nagar
+2024-01-07 18:00:00,Chennai,5979,Mist,Sunday,30.8,88,18,1,OMR
+2024-01-07 19:00:00,Chennai,2946,Cloudy,Sunday,32.3,88,19,1,Adyar
+2024-01-07 20:00:00,Chennai,3503,Rain,Sunday,34.9,60,20,1,Tambaram
+2024-01-07 21:00:00,Chennai,1543,Mist,Sunday,30.6,69,21,0,Anna Nagar
+2024-01-07 22:00:00,Chennai,1244,Cloudy,Sunday,37.2,61,22,0,T Nagar
+2024-01-07 23:00:00,Chennai,393,Rain,Sunday,34.9,65,23,0,OMR
+2024-01-08 00:00:00,Chennai,649,Mist,Monday,26.2,78,0,0,Adyar
+2024-01-08 01:00:00,Chennai,180,Drizzle,Monday,37.8,86,1,0,Tambaram
+2024-01-08 02:00:00,Chennai,332,Cloudy,Monday,26.5,73,2,0,Anna Nagar
+2024-01-08 03:00:00,Chennai,599,Drizzle,Monday,25.5,74,3,0,T Nagar
+2024-01-08 04:00:00,Chennai,733,Haze,Monday,30.2,80,4,0,OMR
+2024-01-08 05:00:00,Chennai,444,Mist,Monday,33.3,71,5,0,Adyar
+2024-01-08 06:00:00,Chennai,1663,Drizzle,Monday,25.9,84,6,0,Tambaram
+2024-01-08 07:00:00,Chennai,1793,Cloudy,Monday,34.4,76,7,0,Anna Nagar
+2024-01-08 08:00:00,Chennai,5649,Clear,Monday,30.3,72,8,1,T Nagar
+2024-01-08 09:00:00,Chennai,5264,Rain,Monday,34.6,63,9,1,OMR
+2024-01-08 10:00:00,Chennai,3645,Cloudy,Monday,34.1,79,10,1,Adyar
+2024-01-08 11:00:00,Chennai,822,Drizzle,Monday,25.0,88,11,0,Tambaram
+2024-01-08 12:00:00,Chennai,991,Drizzle,Monday,37.9,70,12,0,Anna Nagar
+2024-01-08 13:00:00,Chennai,1304,Haze,Monday,35.0,81,13,0,T Nagar
+2024-01-08 14:00:00,Chennai,871,Drizzle,Monday,26.1,66,14,0,OMR
+2024-01-08 15:00:00,Chennai,2215,Mist,Monday,28.4,61,15,0,Adyar
+2024-01-08 16:00:00,Chennai,1584,Haze,Monday,36.1,64,16,0,Tambaram
+2024-01-08 17:00:00,Chennai,4283,Rain,Monday,30.9,64,17,1,Anna Nagar
+2024-01-08 18:00:00,Chennai,4721,Rain,Monday,31.9,70,18,1,T Nagar
+2024-01-08 19:00:00,Chennai,5022,Drizzle,Monday,37.1,60,19,1,OMR
+2024-01-08 20:00:00,Chennai,4614,Cloudy,Monday,36.3,80,20,1,Adyar
+2024-01-08 21:00:00,Chennai,1658,Mist,Monday,34.9,70,21,0,Tambaram
+2024-01-08 22:00:00,Chennai,2081,Clear,Monday,29.9,70,22,0,Anna Nagar
+2024-01-08 23:00:00,Chennai,528,Mist,Monday,27.6,75,23,0,T Nagar
+2024-01-09 00:00:00,Chennai,524,Clear,Tuesday,27.1,61,0,0,OMR
+2024-01-09 01:00:00,Chennai,705,Haze,Tuesday,27.3,78,1,0,Adyar
+2024-01-09 02:00:00,Chennai,270,Mist,Tuesday,37.7,78,2,0,Tambaram
+2024-01-09 03:00:00,Chennai,273,Rain,Tuesday,35.9,72,3,0,Anna Nagar
+2024-01-09 04:00:00,Chennai,606,Haze,Tuesday,34.4,60,4,0,T Nagar
+2024-01-09 05:00:00,Chennai,416,Haze,Tuesday,28.2,69,5,0,OMR
+2024-01-09 06:00:00,Chennai,2407,Haze,Tuesday,30.8,70,6,0,Adyar
+2024-01-09 07:00:00,Chennai,2057,Drizzle,Tuesday,29.9,88,7,0,Tambaram
+2024-01-09 08:00:00,Chennai,6716,Haze,Tuesday,33.8,67,8,1,Anna Nagar
+2024-01-09 09:00:00,Chennai,6641,Clear,Tuesday,27.2,87,9,1,T Nagar
+2024-01-09 10:00:00,Chennai,5991,Cloudy,Tuesday,30.9,74,10,1,OMR
+2024-01-09 11:00:00,Chennai,791,Rain,Tuesday,30.5,85,11,0,Adyar
+2024-01-09 12:00:00,Chennai,1173,Clear,Tuesday,26.3,64,12,0,Tambaram
+2024-01-09 13:00:00,Chennai,1237,Drizzle,Tuesday,26.4,77,13,0,Anna Nagar
+2024-01-09 14:00:00,Chennai,1571,Mist,Tuesday,32.8,63,14,0,T Nagar
+2024-01-09 15:00:00,Chennai,1844,Drizzle,Tuesday,37.1,80,15,0,OMR
+2024-01-09 16:00:00,Chennai,1385,Clear,Tuesday,25.5,79,16,0,Adyar
+2024-01-09 17:00:00,Chennai,4579,Rain,Tuesday,32.7,76,17,1,Tambaram
+2024-01-09 18:00:00,Chennai,6047,Cloudy,Tuesday,32.8,79,18,1,Anna Nagar
+2024-01-09 19:00:00,Chennai,5274,Haze,Tuesday,33.7,73,19,1,T Nagar
+2024-01-09 20:00:00,Chennai,3032,Cloudy,Tuesday,28.0,62,20,1,OMR
+2024-01-09 21:00:00,Chennai,1160,Drizzle,Tuesday,29.8,81,21,0,Adyar
+2024-01-09 22:00:00,Chennai,2136,Mist,Tuesday,26.9,65,22,0,Tambaram
+2024-01-09 23:00:00,Chennai,676,Clear,Tuesday,26.1,78,23,0,Anna Nagar
+2024-01-10 00:00:00,Chennai,207,Haze,Wednesday,27.0,70,0,0,T Nagar
+2024-01-10 01:00:00,Chennai,421,Clear,Wednesday,33.6,85,1,0,OMR
+2024-01-10 02:00:00,Chennai,405,Mist,Wednesday,25.3,61,2,0,Adyar
+2024-01-10 03:00:00,Chennai,780,Haze,Wednesday,28.8,81,3,0,Tambaram
+2024-01-10 04:00:00,Chennai,332,Cloudy,Wednesday,27.2,63,4,0,Anna Nagar
+2024-01-10 05:00:00,Chennai,480,Drizzle,Wednesday,34.5,72,5,0,T Nagar
+2024-01-10 06:00:00,Chennai,1537,Clear,Wednesday,31.7,86,6,0,OMR
+2024-01-10 07:00:00,Chennai,1299,Haze,Wednesday,25.1,80,7,0,Adyar
+2024-01-10 08:00:00,Chennai,3817,Drizzle,Wednesday,27.3,74,8,1,Tambaram
+2024-01-10 09:00:00,Chennai,3060,Clear,Wednesday,29.7,88,9,1,Anna Nagar
+2024-01-10 10:00:00,Chennai,6203,Cloudy,Wednesday,28.7,70,10,1,T Nagar
+2024-01-10 11:00:00,Chennai,2052,Clear,Wednesday,37.5,64,11,0,OMR
+2024-01-10 12:00:00,Chennai,1341,Cloudy,Wednesday,36.4,74,12,0,Adyar
+2024-01-10 13:00:00,Chennai,914,Clear,Wednesday,27.4,75,13,0,Tambaram
+2024-01-10 14:00:00,Chennai,813,Cloudy,Wednesday,29.1,73,14,0,Anna Nagar
+2024-01-10 15:00:00,Chennai,1021,Rain,Wednesday,36.9,81,15,0,T Nagar
+2024-01-10 16:00:00,Chennai,1640,Drizzle,Wednesday,32.5,83,16,0,OMR
+2024-01-10 17:00:00,Chennai,6946,Clear,Wednesday,29.5,83,17,1,Adyar
+2024-01-10 18:00:00,Chennai,5780,Cloudy,Wednesday,26.8,85,18,1,Tambaram
+2024-01-10 19:00:00,Chennai,3420,Mist,Wednesday,29.2,74,19,1,Anna Nagar
+2024-01-10 20:00:00,Chennai,4181,Mist,Wednesday,26.1,73,20,1,T Nagar
+2024-01-10 21:00:00,Chennai,1597,Cloudy,Wednesday,34.9,69,21,0,OMR
+2024-01-10 22:00:00,Chennai,2359,Haze,Wednesday,34.1,73,22,0,Adyar
+2024-01-10 23:00:00,Chennai,331,Cloudy,Wednesday,36.4,87,23,0,Tambaram
+2024-01-11 00:00:00,Chennai,586,Rain,Thursday,27.3,63,0,0,Anna Nagar
+2024-01-11 01:00:00,Chennai,742,Clear,Thursday,26.1,71,1,0,T Nagar
+2024-01-11 02:00:00,Chennai,347,Mist,Thursday,32.5,69,2,0,OMR
+2024-01-11 03:00:00,Chennai,655,Haze,Thursday,29.1,79,3,0,Adyar
+2024-01-11 04:00:00,Chennai,304,Haze,Thursday,26.4,78,4,0,Tambaram
+2024-01-11 05:00:00,Chennai,418,Clear,Thursday,28.2,88,5,0,Anna Nagar
+2024-01-11 06:00:00,Chennai,2479,Haze,Thursday,33.4,70,6,0,T Nagar
+2024-01-11 07:00:00,Chennai,2235,Mist,Thursday,32.6,82,7,0,OMR
+2024-01-11 08:00:00,Chennai,6661,Clear,Thursday,37.1,89,8,1,Adyar
+2024-01-11 09:00:00,Chennai,3231,Cloudy,Thursday,31.7,85,9,1,Tambaram
+2024-01-11 10:00:00,Chennai,6137,Haze,Thursday,28.2,81,10,1,Anna Nagar
+2024-01-11 11:00:00,Chennai,1421,Drizzle,Thursday,29.4,81,11,0,T Nagar
+2024-01-11 12:00:00,Chennai,871,Cloudy,Thursday,27.8,89,12,0,OMR
+2024-01-11 13:00:00,Chennai,1389,Haze,Thursday,28.8,65,13,0,Adyar
+2024-01-11 14:00:00,Chennai,1154,Mist,Thursday,33.6,82,14,0,Tambaram
+2024-01-11 15:00:00,Chennai,1350,Drizzle,Thursday,26.5,83,15,0,Anna Nagar
+2024-01-11 16:00:00,Chennai,1501,Rain,Thursday,29.1,74,16,0,T Nagar
+2024-01-11 17:00:00,Chennai,6069,Haze,Thursday,28.6,87,17,1,OMR
+2024-01-11 18:00:00,Chennai,3863,Cloudy,Thursday,37.6,73,18,1,Adyar
+2024-01-11 19:00:00,Chennai,6605,Mist,Thursday,31.1,62,19,1,Tambaram
+2024-01-11 20:00:00,Chennai,4686,Drizzle,Thursday,37.0,84,20,1,Anna Nagar
+2024-01-11 21:00:00,Chennai,1104,Cloudy,Thursday,32.3,87,21,0,T Nagar
+2024-01-11 22:00:00,Chennai,2266,Mist,Thursday,36.4,85,22,0,OMR
+2024-01-11 23:00:00,Chennai,667,Cloudy,Thursday,35.0,60,23,0,Adyar
+2024-01-12 00:00:00,Chennai,425,Cloudy,Friday,36.0,80,0,0,Tambaram
+2024-01-12 01:00:00,Chennai,480,Drizzle,Friday,37.2,66,1,0,Anna Nagar
+2024-01-12 02:00:00,Chennai,381,Cloudy,Friday,37.0,70,2,0,T Nagar
+2024-01-12 03:00:00,Chennai,684,Haze,Friday,25.6,86,3,0,OMR
+2024-01-12 04:00:00,Chennai,798,Mist,Friday,25.4,66,4,0,Adyar
+2024-01-12 05:00:00,Chennai,274,Drizzle,Friday,36.3,83,5,0,Tambaram
+2024-01-12 06:00:00,Chennai,1765,Cloudy,Friday,31.4,67,6,0,Anna Nagar
+2024-01-12 07:00:00,Chennai,1730,Mist,Friday,34.8,67,7,0,T Nagar
+2024-01-12 08:00:00,Chennai,3431,Drizzle,Friday,37.3,83,8,1,OMR
+2024-01-12 09:00:00,Chennai,4988,Clear,Friday,31.4,65,9,1,Adyar
+2024-01-12 10:00:00,Chennai,3073,Haze,Friday,26.7,74,10,1,Tambaram
+2024-01-12 11:00:00,Chennai,1688,Drizzle,Friday,37.5,81,11,0,Anna Nagar
+2024-01-12 12:00:00,Chennai,939,Drizzle,Friday,28.4,63,12,0,T Nagar
+2024-01-12 13:00:00,Chennai,1094,Rain,Friday,29.1,78,13,0,OMR
+2024-01-12 14:00:00,Chennai,1917,Mist,Friday,25.3,72,14,0,Adyar
+2024-01-12 15:00:00,Chennai,1623,Cloudy,Friday,36.1,74,15,0,Tambaram
+2024-01-12 16:00:00,Chennai,690,Rain,Friday,25.2,74,16,0,Anna Nagar
+2024-01-12 17:00:00,Chennai,6193,Clear,Friday,35.7,66,17,1,T Nagar
+2024-01-12 18:00:00,Chennai,4407,Haze,Friday,35.3,81,18,1,OMR
+2024-01-12 19:00:00,Chennai,3561,Cloudy,Friday,28.0,80,19,1,Adyar
+2024-01-12 20:00:00,Chennai,4249,Rain,Friday,35.8,61,20,1,Tambaram
+2024-01-12 21:00:00,Chennai,1072,Mist,Friday,33.5,79,21,0,Anna Nagar
+2024-01-12 22:00:00,Chennai,1208,Clear,Friday,36.8,60,22,0,T Nagar
+2024-01-12 23:00:00,Chennai,374,Clear,Friday,36.6,63,23,0,OMR
+2024-01-13 00:00:00,Chennai,505,Mist,Saturday,33.3,75,0,0,Adyar
+2024-01-13 01:00:00,Chennai,280,Drizzle,Saturday,36.2,78,1,0,Tambaram
+2024-01-13 02:00:00,Chennai,300,Clear,Saturday,28.3,64,2,0,Anna Nagar
+2024-01-13 03:00:00,Chennai,239,Drizzle,Saturday,29.1,75,3,0,T Nagar
+2024-01-13 04:00:00,Chennai,459,Clear,Saturday,32.2,68,4,0,OMR
+2024-01-13 05:00:00,Chennai,197,Rain,Saturday,35.2,75,5,0,Adyar
+2024-01-13 06:00:00,Chennai,2071,Mist,Saturday,31.3,86,6,0,Tambaram
+2024-01-13 07:00:00,Chennai,1836,Mist,Saturday,33.3,81,7,0,Anna Nagar
+2024-01-13 08:00:00,Chennai,4768,Haze,Saturday,29.3,66,8,1,T Nagar
+2024-01-13 09:00:00,Chennai,3479,Cloudy,Saturday,37.5,63,9,1,OMR
+2024-01-13 10:00:00,Chennai,3224,Clear,Saturday,37.8,78,10,1,Adyar
+2024-01-13 11:00:00,Chennai,950,Drizzle,Saturday,30.4,64,11,0,Tambaram
+2024-01-13 12:00:00,Chennai,1290,Cloudy,Saturday,28.3,67,12,0,Anna Nagar
+2024-01-13 13:00:00,Chennai,1393,Rain,Saturday,30.1,66,13,0,T Nagar
+2024-01-13 14:00:00,Chennai,883,Rain,Saturday,27.9,81,14,0,OMR
+2024-01-13 15:00:00,Chennai,2104,Haze,Saturday,28.0,68,15,0,Adyar
+2024-01-13 16:00:00,Chennai,1976,Cloudy,Saturday,36.5,60,16,0,Tambaram
+2024-01-13 17:00:00,Chennai,3549,Cloudy,Saturday,26.5,77,17,1,Anna Nagar
+2024-01-13 18:00:00,Chennai,5469,Clear,Saturday,26.1,82,18,1,T Nagar
+2024-01-13 19:00:00,Chennai,2869,Rain,Saturday,31.4,64,19,1,OMR
+2024-01-13 20:00:00,Chennai,2782,Mist,Saturday,34.2,87,20,1,Adyar
+2024-01-13 21:00:00,Chennai,2144,Mist,Saturday,34.6,81,21,0,Tambaram
+2024-01-13 22:00:00,Chennai,1772,Cloudy,Saturday,30.5,65,22,0,Anna Nagar
+2024-01-13 23:00:00,Chennai,294,Drizzle,Saturday,34.3,69,23,0,T Nagar
+2024-01-14 00:00:00,Chennai,156,Rain,Sunday,29.9,76,0,0,OMR
+2024-01-14 01:00:00,Chennai,544,Haze,Sunday,26.9,69,1,0,Adyar
+2024-01-14 02:00:00,Chennai,381,Mist,Sunday,36.2,79,2,0,Tambaram
+2024-01-14 03:00:00,Chennai,470,Drizzle,Sunday,30.0,60,3,0,Anna Nagar
+2024-01-14 04:00:00,Chennai,231,Mist,Sunday,26.3,83,4,0,T Nagar
+2024-01-14 05:00:00,Chennai,674,Haze,Sunday,36.7,61,5,0,OMR
+2024-01-14 06:00:00,Chennai,1646,Rain,Sunday,26.5,88,6,0,Adyar
+2024-01-14 07:00:00,Chennai,1840,Clear,Sunday,34.8,66,7,0,Tambaram
+2024-01-14 08:00:00,Chennai,5069,Haze,Sunday,26.4,63,8,1,Anna Nagar
+2024-01-14 09:00:00,Chennai,4708,Mist,Sunday,30.5,79,9,1,T Nagar
+2024-01-14 10:00:00,Chennai,4634,Clear,Sunday,33.2,73,10,1,OMR
+2024-01-14 11:00:00,Chennai,1690,Cloudy,Sunday,27.6,70,11,0,Adyar
+2024-01-14 12:00:00,Chennai,977,Drizzle,Sunday,29.7,83,12,0,Tambaram
+2024-01-14 13:00:00,Chennai,953,Cloudy,Sunday,37.4,77,13,0,Anna Nagar
+2024-01-14 14:00:00,Chennai,1892,Cloudy,Sunday,34.6,67,14,0,T Nagar
+2024-01-14 15:00:00,Chennai,1639,Clear,Sunday,37.9,75,15,0,OMR
+2024-01-14 16:00:00,Chennai,1933,Clear,Sunday,37.1,79,16,0,Adyar
+2024-01-14 17:00:00,Chennai,4406,Drizzle,Sunday,37.0,79,17,1,Tambaram
+2024-01-14 18:00:00,Chennai,4250,Clear,Sunday,34.7,83,18,1,Anna Nagar
+2024-01-14 19:00:00,Chennai,4528,Haze,Sunday,28.0,68,19,1,T Nagar
+2024-01-14 20:00:00,Chennai,4638,Drizzle,Sunday,27.7,88,20,1,OMR
+2024-01-14 21:00:00,Chennai,2015,Mist,Sunday,31.1,71,21,0,Adyar
+2024-01-14 22:00:00,Chennai,1552,Haze,Sunday,36.3,80,22,0,Tambaram
+2024-01-14 23:00:00,Chennai,341,Rain,Sunday,37.0,67,23,0,Anna Nagar
+2024-01-15 00:00:00,Chennai,605,Rain,Monday,34.7,67,0,0,T Nagar
+2024-01-15 01:00:00,Chennai,463,Rain,Monday,33.9,61,1,0,OMR
+2024-01-15 02:00:00,Chennai,213,Rain,Monday,32.4,68,2,0,Adyar
+2024-01-15 03:00:00,Chennai,306,Drizzle,Monday,37.6,83,3,0,Tambaram
+2024-01-15 04:00:00,Chennai,692,Cloudy,Monday,29.7,62,4,0,Anna Nagar
+2024-01-15 05:00:00,Chennai,450,Mist,Monday,35.7,85,5,0,T Nagar
+2024-01-15 06:00:00,Chennai,2377,Mist,Monday,32.2,67,6,0,OMR
+2024-01-15 07:00:00,Chennai,1406,Mist,Monday,32.3,89,7,0,Adyar
+2024-01-15 08:00:00,Chennai,5950,Mist,Monday,33.7,72,8,1,Tambaram
+2024-01-15 09:00:00,Chennai,4003,Rain,Monday,28.1,68,9,1,Anna Nagar
+2024-01-15 10:00:00,Chennai,5871,Mist,Monday,31.9,81,10,1,T Nagar
+2024-01-15 11:00:00,Chennai,1311,Haze,Monday,31.7,79,11,0,OMR
+2024-01-15 12:00:00,Chennai,1247,Mist,Monday,33.6,60,12,0,Adyar
+2024-01-15 13:00:00,Chennai,1339,Drizzle,Monday,29.6,84,13,0,Tambaram
+2024-01-15 14:00:00,Chennai,1241,Haze,Monday,26.0,62,14,0,Anna Nagar
+2024-01-15 15:00:00,Chennai,1142,Cloudy,Monday,35.0,80,15,0,T Nagar
+2024-01-15 16:00:00,Chennai,1734,Rain,Monday,34.3,75,16,0,OMR
+2024-01-15 17:00:00,Chennai,2782,Rain,Monday,35.1,83,17,1,Adyar
+2024-01-15 18:00:00,Chennai,3088,Drizzle,Monday,35.1,88,18,1,Tambaram
+2024-01-15 19:00:00,Chennai,6028,Cloudy,Monday,26.9,82,19,1,Anna Nagar
+2024-01-15 20:00:00,Chennai,5492,Haze,Monday,31.7,66,20,1,T Nagar
+2024-01-15 21:00:00,Chennai,1984,Rain,Monday,25.4,86,21,0,OMR
+2024-01-15 22:00:00,Chennai,1001,Haze,Monday,34.1,76,22,0,Adyar
+2024-01-15 23:00:00,Chennai,772,Clear,Monday,29.1,65,23,0,Tambaram
+2024-01-16 00:00:00,Chennai,658,Mist,Tuesday,28.7,87,0,0,Anna Nagar
+2024-01-16 01:00:00,Chennai,485,Rain,Tuesday,29.1,64,1,0,T Nagar
+2024-01-16 02:00:00,Chennai,509,Drizzle,Tuesday,27.6,74,2,0,OMR
+2024-01-16 03:00:00,Chennai,586,Mist,Tuesday,26.9,71,3,0,Adyar
+2024-01-16 04:00:00,Chennai,281,Cloudy,Tuesday,37.5,69,4,0,Tambaram
+2024-01-16 05:00:00,Chennai,328,Mist,Tuesday,28.4,61,5,0,Anna Nagar
+2024-01-16 06:00:00,Chennai,1427,Mist,Tuesday,26.7,65,6,0,T Nagar
+2024-01-16 07:00:00,Chennai,1832,Rain,Tuesday,26.3,64,7,0,OMR
+2024-01-16 08:00:00,Chennai,4758,Clear,Tuesday,28.9,67,8,1,Adyar
+2024-01-16 09:00:00,Chennai,5945,Cloudy,Tuesday,25.8,81,9,1,Tambaram
+2024-01-16 10:00:00,Chennai,4973,Mist,Tuesday,26.4,72,10,1,Anna Nagar
+2024-01-16 11:00:00,Chennai,1298,Clear,Tuesday,31.0,75,11,0,T Nagar
+2024-01-16 12:00:00,Chennai,2321,Haze,Tuesday,37.1,71,12,0,OMR
+2024-01-16 13:00:00,Chennai,671,Rain,Tuesday,28.7,63,13,0,Adyar
+2024-01-16 14:00:00,Chennai,785,Drizzle,Tuesday,33.0,83,14,0,Tambaram
+2024-01-16 15:00:00,Chennai,2339,Clear,Tuesday,31.3,86,15,0,Anna Nagar
+2024-01-16 16:00:00,Chennai,931,Haze,Tuesday,32.9,75,16,0,T Nagar
+2024-01-16 17:00:00,Chennai,3157,Mist,Tuesday,37.2,69,17,1,OMR
+2024-01-16 18:00:00,Chennai,4103,Mist,Tuesday,36.7,73,18,1,Adyar
+2024-01-16 19:00:00,Chennai,6575,Mist,Tuesday,35.0,80,19,1,Tambaram
+2024-01-16 20:00:00,Chennai,3544,Mist,Tuesday,27.6,80,20,1,Anna Nagar
+2024-01-16 21:00:00,Chennai,815,Rain,Tuesday,33.4,73,21,0,T Nagar
+2024-01-16 22:00:00,Chennai,1899,Cloudy,Tuesday,29.2,74,22,0,OMR
+2024-01-16 23:00:00,Chennai,190,Rain,Tuesday,35.8,61,23,0,Adyar
+2024-01-17 00:00:00,Chennai,491,Haze,Wednesday,25.5,88,0,0,Tambaram
+2024-01-17 01:00:00,Chennai,357,Mist,Wednesday,31.9,84,1,0,Anna Nagar
+2024-01-17 02:00:00,Chennai,227,Rain,Wednesday,29.9,79,2,0,T Nagar
+2024-01-17 03:00:00,Chennai,401,Haze,Wednesday,30.0,82,3,0,OMR
+2024-01-17 04:00:00,Chennai,587,Drizzle,Wednesday,28.0,73,4,0,Adyar
+2024-01-17 05:00:00,Chennai,255,Haze,Wednesday,27.9,74,5,0,Tambaram
+2024-01-17 06:00:00,Chennai,2458,Cloudy,Wednesday,33.7,83,6,0,Anna Nagar
+2024-01-17 07:00:00,Chennai,842,Drizzle,Wednesday,32.7,61,7,0,T Nagar
+2024-01-17 08:00:00,Chennai,3052,Mist,Wednesday,35.8,60,8,1,OMR
+2024-01-17 09:00:00,Chennai,4690,Drizzle,Wednesday,30.8,63,9,1,Adyar
+2024-01-17 10:00:00,Chennai,5168,Cloudy,Wednesday,34.3,83,10,1,Tambaram
+2024-01-17 11:00:00,Chennai,1608,Haze,Wednesday,31.5,63,11,0,Anna Nagar
+2024-01-17 12:00:00,Chennai,1741,Rain,Wednesday,32.3,72,12,0,T Nagar
+2024-01-17 13:00:00,Chennai,2426,Clear,Wednesday,26.4,89,13,0,OMR
+2024-01-17 14:00:00,Chennai,1363,Drizzle,Wednesday,31.4,81,14,0,Adyar
+2024-01-17 15:00:00,Chennai,1325,Mist,Wednesday,31.1,66,15,0,Tambaram
+2024-01-17 16:00:00,Chennai,2038,Cloudy,Wednesday,26.8,65,16,0,Anna Nagar
+2024-01-17 17:00:00,Chennai,5321,Haze,Wednesday,28.9,85,17,1,T Nagar
+2024-01-17 18:00:00,Chennai,4372,Cloudy,Wednesday,29.5,85,18,1,OMR
+2024-01-17 19:00:00,Chennai,3903,Mist,Wednesday,38.0,85,19,1,Adyar
+2024-01-17 20:00:00,Chennai,3715,Mist,Wednesday,26.7,85,20,1,Tambaram
+2024-01-17 21:00:00,Chennai,1687,Clear,Wednesday,29.6,87,21,0,Anna Nagar
+2024-01-17 22:00:00,Chennai,1497,Cloudy,Wednesday,33.3,80,22,0,T Nagar
+2024-01-17 23:00:00,Chennai,199,Drizzle,Wednesday,31.2,73,23,0,OMR
+2024-01-18 00:00:00,Chennai,259,Clear,Thursday,29.7,73,0,0,Adyar
+2024-01-18 01:00:00,Chennai,448,Drizzle,Thursday,29.1,69,1,0,Tambaram
+2024-01-18 02:00:00,Chennai,315,Rain,Thursday,25.5,82,2,0,Anna Nagar
+2024-01-18 03:00:00,Chennai,168,Drizzle,Thursday,34.7,71,3,0,T Nagar
+2024-01-18 04:00:00,Chennai,520,Rain,Thursday,32.6,77,4,0,OMR
+2024-01-18 05:00:00,Chennai,593,Mist,Thursday,38.0,63,5,0,Adyar
+2024-01-18 06:00:00,Chennai,2044,Cloudy,Thursday,35.7,71,6,0,Tambaram
+2024-01-18 07:00:00,Chennai,2203,Cloudy,Thursday,33.1,68,7,0,Anna Nagar
+2024-01-18 08:00:00,Chennai,4486,Drizzle,Thursday,35.7,60,8,1,T Nagar
+2024-01-18 09:00:00,Chennai,6846,Clear,Thursday,27.3,75,9,1,OMR
+2024-01-18 10:00:00,Chennai,6832,Haze,Thursday,30.5,77,10,1,Adyar
+2024-01-18 11:00:00,Chennai,1425,Clear,Thursday,34.4,83,11,0,Tambaram
+2024-01-18 12:00:00,Chennai,684,Drizzle,Thursday,30.1,77,12,0,Anna Nagar
+2024-01-18 13:00:00,Chennai,1655,Rain,Thursday,25.7,65,13,0,T Nagar
+2024-01-18 14:00:00,Chennai,1725,Mist,Thursday,27.5,70,14,0,OMR
+2024-01-18 15:00:00,Chennai,1429,Drizzle,Thursday,27.9,82,15,0,Adyar
+2024-01-18 16:00:00,Chennai,1841,Clear,Thursday,36.0,83,16,0,Tambaram
+2024-01-18 17:00:00,Chennai,5924,Haze,Thursday,36.4,61,17,1,Anna Nagar
+2024-01-18 18:00:00,Chennai,3797,Cloudy,Thursday,28.6,73,18,1,T Nagar
+2024-01-18 19:00:00,Chennai,3041,Haze,Thursday,26.3,80,19,1,OMR
+2024-01-18 20:00:00,Chennai,4955,Rain,Thursday,32.0,88,20,1,Adyar
+2024-01-18 21:00:00,Chennai,1103,Clear,Thursday,26.4,89,21,0,Tambaram
+2024-01-18 22:00:00,Chennai,1612,Mist,Thursday,35.6,80,22,0,Anna Nagar
+2024-01-18 23:00:00,Chennai,551,Drizzle,Thursday,31.9,80,23,0,T Nagar
+2024-01-19 00:00:00,Chennai,626,Mist,Friday,28.1,67,0,0,OMR
+2024-01-19 01:00:00,Chennai,195,Drizzle,Friday,29.8,80,1,0,Adyar
+2024-01-19 02:00:00,Chennai,773,Cloudy,Friday,32.2,72,2,0,Tambaram
+2024-01-19 03:00:00,Chennai,322,Haze,Friday,36.2,78,3,0,Anna Nagar
+2024-01-19 04:00:00,Chennai,652,Mist,Friday,32.8,84,4,0,T Nagar
+2024-01-19 05:00:00,Chennai,493,Rain,Friday,32.7,77,5,0,OMR
+2024-01-19 06:00:00,Chennai,1081,Mist,Friday,30.0,72,6,0,Adyar
+2024-01-19 07:00:00,Chennai,1093,Mist,Friday,25.5,60,7,0,Tambaram
+2024-01-19 08:00:00,Chennai,4017,Cloudy,Friday,28.2,76,8,1,Anna Nagar
+2024-01-19 09:00:00,Chennai,5991,Mist,Friday,25.5,73,9,1,T Nagar
+2024-01-19 10:00:00,Chennai,4168,Mist,Friday,26.5,64,10,1,OMR
+2024-01-19 11:00:00,Chennai,1808,Cloudy,Friday,32.4,72,11,0,Adyar
+2024-01-19 12:00:00,Chennai,2101,Clear,Friday,27.8,76,12,0,Tambaram
+2024-01-19 13:00:00,Chennai,890,Rain,Friday,31.7,72,13,0,Anna Nagar
+2024-01-19 14:00:00,Chennai,2409,Clear,Friday,29.0,88,14,0,T Nagar
+2024-01-19 15:00:00,Chennai,686,Drizzle,Friday,30.3,63,15,0,OMR
+2024-01-19 16:00:00,Chennai,1315,Drizzle,Friday,31.8,78,16,0,Adyar
+2024-01-19 17:00:00,Chennai,3373,Rain,Friday,37.1,63,17,1,Tambaram
+2024-01-19 18:00:00,Chennai,4225,Drizzle,Friday,27.5,68,18,1,Anna Nagar
+2024-01-19 19:00:00,Chennai,3913,Clear,Friday,27.2,74,19,1,T Nagar
+2024-01-19 20:00:00,Chennai,3099,Cloudy,Friday,29.2,72,20,1,OMR
+2024-01-19 21:00:00,Chennai,1083,Haze,Friday,30.0,62,21,0,Adyar
+2024-01-19 22:00:00,Chennai,1237,Haze,Friday,32.7,64,22,0,Tambaram
+2024-01-19 23:00:00,Chennai,456,Drizzle,Friday,28.1,82,23,0,Anna Nagar
+2024-01-20 00:00:00,Chennai,624,Haze,Saturday,26.4,60,0,0,T Nagar
+2024-01-20 01:00:00,Chennai,277,Drizzle,Saturday,30.0,81,1,0,OMR
+2024-01-20 02:00:00,Chennai,335,Mist,Saturday,29.7,74,2,0,Adyar
+2024-01-20 03:00:00,Chennai,428,Haze,Saturday,31.6,71,3,0,Tambaram
+2024-01-20 04:00:00,Chennai,582,Mist,Saturday,27.9,78,4,0,Anna Nagar
+2024-01-20 05:00:00,Chennai,710,Mist,Saturday,37.2,67,5,0,T Nagar
+2024-01-20 06:00:00,Chennai,1318,Clear,Saturday,28.6,68,6,0,OMR
+2024-01-20 07:00:00,Chennai,1673,Cloudy,Saturday,32.2,71,7,0,Adyar
+2024-01-20 08:00:00,Chennai,4545,Rain,Saturday,29.8,89,8,1,Tambaram
+2024-01-20 09:00:00,Chennai,2650,Haze,Saturday,27.9,83,9,1,Anna Nagar
+2024-01-20 10:00:00,Chennai,4456,Rain,Saturday,25.8,84,10,1,T Nagar
+2024-01-20 11:00:00,Chennai,859,Rain,Saturday,32.3,85,11,0,OMR
+2024-01-20 12:00:00,Chennai,1409,Drizzle,Saturday,37.6,66,12,0,Adyar
+2024-01-20 13:00:00,Chennai,1505,Mist,Saturday,31.5,60,13,0,Tambaram
+2024-01-20 14:00:00,Chennai,1693,Drizzle,Saturday,33.1,88,14,0,Anna Nagar
+2024-01-20 15:00:00,Chennai,1244,Rain,Saturday,31.3,60,15,0,T Nagar
+2024-01-20 16:00:00,Chennai,1219,Rain,Saturday,29.4,64,16,0,OMR
+2024-01-20 17:00:00,Chennai,2568,Cloudy,Saturday,28.8,65,17,1,Adyar
+2024-01-20 18:00:00,Chennai,3488,Drizzle,Saturday,30.7,67,18,1,Tambaram
+2024-01-20 19:00:00,Chennai,4055,Mist,Saturday,31.6,79,19,1,Anna Nagar
+2024-01-20 20:00:00,Chennai,2014,Drizzle,Saturday,31.6,85,20,1,T Nagar
+2024-01-20 21:00:00,Chennai,1572,Drizzle,Saturday,35.1,74,21,0,OMR
+2024-01-20 22:00:00,Chennai,796,Rain,Saturday,26.5,69,22,0,Adyar
+2024-01-20 23:00:00,Chennai,460,Rain,Saturday,31.6,63,23,0,Tambaram
+2024-01-21 00:00:00,Chennai,263,Mist,Sunday,26.1,74,0,0,Anna Nagar
+2024-01-21 01:00:00,Chennai,199,Rain,Sunday,30.9,85,1,0,T Nagar
+2024-01-21 02:00:00,Chennai,495,Cloudy,Sunday,36.3,78,2,0,OMR
+2024-01-21 03:00:00,Chennai,523,Clear,Sunday,30.4,75,3,0,Adyar
+2024-01-21 04:00:00,Chennai,190,Drizzle,Sunday,27.9,85,4,0,Tambaram
+2024-01-21 05:00:00,Chennai,313,Mist,Sunday,35.6,80,5,0,Anna Nagar
+2024-01-21 06:00:00,Chennai,1273,Haze,Sunday,29.1,63,6,0,T Nagar
+2024-01-21 07:00:00,Chennai,2002,Cloudy,Sunday,25.1,86,7,0,OMR
+2024-01-21 08:00:00,Chennai,4199,Drizzle,Sunday,35.6,82,8,1,Adyar
+2024-01-21 09:00:00,Chennai,3909,Rain,Sunday,28.9,68,9,1,Tambaram
+2024-01-21 10:00:00,Chennai,3798,Drizzle,Sunday,28.0,62,10,1,Anna Nagar
+2024-01-21 11:00:00,Chennai,667,Drizzle,Sunday,35.1,83,11,0,T Nagar
+2024-01-21 12:00:00,Chennai,1665,Rain,Sunday,37.1,67,12,0,OMR
+2024-01-21 13:00:00,Chennai,1145,Mist,Sunday,34.7,61,13,0,Adyar
+2024-01-21 14:00:00,Chennai,812,Haze,Sunday,33.7,81,14,0,Tambaram
+2024-01-21 15:00:00,Chennai,1095,Mist,Sunday,33.3,80,15,0,Anna Nagar
+2024-01-21 16:00:00,Chennai,1005,Clear,Sunday,31.4,65,16,0,T Nagar
+2024-01-21 17:00:00,Chennai,5265,Clear,Sunday,33.4,61,17,1,OMR
+2024-01-21 18:00:00,Chennai,4630,Clear,Sunday,27.1,81,18,1,Adyar
+2024-01-21 19:00:00,Chennai,3209,Cloudy,Sunday,25.1,75,19,1,Tambaram
+2024-01-21 20:00:00,Chennai,6153,Cloudy,Sunday,31.2,77,20,1,Anna Nagar
+2024-01-21 21:00:00,Chennai,1620,Rain,Sunday,26.3,76,21,0,T Nagar
+2024-01-21 22:00:00,Chennai,1111,Rain,Sunday,36.0,69,22,0,OMR
+2024-01-21 23:00:00,Chennai,481,Cloudy,Sunday,35.5,83,23,0,Adyar
+2024-01-22 00:00:00,Chennai,291,Cloudy,Monday,34.9,83,0,0,Tambaram
+2024-01-22 01:00:00,Chennai,431,Drizzle,Monday,27.6,89,1,0,Anna Nagar
+2024-01-22 02:00:00,Chennai,692,Haze,Monday,34.4,80,2,0,T Nagar
+2024-01-22 03:00:00,Chennai,328,Clear,Monday,25.9,86,3,0,OMR
+2024-01-22 04:00:00,Chennai,589,Mist,Monday,37.0,79,4,0,Adyar
+2024-01-22 05:00:00,Chennai,216,Cloudy,Monday,33.0,87,5,0,Tambaram
+2024-01-22 06:00:00,Chennai,1900,Clear,Monday,36.4,60,6,0,Anna Nagar
+2024-01-22 07:00:00,Chennai,1309,Rain,Monday,35.3,81,7,0,T Nagar
+2024-01-22 08:00:00,Chennai,5159,Haze,Monday,33.4,75,8,1,OMR
+2024-01-22 09:00:00,Chennai,4992,Drizzle,Monday,31.8,67,9,1,Adyar
+2024-01-22 10:00:00,Chennai,5412,Haze,Monday,28.9,77,10,1,Tambaram
+2024-01-22 11:00:00,Chennai,1909,Rain,Monday,29.8,77,11,0,Anna Nagar
+2024-01-22 12:00:00,Chennai,868,Cloudy,Monday,28.5,74,12,0,T Nagar
+2024-01-22 13:00:00,Chennai,1294,Drizzle,Monday,33.8,65,13,0,OMR
+2024-01-22 14:00:00,Chennai,1425,Mist,Monday,25.5,65,14,0,Adyar
+2024-01-22 15:00:00,Chennai,1223,Drizzle,Monday,36.1,70,15,0,Tambaram
+2024-01-22 16:00:00,Chennai,626,Drizzle,Monday,35.7,71,16,0,Anna Nagar
+2024-01-22 17:00:00,Chennai,6356,Cloudy,Monday,25.0,64,17,1,T Nagar
+2024-01-22 18:00:00,Chennai,3377,Haze,Monday,35.5,83,18,1,OMR
+2024-01-22 19:00:00,Chennai,3611,Haze,Monday,37.7,71,19,1,Adyar
+2024-01-22 20:00:00,Chennai,5922,Clear,Monday,25.8,72,20,1,Tambaram
+2024-01-22 21:00:00,Chennai,1826,Haze,Monday,28.1,88,21,0,Anna Nagar
+2024-01-22 22:00:00,Chennai,1025,Haze,Monday,31.7,67,22,0,T Nagar
+2024-01-22 23:00:00,Chennai,327,Mist,Monday,28.9,74,23,0,OMR
+2024-01-23 00:00:00,Chennai,400,Rain,Tuesday,37.5,83,0,0,Adyar
+2024-01-23 01:00:00,Chennai,585,Haze,Tuesday,37.6,70,1,0,Tambaram
+2024-01-23 02:00:00,Chennai,153,Drizzle,Tuesday,32.1,60,2,0,Anna Nagar
+2024-01-23 03:00:00,Chennai,350,Drizzle,Tuesday,35.5,81,3,0,T Nagar
+2024-01-23 04:00:00,Chennai,433,Mist,Tuesday,31.7,79,4,0,OMR
+2024-01-23 05:00:00,Chennai,352,Drizzle,Tuesday,26.8,64,5,0,Adyar
+2024-01-23 06:00:00,Chennai,1452,Haze,Tuesday,35.7,74,6,0,Tambaram
+2024-01-23 07:00:00,Chennai,1514,Haze,Tuesday,36.1,77,7,0,Anna Nagar
+2024-01-23 08:00:00,Chennai,4761,Drizzle,Tuesday,37.6,68,8,1,T Nagar
+2024-01-23 09:00:00,Chennai,6095,Clear,Tuesday,29.8,71,9,1,OMR
+2024-01-23 10:00:00,Chennai,3002,Haze,Tuesday,27.4,74,10,1,Adyar
+2024-01-23 11:00:00,Chennai,1794,Rain,Tuesday,36.1,76,11,0,Tambaram
+2024-01-23 12:00:00,Chennai,802,Mist,Tuesday,34.3,87,12,0,Anna Nagar
+2024-01-23 13:00:00,Chennai,735,Rain,Tuesday,29.6,82,13,0,T Nagar
+2024-01-23 14:00:00,Chennai,869,Mist,Tuesday,30.4,64,14,0,OMR
+2024-01-23 15:00:00,Chennai,2104,Haze,Tuesday,33.7,75,15,0,Adyar
+2024-01-23 16:00:00,Chennai,1901,Haze,Tuesday,33.4,68,16,0,Tambaram
+2024-01-23 17:00:00,Chennai,3326,Drizzle,Tuesday,26.8,62,17,1,Anna Nagar
+2024-01-23 18:00:00,Chennai,5164,Rain,Tuesday,25.4,73,18,1,T Nagar
+2024-01-23 19:00:00,Chennai,4501,Cloudy,Tuesday,30.3,69,19,1,OMR
+2024-01-23 20:00:00,Chennai,3283,Drizzle,Tuesday,29.8,63,20,1,Adyar
+2024-01-23 21:00:00,Chennai,882,Clear,Tuesday,34.2,87,21,0,Tambaram
+2024-01-23 22:00:00,Chennai,644,Drizzle,Tuesday,34.4,66,22,0,Anna Nagar
+2024-01-23 23:00:00,Chennai,195,Rain,Tuesday,35.6,76,23,0,T Nagar
+2024-01-24 00:00:00,Chennai,538,Mist,Wednesday,31.0,80,0,0,OMR
+2024-01-24 01:00:00,Chennai,425,Cloudy,Wednesday,27.9,85,1,0,Adyar
+2024-01-24 02:00:00,Chennai,625,Mist,Wednesday,30.4,88,2,0,Tambaram
+2024-01-24 03:00:00,Chennai,512,Mist,Wednesday,36.9,89,3,0,Anna Nagar
+2024-01-24 04:00:00,Chennai,590,Clear,Wednesday,28.6,69,4,0,T Nagar
+2024-01-24 05:00:00,Chennai,439,Mist,Wednesday,32.4,83,5,0,OMR
+2024-01-24 06:00:00,Chennai,1660,Cloudy,Wednesday,33.7,78,6,0,Adyar
+2024-01-24 07:00:00,Chennai,2259,Mist,Wednesday,37.4,64,7,0,Tambaram
+2024-01-24 08:00:00,Chennai,3351,Clear,Wednesday,26.7,76,8,1,Anna Nagar
+2024-01-24 09:00:00,Chennai,3355,Mist,Wednesday,33.0,81,9,1,T Nagar
+2024-01-24 10:00:00,Chennai,5000,Drizzle,Wednesday,36.2,87,10,1,OMR
+2024-01-24 11:00:00,Chennai,1561,Drizzle,Wednesday,28.8,85,11,0,Adyar
+2024-01-24 12:00:00,Chennai,2251,Haze,Wednesday,26.5,76,12,0,Tambaram
+2024-01-24 13:00:00,Chennai,874,Mist,Wednesday,29.2,71,13,0,Anna Nagar
+2024-01-24 14:00:00,Chennai,2247,Cloudy,Wednesday,27.7,79,14,0,T Nagar
+2024-01-24 15:00:00,Chennai,1503,Mist,Wednesday,26.5,63,15,0,OMR
+2024-01-24 16:00:00,Chennai,1669,Mist,Wednesday,29.4,79,16,0,Adyar
+2024-01-24 17:00:00,Chennai,4059,Mist,Wednesday,30.0,75,17,1,Tambaram
+2024-01-24 18:00:00,Chennai,5257,Drizzle,Wednesday,32.5,78,18,1,Anna Nagar
+2024-01-24 19:00:00,Chennai,3470,Rain,Wednesday,32.3,87,19,1,T Nagar
+2024-01-24 20:00:00,Chennai,6038,Mist,Wednesday,26.4,68,20,1,OMR
+2024-01-24 21:00:00,Chennai,1496,Cloudy,Wednesday,30.9,73,21,0,Adyar
+2024-01-24 22:00:00,Chennai,901,Drizzle,Wednesday,25.5,75,22,0,Tambaram
+2024-01-24 23:00:00,Chennai,328,Drizzle,Wednesday,32.6,69,23,0,Anna Nagar
+2024-01-25 00:00:00,Chennai,481,Mist,Thursday,36.7,74,0,0,T Nagar
+2024-01-25 01:00:00,Chennai,549,Mist,Thursday,37.5,83,1,0,OMR
+2024-01-25 02:00:00,Chennai,338,Rain,Thursday,30.8,73,2,0,Adyar
+2024-01-25 03:00:00,Chennai,626,Clear,Thursday,35.1,89,3,0,Tambaram
+2024-01-25 04:00:00,Chennai,765,Clear,Thursday,33.9,89,4,0,Anna Nagar
+2024-01-25 05:00:00,Chennai,536,Clear,Thursday,33.3,62,5,0,T Nagar
+2024-01-25 06:00:00,Chennai,1364,Drizzle,Thursday,27.6,85,6,0,OMR
+2024-01-25 07:00:00,Chennai,1590,Drizzle,Thursday,31.9,76,7,0,Adyar
+2024-01-25 08:00:00,Chennai,5693,Clear,Thursday,31.7,63,8,1,Tambaram
+2024-01-25 09:00:00,Chennai,3027,Haze,Thursday,31.3,83,9,1,Anna Nagar
+2024-01-25 10:00:00,Chennai,6817,Haze,Thursday,29.3,77,10,1,T Nagar
+2024-01-25 11:00:00,Chennai,1085,Rain,Thursday,35.2,89,11,0,OMR
+2024-01-25 12:00:00,Chennai,850,Cloudy,Thursday,32.9,88,12,0,Adyar
+2024-01-25 13:00:00,Chennai,2444,Clear,Thursday,30.9,69,13,0,Tambaram
+2024-01-25 14:00:00,Chennai,1117,Clear,Thursday,28.8,79,14,0,Anna Nagar
+2024-01-25 15:00:00,Chennai,2303,Mist,Thursday,36.7,61,15,0,T Nagar
+2024-01-25 16:00:00,Chennai,2058,Haze,Thursday,32.7,80,16,0,OMR
+2024-01-25 17:00:00,Chennai,6183,Clear,Thursday,28.3,70,17,1,Adyar
+2024-01-25 18:00:00,Chennai,3743,Clear,Thursday,30.3,66,18,1,Tambaram
+2024-01-25 19:00:00,Chennai,3596,Cloudy,Thursday,27.5,67,19,1,Anna Nagar
+2024-01-25 20:00:00,Chennai,6893,Mist,Thursday,28.1,80,20,1,T Nagar
+2024-01-25 21:00:00,Chennai,1684,Drizzle,Thursday,34.9,85,21,0,OMR
+2024-01-25 22:00:00,Chennai,828,Cloudy,Thursday,37.5,81,22,0,Adyar
+2024-01-25 23:00:00,Chennai,777,Haze,Thursday,25.5,71,23,0,Tambaram
+2024-01-26 00:00:00,Chennai,425,Rain,Friday,31.2,67,0,0,Anna Nagar
+2024-01-26 01:00:00,Chennai,625,Cloudy,Friday,37.9,85,1,0,T Nagar
+2024-01-26 02:00:00,Chennai,551,Rain,Friday,26.6,78,2,0,OMR
+2024-01-26 03:00:00,Chennai,673,Mist,Friday,31.5,88,3,0,Adyar
+2024-01-26 04:00:00,Chennai,264,Cloudy,Friday,28.1,63,4,0,Tambaram
+2024-01-26 05:00:00,Chennai,281,Rain,Friday,27.1,82,5,0,Anna Nagar
+2024-01-26 06:00:00,Chennai,1254,Drizzle,Friday,37.1,81,6,0,T Nagar
+2024-01-26 07:00:00,Chennai,1728,Drizzle,Friday,29.3,64,7,0,OMR
+2024-01-26 08:00:00,Chennai,4291,Rain,Friday,37.1,63,8,1,Adyar
+2024-01-26 09:00:00,Chennai,5354,Drizzle,Friday,30.9,82,9,1,Tambaram
+2024-01-26 10:00:00,Chennai,4370,Drizzle,Friday,30.8,66,10,1,Anna Nagar
+2024-01-26 11:00:00,Chennai,1022,Drizzle,Friday,28.6,71,11,0,T Nagar
+2024-01-26 12:00:00,Chennai,1447,Mist,Friday,32.5,89,12,0,OMR
+2024-01-26 13:00:00,Chennai,878,Drizzle,Friday,28.4,70,13,0,Adyar
+2024-01-26 14:00:00,Chennai,1620,Cloudy,Friday,29.7,86,14,0,Tambaram
+2024-01-26 15:00:00,Chennai,1104,Rain,Friday,37.3,81,15,0,Anna Nagar
+2024-01-26 16:00:00,Chennai,2085,Cloudy,Friday,35.1,63,16,0,T Nagar
+2024-01-26 17:00:00,Chennai,3636,Rain,Friday,28.0,64,17,1,OMR
+2024-01-26 18:00:00,Chennai,3391,Haze,Friday,30.0,88,18,1,Adyar
+2024-01-26 19:00:00,Chennai,6697,Mist,Friday,31.1,84,19,1,Tambaram
+2024-01-26 20:00:00,Chennai,3109,Clear,Friday,34.8,68,20,1,Anna Nagar
+2024-01-26 21:00:00,Chennai,2273,Clear,Friday,27.4,65,21,0,T Nagar
+2024-01-26 22:00:00,Chennai,1361,Cloudy,Friday,34.6,75,22,0,OMR
+2024-01-26 23:00:00,Chennai,337,Drizzle,Friday,34.5,74,23,0,Adyar
+2024-01-27 00:00:00,Chennai,556,Cloudy,Saturday,31.9,66,0,0,Tambaram
+2024-01-27 01:00:00,Chennai,556,Rain,Saturday,35.1,60,1,0,Anna Nagar
+2024-01-27 02:00:00,Chennai,439,Cloudy,Saturday,28.6,88,2,0,T Nagar
+2024-01-27 03:00:00,Chennai,730,Clear,Saturday,28.7,74,3,0,OMR
+2024-01-27 04:00:00,Chennai,623,Clear,Saturday,37.4,61,4,0,Adyar
+2024-01-27 05:00:00,Chennai,600,Haze,Saturday,35.0,82,5,0,Tambaram
+2024-01-27 06:00:00,Chennai,1456,Clear,Saturday,33.5,60,6,0,Anna Nagar
+2024-01-27 07:00:00,Chennai,852,Haze,Saturday,35.7,64,7,0,T Nagar
+2024-01-27 08:00:00,Chennai,2928,Mist,Saturday,32.3,77,8,1,OMR
+2024-01-27 09:00:00,Chennai,3723,Haze,Saturday,30.0,86,9,1,Adyar
+2024-01-27 10:00:00,Chennai,4901,Drizzle,Saturday,36.4,67,10,1,Tambaram
+2024-01-27 11:00:00,Chennai,1693,Mist,Saturday,30.4,77,11,0,Anna Nagar
+2024-01-27 12:00:00,Chennai,1346,Drizzle,Saturday,33.1,60,12,0,T Nagar
+2024-01-27 13:00:00,Chennai,979,Mist,Saturday,33.9,64,13,0,OMR
+2024-01-27 14:00:00,Chennai,1428,Mist,Saturday,29.1,60,14,0,Adyar
+2024-01-27 15:00:00,Chennai,1348,Drizzle,Saturday,25.6,65,15,0,Tambaram
+2024-01-27 16:00:00,Chennai,925,Cloudy,Saturday,36.9,72,16,0,Anna Nagar
+2024-01-27 17:00:00,Chennai,2921,Rain,Saturday,32.7,70,17,1,T Nagar
+2024-01-27 18:00:00,Chennai,4649,Drizzle,Saturday,26.6,88,18,1,OMR
+2024-01-27 19:00:00,Chennai,3989,Clear,Saturday,25.2,70,19,1,Adyar
+2024-01-27 20:00:00,Chennai,2827,Mist,Saturday,33.1,73,20,1,Tambaram
+2024-01-27 21:00:00,Chennai,1471,Drizzle,Saturday,29.2,83,21,0,Anna Nagar
+2024-01-27 22:00:00,Chennai,2008,Clear,Saturday,32.6,64,22,0,T Nagar
+2024-01-27 23:00:00,Chennai,232,Rain,Saturday,36.7,62,23,0,OMR
+2024-01-28 00:00:00,Chennai,497,Haze,Sunday,28.7,74,0,0,Adyar
+2024-01-28 01:00:00,Chennai,502,Haze,Sunday,30.6,84,1,0,Tambaram
+2024-01-28 02:00:00,Chennai,310,Clear,Sunday,33.6,77,2,0,Anna Nagar
+2024-01-28 03:00:00,Chennai,265,Rain,Sunday,32.5,79,3,0,T Nagar
+2024-01-28 04:00:00,Chennai,149,Rain,Sunday,37.6,70,4,0,OMR
+2024-01-28 05:00:00,Chennai,466,Cloudy,Sunday,26.5,84,5,0,Adyar
+2024-01-28 06:00:00,Chennai,1980,Haze,Sunday,36.1,70,6,0,Tambaram
+2024-01-28 07:00:00,Chennai,972,Drizzle,Sunday,31.1,60,7,0,Anna Nagar
+2024-01-28 08:00:00,Chennai,4692,Drizzle,Sunday,25.1,67,8,1,T Nagar
+2024-01-28 09:00:00,Chennai,5089,Haze,Sunday,28.8,70,9,1,OMR
+2024-01-28 10:00:00,Chennai,3742,Clear,Sunday,27.8,80,10,1,Adyar
+2024-01-28 11:00:00,Chennai,945,Cloudy,Sunday,30.2,71,11,0,Tambaram
+2024-01-28 12:00:00,Chennai,1490,Mist,Sunday,35.5,81,12,0,Anna Nagar
+2024-01-28 13:00:00,Chennai,1837,Cloudy,Sunday,35.4,69,13,0,T Nagar
+2024-01-28 14:00:00,Chennai,1720,Cloudy,Sunday,30.3,63,14,0,OMR
+2024-01-28 15:00:00,Chennai,1306,Clear,Sunday,29.3,68,15,0,Adyar
+2024-01-28 16:00:00,Chennai,1515,Clear,Sunday,26.4,83,16,0,Tambaram
+2024-01-28 17:00:00,Chennai,4434,Mist,Sunday,36.4,78,17,1,Anna Nagar
+2024-01-28 18:00:00,Chennai,5299,Cloudy,Sunday,36.1,75,18,1,T Nagar
+2024-01-28 19:00:00,Chennai,3739,Mist,Sunday,30.0,68,19,1,OMR
+2024-01-28 20:00:00,Chennai,2296,Drizzle,Sunday,30.8,87,20,1,Adyar
+2024-01-28 21:00:00,Chennai,1187,Drizzle,Sunday,35.6,78,21,0,Tambaram
+2024-01-28 22:00:00,Chennai,1596,Cloudy,Sunday,31.5,77,22,0,Anna Nagar
+2024-01-28 23:00:00,Chennai,517,Cloudy,Sunday,25.8,83,23,0,T Nagar
+2024-01-29 00:00:00,Chennai,652,Clear,Monday,34.9,76,0,0,OMR
+2024-01-29 01:00:00,Chennai,549,Rain,Monday,26.0,80,1,0,Adyar
+2024-01-29 02:00:00,Chennai,371,Cloudy,Monday,33.4,62,2,0,Tambaram
+2024-01-29 03:00:00,Chennai,255,Rain,Monday,28.9,82,3,0,Anna Nagar
+2024-01-29 04:00:00,Chennai,324,Haze,Monday,37.5,79,4,0,T Nagar
+2024-01-29 05:00:00,Chennai,403,Clear,Monday,25.1,89,5,0,OMR
+2024-01-29 06:00:00,Chennai,2247,Haze,Monday,31.1,67,6,0,Adyar
+2024-01-29 07:00:00,Chennai,1242,Drizzle,Monday,29.4,70,7,0,Tambaram
+2024-01-29 08:00:00,Chennai,5757,Cloudy,Monday,30.9,65,8,1,Anna Nagar
+2024-01-29 09:00:00,Chennai,4787,Cloudy,Monday,35.9,82,9,1,T Nagar
+2024-01-29 10:00:00,Chennai,3190,Mist,Monday,27.2,81,10,1,OMR
+2024-01-29 11:00:00,Chennai,1283,Rain,Monday,35.7,88,11,0,Adyar
+2024-01-29 12:00:00,Chennai,2382,Mist,Monday,32.9,76,12,0,Tambaram
+2024-01-29 13:00:00,Chennai,1168,Clear,Monday,31.6,71,13,0,Anna Nagar
+2024-01-29 14:00:00,Chennai,1868,Mist,Monday,27.7,61,14,0,T Nagar
+2024-01-29 15:00:00,Chennai,1847,Drizzle,Monday,36.9,69,15,0,OMR
+2024-01-29 16:00:00,Chennai,1764,Rain,Monday,37.2,66,16,0,Adyar
+2024-01-29 17:00:00,Chennai,3712,Mist,Monday,26.2,80,17,1,Tambaram
+2024-01-29 18:00:00,Chennai,3303,Clear,Monday,34.6,77,18,1,Anna Nagar
+2024-01-29 19:00:00,Chennai,2415,Drizzle,Monday,26.8,80,19,1,T Nagar
+2024-01-29 20:00:00,Chennai,6861,Haze,Monday,32.7,76,20,1,OMR
+2024-01-29 21:00:00,Chennai,1725,Mist,Monday,26.7,62,21,0,Adyar
+2024-01-29 22:00:00,Chennai,1057,Cloudy,Monday,28.2,77,22,0,Tambaram
+2024-01-29 23:00:00,Chennai,251,Mist,Monday,31.8,89,23,0,Anna Nagar
+2024-01-30 00:00:00,Chennai,507,Mist,Tuesday,35.4,74,0,0,T Nagar
+2024-01-30 01:00:00,Chennai,632,Clear,Tuesday,27.2,75,1,0,OMR
+2024-01-30 02:00:00,Chennai,604,Mist,Tuesday,31.0,78,2,0,Adyar
+2024-01-30 03:00:00,Chennai,215,Cloudy,Tuesday,26.0,88,3,0,Tambaram
+2024-01-30 04:00:00,Chennai,405,Drizzle,Tuesday,26.5,72,4,0,Anna Nagar
+2024-01-30 05:00:00,Chennai,573,Mist,Tuesday,31.9,63,5,0,T Nagar
+2024-01-30 06:00:00,Chennai,2121,Clear,Tuesday,36.8,68,6,0,OMR
+2024-01-30 07:00:00,Chennai,1084,Mist,Tuesday,38.0,69,7,0,Adyar
+2024-01-30 08:00:00,Chennai,4246,Rain,Tuesday,30.6,87,8,1,Tambaram
+2024-01-30 09:00:00,Chennai,3354,Clear,Tuesday,26.2,62,9,1,Anna Nagar
+2024-01-30 10:00:00,Chennai,3553,Mist,Tuesday,26.3,60,10,1,T Nagar
+2024-01-30 11:00:00,Chennai,1609,Haze,Tuesday,27.6,78,11,0,OMR
+2024-01-30 12:00:00,Chennai,2066,Mist,Tuesday,28.1,75,12,0,Adyar
+2024-01-30 13:00:00,Chennai,2497,Mist,Tuesday,32.8,87,13,0,Tambaram
+2024-01-30 14:00:00,Chennai,1653,Mist,Tuesday,28.3,61,14,0,Anna Nagar
+2024-01-30 15:00:00,Chennai,1234,Mist,Tuesday,34.3,63,15,0,T Nagar
+2024-01-30 16:00:00,Chennai,2068,Clear,Tuesday,32.2,83,16,0,OMR
+2024-01-30 17:00:00,Chennai,5343,Rain,Tuesday,31.8,86,17,1,Adyar
+2024-01-30 18:00:00,Chennai,3225,Cloudy,Tuesday,27.8,86,18,1,Tambaram
+2024-01-30 19:00:00,Chennai,3390,Mist,Tuesday,29.9,74,19,1,Anna Nagar
+2024-01-30 20:00:00,Chennai,5536,Clear,Tuesday,25.6,69,20,1,T Nagar
+2024-01-30 21:00:00,Chennai,2202,Cloudy,Tuesday,37.8,63,21,0,OMR
+2024-01-30 22:00:00,Chennai,1479,Clear,Tuesday,30.9,73,22,0,Adyar
+2024-01-30 23:00:00,Chennai,680,Haze,Tuesday,25.1,65,23,0,Tambaram
+2024-01-31 00:00:00,Chennai,507,Rain,Wednesday,37.5,86,0,0,Anna Nagar
+2024-01-31 01:00:00,Chennai,607,Rain,Wednesday,37.8,69,1,0,T Nagar
+2024-01-31 02:00:00,Chennai,234,Cloudy,Wednesday,29.4,63,2,0,OMR
+2024-01-31 03:00:00,Chennai,291,Haze,Wednesday,26.6,84,3,0,Adyar
+2024-01-31 04:00:00,Chennai,237,Rain,Wednesday,32.7,83,4,0,Tambaram
+2024-01-31 05:00:00,Chennai,307,Cloudy,Wednesday,34.1,72,5,0,Anna Nagar
+2024-01-31 06:00:00,Chennai,1255,Mist,Wednesday,36.0,75,6,0,T Nagar
+2024-01-31 07:00:00,Chennai,1145,Mist,Wednesday,31.1,76,7,0,OMR
+2024-01-31 08:00:00,Chennai,6312,Clear,Wednesday,29.0,86,8,1,Adyar
+2024-01-31 09:00:00,Chennai,4478,Haze,Wednesday,30.9,77,9,1,Tambaram
+2024-01-31 10:00:00,Chennai,4355,Haze,Wednesday,28.2,62,10,1,Anna Nagar
+2024-01-31 11:00:00,Chennai,2327,Cloudy,Wednesday,34.3,83,11,0,T Nagar
+2024-01-31 12:00:00,Chennai,1700,Haze,Wednesday,31.1,73,12,0,OMR
+2024-01-31 13:00:00,Chennai,1836,Clear,Wednesday,36.9,89,13,0,Adyar
+2024-01-31 14:00:00,Chennai,1162,Clear,Wednesday,35.9,62,14,0,Tambaram
+2024-01-31 15:00:00,Chennai,1470,Clear,Wednesday,34.2,60,15,0,Anna Nagar
+2024-01-31 16:00:00,Chennai,1918,Cloudy,Wednesday,29.0,75,16,0,T Nagar
+2024-01-31 17:00:00,Chennai,5427,Drizzle,Wednesday,34.1,68,17,1,OMR
+2024-01-31 18:00:00,Chennai,5254,Haze,Wednesday,35.3,65,18,1,Adyar
+2024-01-31 19:00:00,Chennai,5003,Clear,Wednesday,35.7,67,19,1,Tambaram
+2024-01-31 20:00:00,Chennai,3204,Haze,Wednesday,29.5,84,20,1,Anna Nagar
+2024-01-31 21:00:00,Chennai,1007,Clear,Wednesday,26.0,77,21,0,T Nagar
+2024-01-31 22:00:00,Chennai,1223,Clear,Wednesday,33.2,67,22,0,OMR
+2024-01-31 23:00:00,Chennai,399,Rain,Wednesday,25.9,83,23,0,Adyar
+2024-02-01 00:00:00,Chennai,371,Rain,Thursday,34.6,63,0,0,Tambaram
+2024-02-01 01:00:00,Chennai,217,Rain,Thursday,37.6,81,1,0,Anna Nagar
+2024-02-01 02:00:00,Chennai,750,Mist,Thursday,34.0,73,2,0,T Nagar
+2024-02-01 03:00:00,Chennai,426,Haze,Thursday,30.4,86,3,0,OMR
+2024-02-01 04:00:00,Chennai,675,Mist,Thursday,31.2,80,4,0,Adyar
+2024-02-01 05:00:00,Chennai,450,Cloudy,Thursday,30.0,79,5,0,Tambaram
+2024-02-01 06:00:00,Chennai,1780,Cloudy,Thursday,30.6,63,6,0,Anna Nagar
+2024-02-01 07:00:00,Chennai,2033,Clear,Thursday,32.6,89,7,0,T Nagar
+2024-02-01 08:00:00,Chennai,3437,Clear,Thursday,36.1,78,8,1,OMR
+2024-02-01 09:00:00,Chennai,2875,Drizzle,Thursday,37.6,88,9,1,Adyar
+2024-02-01 10:00:00,Chennai,4226,Rain,Thursday,32.7,67,10,1,Tambaram
+2024-02-01 11:00:00,Chennai,888,Cloudy,Thursday,36.0,67,11,0,Anna Nagar
+2024-02-01 12:00:00,Chennai,1688,Haze,Thursday,27.3,77,12,0,T Nagar
+2024-02-01 13:00:00,Chennai,2007,Haze,Thursday,32.4,71,13,0,OMR
+2024-02-01 14:00:00,Chennai,1506,Drizzle,Thursday,34.9,74,14,0,Adyar
+2024-02-01 15:00:00,Chennai,2164,Haze,Thursday,35.5,77,15,0,Tambaram
+2024-02-01 16:00:00,Chennai,2027,Mist,Thursday,35.5,88,16,0,Anna Nagar
+2024-02-01 17:00:00,Chennai,2672,Drizzle,Thursday,33.6,88,17,1,T Nagar
+2024-02-01 18:00:00,Chennai,5743,Haze,Thursday,31.3,62,18,1,OMR
+2024-02-01 19:00:00,Chennai,6377,Haze,Thursday,33.6,86,19,1,Adyar
+2024-02-01 20:00:00,Chennai,4491,Clear,Thursday,36.4,63,20,1,Tambaram
+2024-02-01 21:00:00,Chennai,2292,Cloudy,Thursday,31.6,78,21,0,Anna Nagar
+2024-02-01 22:00:00,Chennai,822,Mist,Thursday,26.7,61,22,0,T Nagar
+2024-02-01 23:00:00,Chennai,443,Mist,Thursday,26.8,85,23,0,OMR
+2024-02-02 00:00:00,Chennai,427,Cloudy,Friday,25.1,76,0,0,Adyar
+2024-02-02 01:00:00,Chennai,656,Cloudy,Friday,31.7,84,1,0,Tambaram
+2024-02-02 02:00:00,Chennai,367,Cloudy,Friday,32.9,63,2,0,Anna Nagar
+2024-02-02 03:00:00,Chennai,344,Rain,Friday,34.8,69,3,0,T Nagar
+2024-02-02 04:00:00,Chennai,417,Drizzle,Friday,34.3,87,4,0,OMR
+2024-02-02 05:00:00,Chennai,596,Haze,Friday,29.6,76,5,0,Adyar
+2024-02-02 06:00:00,Chennai,1208,Mist,Friday,36.2,60,6,0,Tambaram
+2024-02-02 07:00:00,Chennai,1191,Haze,Friday,35.4,85,7,0,Anna Nagar
+2024-02-02 08:00:00,Chennai,4673,Mist,Friday,28.8,79,8,1,T Nagar
+2024-02-02 09:00:00,Chennai,4414,Drizzle,Friday,30.3,76,9,1,OMR
+2024-02-02 10:00:00,Chennai,5612,Rain,Friday,26.0,62,10,1,Adyar
+2024-02-02 11:00:00,Chennai,2140,Cloudy,Friday,27.4,72,11,0,Tambaram
+2024-02-02 12:00:00,Chennai,1225,Haze,Friday,29.1,62,12,0,Anna Nagar
+2024-02-02 13:00:00,Chennai,1262,Mist,Friday,37.5,78,13,0,T Nagar
+2024-02-02 14:00:00,Chennai,1721,Clear,Friday,37.4,71,14,0,OMR
+2024-02-02 15:00:00,Chennai,2258,Cloudy,Friday,33.2,88,15,0,Adyar
+2024-02-02 16:00:00,Chennai,1381,Rain,Friday,30.6,81,16,0,Tambaram
+2024-02-02 17:00:00,Chennai,6035,Clear,Friday,26.1,82,17,1,Anna Nagar
+2024-02-02 18:00:00,Chennai,4259,Rain,Friday,31.0,80,18,1,T Nagar
+2024-02-02 19:00:00,Chennai,3129,Rain,Friday,33.8,77,19,1,OMR
+2024-02-02 20:00:00,Chennai,4074,Haze,Friday,28.6,67,20,1,Adyar
+2024-02-02 21:00:00,Chennai,1789,Clear,Friday,33.8,67,21,0,Tambaram
+2024-02-02 22:00:00,Chennai,924,Rain,Friday,32.6,84,22,0,Anna Nagar
+2024-02-02 23:00:00,Chennai,710,Haze,Friday,35.1,72,23,0,T Nagar
+2024-02-03 00:00:00,Chennai,419,Mist,Saturday,28.0,71,0,0,OMR
+2024-02-03 01:00:00,Chennai,165,Drizzle,Saturday,27.3,68,1,0,Adyar
+2024-02-03 02:00:00,Chennai,235,Mist,Saturday,30.3,62,2,0,Tambaram
+2024-02-03 03:00:00,Chennai,479,Clear,Saturday,36.9,88,3,0,Anna Nagar
+2024-02-03 04:00:00,Chennai,384,Clear,Saturday,30.5,85,4,0,T Nagar
+2024-02-03 05:00:00,Chennai,436,Mist,Saturday,35.9,67,5,0,OMR
+2024-02-03 06:00:00,Chennai,1039,Rain,Saturday,37.0,74,6,0,Adyar
+2024-02-03 07:00:00,Chennai,1855,Rain,Saturday,37.7,84,7,0,Tambaram
+2024-02-03 08:00:00,Chennai,3644,Cloudy,Saturday,34.0,71,8,1,Anna Nagar
+2024-02-03 09:00:00,Chennai,3269,Mist,Saturday,31.4,84,9,1,T Nagar
+2024-02-03 10:00:00,Chennai,4492,Cloudy,Saturday,26.5,75,10,1,OMR
+2024-02-03 11:00:00,Chennai,1977,Mist,Saturday,33.7,82,11,0,Adyar
+2024-02-03 12:00:00,Chennai,2282,Haze,Saturday,29.5,65,12,0,Tambaram
+2024-02-03 13:00:00,Chennai,1326,Haze,Saturday,30.7,69,13,0,Anna Nagar
+2024-02-03 14:00:00,Chennai,1507,Drizzle,Saturday,35.3,83,14,0,T Nagar
+2024-02-03 15:00:00,Chennai,2155,Clear,Saturday,36.5,88,15,0,OMR
+2024-02-03 16:00:00,Chennai,911,Mist,Saturday,34.7,84,16,0,Adyar
+2024-02-03 17:00:00,Chennai,4057,Drizzle,Saturday,36.6,89,17,1,Tambaram
+2024-02-03 18:00:00,Chennai,3803,Haze,Saturday,35.4,64,18,1,Anna Nagar
+2024-02-03 19:00:00,Chennai,2498,Drizzle,Saturday,35.3,61,19,1,T Nagar
+2024-02-03 20:00:00,Chennai,3896,Clear,Saturday,32.5,69,20,1,OMR
+2024-02-03 21:00:00,Chennai,828,Drizzle,Saturday,30.4,81,21,0,Adyar
+2024-02-03 22:00:00,Chennai,1367,Cloudy,Saturday,33.4,64,22,0,Tambaram
+2024-02-03 23:00:00,Chennai,262,Rain,Saturday,32.8,85,23,0,Anna Nagar
+2024-02-04 00:00:00,Chennai,202,Mist,Sunday,29.3,72,0,0,T Nagar
+2024-02-04 01:00:00,Chennai,354,Cloudy,Sunday,32.4,74,1,0,OMR
+2024-02-04 02:00:00,Chennai,354,Rain,Sunday,29.2,60,2,0,Adyar
+2024-02-04 03:00:00,Chennai,587,Haze,Sunday,31.2,86,3,0,Tambaram
+2024-02-04 04:00:00,Chennai,497,Mist,Sunday,29.7,74,4,0,Anna Nagar
+2024-02-04 05:00:00,Chennai,636,Mist,Sunday,36.3,79,5,0,T Nagar
+2024-02-04 06:00:00,Chennai,1562,Haze,Sunday,29.6,68,6,0,OMR
+2024-02-04 07:00:00,Chennai,786,Clear,Sunday,33.5,69,7,0,Adyar
+2024-02-04 08:00:00,Chennai,3642,Clear,Sunday,34.1,77,8,1,Tambaram
+2024-02-04 09:00:00,Chennai,3314,Rain,Sunday,26.7,72,9,1,Anna Nagar
+2024-02-04 10:00:00,Chennai,3201,Cloudy,Sunday,31.8,71,10,1,T Nagar
+2024-02-04 11:00:00,Chennai,936,Drizzle,Sunday,30.5,86,11,0,OMR
+2024-02-04 12:00:00,Chennai,853,Mist,Sunday,37.1,65,12,0,Adyar
+2024-02-04 13:00:00,Chennai,1825,Mist,Sunday,28.4,66,13,0,Tambaram
+2024-02-04 14:00:00,Chennai,1838,Clear,Sunday,36.8,89,14,0,Anna Nagar
+2024-02-04 15:00:00,Chennai,876,Rain,Sunday,31.8,67,15,0,T Nagar
+2024-02-04 16:00:00,Chennai,1698,Haze,Sunday,27.7,87,16,0,OMR
+2024-02-04 17:00:00,Chennai,2606,Rain,Sunday,37.1,60,17,1,Adyar
+2024-02-04 18:00:00,Chennai,4227,Cloudy,Sunday,31.5,85,18,1,Tambaram
+2024-02-04 19:00:00,Chennai,3882,Haze,Sunday,34.5,65,19,1,Anna Nagar
+2024-02-04 20:00:00,Chennai,3242,Haze,Sunday,37.6,89,20,1,T Nagar
+2024-02-04 21:00:00,Chennai,2298,Clear,Sunday,25.6,60,21,0,OMR
+2024-02-04 22:00:00,Chennai,1716,Mist,Sunday,26.9,73,22,0,Adyar
+2024-02-04 23:00:00,Chennai,374,Clear,Sunday,34.8,79,23,0,Tambaram
+2024-02-05 00:00:00,Chennai,371,Clear,Monday,34.6,82,0,0,Anna Nagar
+2024-02-05 01:00:00,Chennai,670,Haze,Monday,29.0,80,1,0,T Nagar
+2024-02-05 02:00:00,Chennai,413,Haze,Monday,32.4,81,2,0,OMR
+2024-02-05 03:00:00,Chennai,613,Drizzle,Monday,37.2,88,3,0,Adyar
+2024-02-05 04:00:00,Chennai,248,Haze,Monday,37.0,70,4,0,Tambaram
+2024-02-05 05:00:00,Chennai,356,Clear,Monday,26.3,75,5,0,Anna Nagar
+2024-02-05 06:00:00,Chennai,1471,Rain,Monday,27.7,80,6,0,T Nagar
+2024-02-05 07:00:00,Chennai,1053,Clear,Monday,29.2,76,7,0,OMR
+2024-02-05 08:00:00,Chennai,4848,Drizzle,Monday,34.1,60,8,1,Adyar
+2024-02-05 09:00:00,Chennai,6875,Haze,Monday,32.3,67,9,1,Tambaram
+2024-02-05 10:00:00,Chennai,6332,Clear,Monday,36.0,66,10,1,Anna Nagar
+2024-02-05 11:00:00,Chennai,1235,Clear,Monday,26.1,83,11,0,T Nagar
+2024-02-05 12:00:00,Chennai,1585,Rain,Monday,31.6,68,12,0,OMR
+2024-02-05 13:00:00,Chennai,834,Rain,Monday,30.1,86,13,0,Adyar
+2024-02-05 14:00:00,Chennai,882,Rain,Monday,35.0,84,14,0,Tambaram
+2024-02-05 15:00:00,Chennai,1312,Drizzle,Monday,27.9,70,15,0,Anna Nagar
+2024-02-05 16:00:00,Chennai,1366,Drizzle,Monday,36.1,87,16,0,T Nagar
+2024-02-05 17:00:00,Chennai,4020,Drizzle,Monday,37.8,68,17,1,OMR
+2024-02-05 18:00:00,Chennai,5680,Mist,Monday,31.7,60,18,1,Adyar
+2024-02-05 19:00:00,Chennai,4740,Clear,Monday,37.2,60,19,1,Tambaram
+2024-02-05 20:00:00,Chennai,3361,Drizzle,Monday,34.5,68,20,1,Anna Nagar
+2024-02-05 21:00:00,Chennai,1521,Cloudy,Monday,29.0,86,21,0,T Nagar
+2024-02-05 22:00:00,Chennai,897,Cloudy,Monday,29.0,81,22,0,OMR
+2024-02-05 23:00:00,Chennai,796,Mist,Monday,34.9,86,23,0,Adyar
+2024-02-06 00:00:00,Chennai,518,Drizzle,Tuesday,37.6,69,0,0,Tambaram
+2024-02-06 01:00:00,Chennai,762,Mist,Tuesday,26.7,79,1,0,Anna Nagar
+2024-02-06 02:00:00,Chennai,376,Drizzle,Tuesday,31.6,89,2,0,T Nagar
+2024-02-06 03:00:00,Chennai,692,Cloudy,Tuesday,35.5,81,3,0,OMR
+2024-02-06 04:00:00,Chennai,625,Clear,Tuesday,26.9,85,4,0,Adyar
+2024-02-06 05:00:00,Chennai,690,Cloudy,Tuesday,37.2,67,5,0,Tambaram
+2024-02-06 06:00:00,Chennai,1413,Rain,Tuesday,35.2,67,6,0,Anna Nagar
+2024-02-06 07:00:00,Chennai,1578,Rain,Tuesday,35.2,74,7,0,T Nagar
+2024-02-06 08:00:00,Chennai,2898,Drizzle,Tuesday,31.9,75,8,1,OMR
+2024-02-06 09:00:00,Chennai,5898,Haze,Tuesday,33.5,88,9,1,Adyar
+2024-02-06 10:00:00,Chennai,4524,Drizzle,Tuesday,27.4,65,10,1,Tambaram
+2024-02-06 11:00:00,Chennai,884,Cloudy,Tuesday,31.7,77,11,0,Anna Nagar
+2024-02-06 12:00:00,Chennai,1004,Mist,Tuesday,36.8,71,12,0,T Nagar
+2024-02-06 13:00:00,Chennai,1953,Rain,Tuesday,36.9,82,13,0,OMR
+2024-02-06 14:00:00,Chennai,1266,Rain,Tuesday,26.6,76,14,0,Adyar
+2024-02-06 15:00:00,Chennai,2068,Mist,Tuesday,29.5,75,15,0,Tambaram
+2024-02-06 16:00:00,Chennai,2161,Clear,Tuesday,29.7,88,16,0,Anna Nagar
+2024-02-06 17:00:00,Chennai,3559,Drizzle,Tuesday,30.9,72,17,1,T Nagar
+2024-02-06 18:00:00,Chennai,3719,Drizzle,Tuesday,33.9,67,18,1,OMR
+2024-02-06 19:00:00,Chennai,5145,Rain,Tuesday,26.0,72,19,1,Adyar
+2024-02-06 20:00:00,Chennai,4682,Cloudy,Tuesday,26.7,75,20,1,Tambaram
+2024-02-06 21:00:00,Chennai,1456,Drizzle,Tuesday,32.1,64,21,0,Anna Nagar
+2024-02-06 22:00:00,Chennai,2046,Rain,Tuesday,35.8,70,22,0,T Nagar
+2024-02-06 23:00:00,Chennai,213,Mist,Tuesday,34.7,74,23,0,OMR
+2024-02-07 00:00:00,Chennai,571,Clear,Wednesday,26.6,87,0,0,Adyar
+2024-02-07 01:00:00,Chennai,566,Clear,Wednesday,37.4,76,1,0,Tambaram
+2024-02-07 02:00:00,Chennai,607,Haze,Wednesday,27.2,60,2,0,Anna Nagar
+2024-02-07 03:00:00,Chennai,438,Rain,Wednesday,36.7,61,3,0,T Nagar
+2024-02-07 04:00:00,Chennai,531,Haze,Wednesday,30.8,87,4,0,OMR
+2024-02-07 05:00:00,Chennai,690,Clear,Wednesday,33.9,66,5,0,Adyar
+2024-02-07 06:00:00,Chennai,1141,Haze,Wednesday,35.1,69,6,0,Tambaram
+2024-02-07 07:00:00,Chennai,1662,Clear,Wednesday,34.4,84,7,0,Anna Nagar
+2024-02-07 08:00:00,Chennai,4266,Cloudy,Wednesday,32.7,89,8,1,T Nagar
+2024-02-07 09:00:00,Chennai,4392,Drizzle,Wednesday,29.8,76,9,1,OMR
+2024-02-07 10:00:00,Chennai,5836,Clear,Wednesday,36.5,75,10,1,Adyar
+2024-02-07 11:00:00,Chennai,2182,Cloudy,Wednesday,36.8,67,11,0,Tambaram
+2024-02-07 12:00:00,Chennai,1732,Mist,Wednesday,34.9,74,12,0,Anna Nagar
+2024-02-07 13:00:00,Chennai,867,Clear,Wednesday,36.1,67,13,0,T Nagar
+2024-02-07 14:00:00,Chennai,2230,Mist,Wednesday,33.9,72,14,0,OMR
+2024-02-07 15:00:00,Chennai,1899,Rain,Wednesday,34.3,76,15,0,Adyar
+2024-02-07 16:00:00,Chennai,813,Cloudy,Wednesday,34.3,81,16,0,Tambaram
+2024-02-07 17:00:00,Chennai,3344,Rain,Wednesday,29.4,73,17,1,Anna Nagar
+2024-02-07 18:00:00,Chennai,5556,Mist,Wednesday,26.4,64,18,1,T Nagar
+2024-02-07 19:00:00,Chennai,3683,Rain,Wednesday,36.1,60,19,1,OMR
+2024-02-07 20:00:00,Chennai,4145,Drizzle,Wednesday,26.3,66,20,1,Adyar
+2024-02-07 21:00:00,Chennai,2111,Haze,Wednesday,33.4,76,21,0,Tambaram
+2024-02-07 22:00:00,Chennai,880,Drizzle,Wednesday,35.4,65,22,0,Anna Nagar
+2024-02-07 23:00:00,Chennai,299,Cloudy,Wednesday,27.5,60,23,0,T Nagar
+2024-02-08 00:00:00,Chennai,307,Clear,Thursday,29.4,80,0,0,OMR
+2024-02-08 01:00:00,Chennai,236,Cloudy,Thursday,26.5,68,1,0,Adyar
+2024-02-08 02:00:00,Chennai,593,Rain,Thursday,33.2,69,2,0,Tambaram
+2024-02-08 03:00:00,Chennai,393,Rain,Thursday,32.5,64,3,0,Anna Nagar
+2024-02-08 04:00:00,Chennai,703,Cloudy,Thursday,28.3,88,4,0,T Nagar
+2024-02-08 05:00:00,Chennai,540,Drizzle,Thursday,29.0,62,5,0,OMR
+2024-02-08 06:00:00,Chennai,841,Haze,Thursday,33.7,78,6,0,Adyar
+2024-02-08 07:00:00,Chennai,1101,Mist,Thursday,29.9,86,7,0,Tambaram
+2024-02-08 08:00:00,Chennai,3552,Clear,Thursday,25.6,65,8,1,Anna Nagar
+2024-02-08 09:00:00,Chennai,6092,Cloudy,Thursday,35.2,79,9,1,T Nagar
+2024-02-08 10:00:00,Chennai,3791,Haze,Thursday,32.4,78,10,1,OMR
+2024-02-08 11:00:00,Chennai,2306,Clear,Thursday,32.9,67,11,0,Adyar
+2024-02-08 12:00:00,Chennai,1976,Drizzle,Thursday,26.5,88,12,0,Tambaram
+2024-02-08 13:00:00,Chennai,931,Mist,Thursday,33.7,81,13,0,Anna Nagar
+2024-02-08 14:00:00,Chennai,865,Rain,Thursday,37.9,85,14,0,T Nagar
+2024-02-08 15:00:00,Chennai,1179,Drizzle,Thursday,28.5,84,15,0,OMR
+2024-02-08 16:00:00,Chennai,2142,Clear,Thursday,28.4,85,16,0,Adyar
+2024-02-08 17:00:00,Chennai,4208,Cloudy,Thursday,28.3,70,17,1,Tambaram
+2024-02-08 18:00:00,Chennai,4636,Clear,Thursday,31.0,82,18,1,Anna Nagar
+2024-02-08 19:00:00,Chennai,6563,Cloudy,Thursday,34.0,65,19,1,T Nagar
+2024-02-08 20:00:00,Chennai,6425,Mist,Thursday,27.2,81,20,1,OMR
+2024-02-08 21:00:00,Chennai,1544,Drizzle,Thursday,37.5,83,21,0,Adyar
+2024-02-08 22:00:00,Chennai,2361,Cloudy,Thursday,25.5,60,22,0,Tambaram
+2024-02-08 23:00:00,Chennai,789,Clear,Thursday,34.5,80,23,0,Anna Nagar
+2024-02-09 00:00:00,Chennai,275,Drizzle,Friday,37.7,79,0,0,T Nagar
+2024-02-09 01:00:00,Chennai,295,Drizzle,Friday,35.9,89,1,0,OMR
+2024-02-09 02:00:00,Chennai,471,Rain,Friday,25.5,65,2,0,Adyar
+2024-02-09 03:00:00,Chennai,466,Haze,Friday,27.5,87,3,0,Tambaram
+2024-02-09 04:00:00,Chennai,339,Rain,Friday,37.3,86,4,0,Anna Nagar
+2024-02-09 05:00:00,Chennai,514,Drizzle,Friday,33.1,82,5,0,T Nagar
+2024-02-09 06:00:00,Chennai,887,Cloudy,Friday,28.5,86,6,0,OMR
+2024-02-09 07:00:00,Chennai,1698,Mist,Friday,34.4,80,7,0,Adyar
+2024-02-09 08:00:00,Chennai,3716,Mist,Friday,29.7,71,8,1,Tambaram
+2024-02-09 09:00:00,Chennai,6712,Mist,Friday,36.5,60,9,1,Anna Nagar
+2024-02-09 10:00:00,Chennai,5492,Drizzle,Friday,33.4,83,10,1,T Nagar
+2024-02-09 11:00:00,Chennai,1580,Cloudy,Friday,25.4,63,11,0,OMR
+2024-02-09 12:00:00,Chennai,1392,Rain,Friday,26.1,77,12,0,Adyar
+2024-02-09 13:00:00,Chennai,2300,Clear,Friday,33.1,87,13,0,Tambaram
+2024-02-09 14:00:00,Chennai,1276,Clear,Friday,27.4,66,14,0,Anna Nagar
+2024-02-09 15:00:00,Chennai,1076,Clear,Friday,29.9,73,15,0,T Nagar
+2024-02-09 16:00:00,Chennai,1957,Rain,Friday,30.5,84,16,0,OMR
+2024-02-09 17:00:00,Chennai,3858,Drizzle,Friday,35.5,80,17,1,Adyar
+2024-02-09 18:00:00,Chennai,6348,Cloudy,Friday,32.9,79,18,1,Tambaram
+2024-02-09 19:00:00,Chennai,4665,Drizzle,Friday,34.9,71,19,1,Anna Nagar
+2024-02-09 20:00:00,Chennai,5139,Cloudy,Friday,30.2,66,20,1,T Nagar
+2024-02-09 21:00:00,Chennai,989,Clear,Friday,25.7,69,21,0,OMR
+2024-02-09 22:00:00,Chennai,1049,Cloudy,Friday,30.4,79,22,0,Adyar
+2024-02-09 23:00:00,Chennai,313,Rain,Friday,26.0,79,23,0,Tambaram
+2024-02-10 00:00:00,Chennai,433,Cloudy,Saturday,32.7,65,0,0,Anna Nagar
+2024-02-10 01:00:00,Chennai,449,Drizzle,Saturday,32.3,67,1,0,T Nagar
+2024-02-10 02:00:00,Chennai,353,Haze,Saturday,34.4,86,2,0,OMR
+2024-02-10 03:00:00,Chennai,551,Clear,Saturday,27.4,80,3,0,Adyar
+2024-02-10 04:00:00,Chennai,297,Clear,Saturday,35.1,61,4,0,Tambaram
+2024-02-10 05:00:00,Chennai,394,Haze,Saturday,26.3,68,5,0,Anna Nagar
+2024-02-10 06:00:00,Chennai,934,Haze,Saturday,29.2,89,6,0,T Nagar
+2024-02-10 07:00:00,Chennai,1236,Drizzle,Saturday,29.5,89,7,0,OMR
+2024-02-10 08:00:00,Chennai,4054,Haze,Saturday,29.2,65,8,1,Adyar
+2024-02-10 09:00:00,Chennai,4006,Mist,Saturday,37.4,67,9,1,Tambaram
+2024-02-10 10:00:00,Chennai,4133,Mist,Saturday,27.8,75,10,1,Anna Nagar
+2024-02-10 11:00:00,Chennai,1050,Rain,Saturday,33.1,79,11,0,T Nagar
+2024-02-10 12:00:00,Chennai,2110,Haze,Saturday,32.0,65,12,0,OMR
+2024-02-10 13:00:00,Chennai,768,Rain,Saturday,25.2,78,13,0,Adyar
+2024-02-10 14:00:00,Chennai,899,Mist,Saturday,31.9,85,14,0,Tambaram
+2024-02-10 15:00:00,Chennai,1087,Cloudy,Saturday,35.9,73,15,0,Anna Nagar
+2024-02-10 16:00:00,Chennai,1455,Drizzle,Saturday,29.3,64,16,0,T Nagar
+2024-02-10 17:00:00,Chennai,5269,Mist,Saturday,25.9,68,17,1,OMR
+2024-02-10 18:00:00,Chennai,4013,Drizzle,Saturday,31.8,84,18,1,Adyar
+2024-02-10 19:00:00,Chennai,5052,Haze,Saturday,27.9,86,19,1,Tambaram
+2024-02-10 20:00:00,Chennai,3615,Drizzle,Saturday,25.7,81,20,1,Anna Nagar
+2024-02-10 21:00:00,Chennai,1204,Rain,Saturday,30.3,65,21,0,T Nagar
+2024-02-10 22:00:00,Chennai,1214,Cloudy,Saturday,37.3,79,22,0,OMR
+2024-02-10 23:00:00,Chennai,648,Haze,Saturday,26.4,74,23,0,Adyar
+2024-02-11 00:00:00,Chennai,514,Rain,Sunday,37.3,68,0,0,Tambaram
+2024-02-11 01:00:00,Chennai,572,Haze,Sunday,36.4,84,1,0,Anna Nagar
+2024-02-11 02:00:00,Chennai,488,Mist,Sunday,32.2,67,2,0,T Nagar
+2024-02-11 03:00:00,Chennai,214,Rain,Sunday,31.5,75,3,0,OMR
+2024-02-11 04:00:00,Chennai,266,Rain,Sunday,25.3,77,4,0,Adyar
+2024-02-11 05:00:00,Chennai,586,Haze,Sunday,35.7,66,5,0,Tambaram
+2024-02-11 06:00:00,Chennai,2086,Cloudy,Sunday,34.9,76,6,0,Anna Nagar
+2024-02-11 07:00:00,Chennai,1561,Rain,Sunday,36.5,66,7,0,T Nagar
+2024-02-11 08:00:00,Chennai,3469,Clear,Sunday,28.2,69,8,1,OMR
+2024-02-11 09:00:00,Chennai,2759,Rain,Sunday,31.5,83,9,1,Adyar
+2024-02-11 10:00:00,Chennai,3910,Drizzle,Sunday,33.0,73,10,1,Tambaram
+2024-02-11 11:00:00,Chennai,1417,Haze,Sunday,25.7,73,11,0,Anna Nagar
+2024-02-11 12:00:00,Chennai,801,Drizzle,Sunday,28.4,64,12,0,T Nagar
+2024-02-11 13:00:00,Chennai,1407,Mist,Sunday,32.3,64,13,0,OMR
+2024-02-11 14:00:00,Chennai,1715,Clear,Sunday,29.3,69,14,0,Adyar
+2024-02-11 15:00:00,Chennai,1137,Drizzle,Sunday,26.2,69,15,0,Tambaram
+2024-01-01 00:00:00,Mumbai,740,Mist,Monday,30.6,68,0,0,Bandra
+2024-01-01 01:00:00,Mumbai,721,Clear,Monday,27.4,83,1,0,Andheri
+2024-01-01 02:00:00,Mumbai,594,Drizzle,Monday,29.1,73,2,0,Dadar
+2024-01-01 03:00:00,Mumbai,492,Rain,Monday,25.7,65,3,0,Powai
+2024-01-01 04:00:00,Mumbai,837,Mist,Monday,29.4,80,4,0,Worli
+2024-01-01 05:00:00,Mumbai,467,Drizzle,Monday,27.7,80,5,0,Bandra
+2024-01-01 06:00:00,Mumbai,1742,Rain,Monday,33.1,76,6,0,Andheri
+2024-01-01 07:00:00,Mumbai,2076,Drizzle,Monday,24.9,74,7,0,Dadar
+2024-01-01 08:00:00,Mumbai,5263,Drizzle,Monday,26.6,76,8,1,Powai
+2024-01-01 09:00:00,Mumbai,5669,Clear,Monday,25.6,85,9,1,Worli
+2024-01-01 10:00:00,Mumbai,6367,Cloudy,Monday,25.0,83,10,1,Bandra
+2024-01-01 11:00:00,Mumbai,1116,Mist,Monday,27.1,79,11,0,Andheri
+2024-01-01 12:00:00,Mumbai,953,Drizzle,Monday,27.5,69,12,0,Dadar
+2024-01-01 13:00:00,Mumbai,2108,Haze,Monday,25.6,93,13,0,Powai
+2024-01-01 14:00:00,Mumbai,2404,Mist,Monday,25.9,86,14,0,Worli
+2024-01-01 15:00:00,Mumbai,1441,Haze,Monday,32.5,78,15,0,Bandra
+2024-01-01 16:00:00,Mumbai,1592,Mist,Monday,24.4,94,16,0,Andheri
+2024-01-01 17:00:00,Mumbai,3390,Rain,Monday,29.5,80,17,1,Dadar
+2024-01-01 18:00:00,Mumbai,6135,Cloudy,Monday,34.5,86,18,1,Powai
+2024-01-01 19:00:00,Mumbai,6278,Haze,Monday,25.3,70,19,1,Worli
+2024-01-01 20:00:00,Mumbai,6173,Cloudy,Monday,28.0,81,20,1,Bandra
+2024-01-01 21:00:00,Mumbai,2169,Rain,Monday,29.6,65,21,0,Andheri
+2024-01-01 22:00:00,Mumbai,1997,Cloudy,Monday,28.1,66,22,0,Dadar
+2024-01-01 23:00:00,Mumbai,332,Drizzle,Monday,28.5,68,23,0,Powai
+2024-01-02 00:00:00,Mumbai,863,Mist,Tuesday,33.1,92,0,0,Worli
+2024-01-02 01:00:00,Mumbai,453,Haze,Tuesday,27.2,81,1,0,Bandra
+2024-01-02 02:00:00,Mumbai,522,Haze,Tuesday,24.6,76,2,0,Andheri
+2024-01-02 03:00:00,Mumbai,765,Clear,Tuesday,30.2,84,3,0,Dadar
+2024-01-02 04:00:00,Mumbai,459,Rain,Tuesday,31.1,72,4,0,Powai
+2024-01-02 05:00:00,Mumbai,324,Drizzle,Tuesday,31.0,72,5,0,Worli
+2024-01-02 06:00:00,Mumbai,1975,Drizzle,Tuesday,27.1,71,6,0,Bandra
+2024-01-02 07:00:00,Mumbai,2140,Rain,Tuesday,30.2,73,7,0,Andheri
+2024-01-02 08:00:00,Mumbai,6036,Rain,Tuesday,27.4,86,8,1,Dadar
+2024-01-02 09:00:00,Mumbai,5660,Rain,Tuesday,25.2,92,9,1,Powai
+2024-01-02 10:00:00,Mumbai,5872,Clear,Tuesday,29.6,72,10,1,Worli
+2024-01-02 11:00:00,Mumbai,1535,Drizzle,Tuesday,32.1,70,11,0,Bandra
+2024-01-02 12:00:00,Mumbai,1405,Haze,Tuesday,24.2,69,12,0,Andheri
+2024-01-02 13:00:00,Mumbai,2206,Clear,Tuesday,26.7,93,13,0,Dadar
+2024-01-02 14:00:00,Mumbai,1608,Clear,Tuesday,26.8,91,14,0,Powai
+2024-01-02 15:00:00,Mumbai,2078,Clear,Tuesday,26.9,85,15,0,Worli
+2024-01-02 16:00:00,Mumbai,2106,Rain,Tuesday,33.3,67,16,0,Bandra
+2024-01-02 17:00:00,Mumbai,5834,Cloudy,Tuesday,34.6,79,17,1,Andheri
+2024-01-02 18:00:00,Mumbai,7943,Mist,Tuesday,34.7,74,18,1,Dadar
+2024-01-02 19:00:00,Mumbai,4515,Cloudy,Tuesday,34.6,83,19,1,Powai
+2024-01-02 20:00:00,Mumbai,4656,Drizzle,Tuesday,28.7,66,20,1,Worli
+2024-01-02 21:00:00,Mumbai,1095,Mist,Tuesday,33.2,71,21,0,Bandra
+2024-01-02 22:00:00,Mumbai,1205,Haze,Tuesday,28.7,66,22,0,Andheri
+2024-01-02 23:00:00,Mumbai,556,Rain,Tuesday,30.4,71,23,0,Dadar
+2024-01-03 00:00:00,Mumbai,628,Drizzle,Wednesday,24.1,69,0,0,Powai
+2024-01-03 01:00:00,Mumbai,555,Cloudy,Wednesday,34.9,84,1,0,Worli
+2024-01-03 02:00:00,Mumbai,538,Mist,Wednesday,28.7,67,2,0,Bandra
+2024-01-03 03:00:00,Mumbai,576,Clear,Wednesday,25.9,71,3,0,Andheri
+2024-01-03 04:00:00,Mumbai,662,Rain,Wednesday,29.2,74,4,0,Dadar
+2024-01-03 05:00:00,Mumbai,321,Cloudy,Wednesday,32.7,65,5,0,Powai
+2024-01-03 06:00:00,Mumbai,1218,Haze,Wednesday,25.3,83,6,0,Worli
+2024-01-03 07:00:00,Mumbai,2632,Clear,Wednesday,26.5,79,7,0,Bandra
+2024-01-03 08:00:00,Mumbai,5312,Cloudy,Wednesday,25.9,69,8,1,Andheri
+2024-01-03 09:00:00,Mumbai,5539,Clear,Wednesday,27.4,73,9,1,Dadar
+2024-01-03 10:00:00,Mumbai,6802,Mist,Wednesday,32.1,78,10,1,Powai
+2024-01-03 11:00:00,Mumbai,1264,Cloudy,Wednesday,32.0,91,11,0,Worli
+2024-01-03 12:00:00,Mumbai,1024,Haze,Wednesday,34.7,66,12,0,Bandra
+2024-01-03 13:00:00,Mumbai,2859,Cloudy,Wednesday,34.4,68,13,0,Andheri
+2024-01-03 14:00:00,Mumbai,1368,Mist,Wednesday,26.6,90,14,0,Dadar
+2024-01-03 15:00:00,Mumbai,2876,Haze,Wednesday,27.8,83,15,0,Powai
+2024-01-03 16:00:00,Mumbai,2952,Cloudy,Wednesday,32.7,91,16,0,Worli
+2024-01-03 17:00:00,Mumbai,4745,Clear,Wednesday,33.6,65,17,1,Bandra
+2024-01-03 18:00:00,Mumbai,4639,Drizzle,Wednesday,29.7,89,18,1,Andheri
+2024-01-03 19:00:00,Mumbai,5473,Drizzle,Wednesday,26.7,67,19,1,Dadar
+2024-01-03 20:00:00,Mumbai,4011,Cloudy,Wednesday,25.9,77,20,1,Powai
+2024-01-03 21:00:00,Mumbai,1863,Clear,Wednesday,25.6,82,21,0,Worli
+2024-01-03 22:00:00,Mumbai,2992,Cloudy,Wednesday,26.8,81,22,0,Bandra
+2024-01-03 23:00:00,Mumbai,387,Haze,Wednesday,32.5,73,23,0,Andheri
+2024-01-04 00:00:00,Mumbai,768,Mist,Thursday,29.8,85,0,0,Dadar
+2024-01-04 01:00:00,Mumbai,405,Haze,Thursday,28.4,68,1,0,Powai
+2024-01-04 02:00:00,Mumbai,729,Haze,Thursday,27.3,93,2,0,Worli
+2024-01-04 03:00:00,Mumbai,240,Drizzle,Thursday,34.6,91,3,0,Bandra
+2024-01-04 04:00:00,Mumbai,615,Rain,Thursday,24.3,81,4,0,Andheri
+2024-01-04 05:00:00,Mumbai,353,Haze,Thursday,33.9,78,5,0,Dadar
+2024-01-04 06:00:00,Mumbai,2286,Cloudy,Thursday,27.9,78,6,0,Powai
+2024-01-04 07:00:00,Mumbai,1238,Mist,Thursday,27.7,78,7,0,Worli
+2024-01-04 08:00:00,Mumbai,3847,Rain,Thursday,33.3,73,8,1,Bandra
+2024-01-04 09:00:00,Mumbai,4758,Haze,Thursday,28.7,75,9,1,Andheri
+2024-01-04 10:00:00,Mumbai,5487,Cloudy,Thursday,31.8,65,10,1,Dadar
+2024-01-04 11:00:00,Mumbai,1052,Clear,Thursday,24.3,73,11,0,Powai
+2024-01-04 12:00:00,Mumbai,1307,Rain,Thursday,27.2,73,12,0,Worli
+2024-01-04 13:00:00,Mumbai,1547,Cloudy,Thursday,27.6,78,13,0,Bandra
+2024-01-04 14:00:00,Mumbai,2580,Haze,Thursday,28.8,78,14,0,Andheri
+2024-01-04 15:00:00,Mumbai,2848,Cloudy,Thursday,34.3,84,15,0,Dadar
+2024-01-04 16:00:00,Mumbai,1689,Clear,Thursday,26.1,81,16,0,Powai
+2024-01-04 17:00:00,Mumbai,4712,Cloudy,Thursday,31.9,87,17,1,Worli
+2024-01-04 18:00:00,Mumbai,4032,Drizzle,Thursday,25.4,73,18,1,Bandra
+2024-01-04 19:00:00,Mumbai,5053,Haze,Thursday,30.5,73,19,1,Andheri
+2024-01-04 20:00:00,Mumbai,3769,Drizzle,Thursday,25.1,89,20,1,Dadar
+2024-01-04 21:00:00,Mumbai,1755,Rain,Thursday,30.4,89,21,0,Powai
+2024-01-04 22:00:00,Mumbai,2938,Cloudy,Thursday,33.3,86,22,0,Worli
+2024-01-04 23:00:00,Mumbai,798,Haze,Thursday,30.2,65,23,0,Bandra
+2024-01-05 00:00:00,Mumbai,270,Drizzle,Friday,31.0,92,0,0,Andheri
+2024-01-05 01:00:00,Mumbai,638,Rain,Friday,29.0,85,1,0,Dadar
+2024-01-05 02:00:00,Mumbai,622,Clear,Friday,32.0,88,2,0,Powai
+2024-01-05 03:00:00,Mumbai,487,Haze,Friday,34.5,82,3,0,Worli
+2024-01-05 04:00:00,Mumbai,615,Rain,Friday,30.8,79,4,0,Bandra
+2024-01-05 05:00:00,Mumbai,566,Mist,Friday,30.3,70,5,0,Andheri
+2024-01-05 06:00:00,Mumbai,2027,Haze,Friday,34.2,74,6,0,Dadar
+2024-01-05 07:00:00,Mumbai,1774,Haze,Friday,27.2,77,7,0,Powai
+2024-01-05 08:00:00,Mumbai,4661,Mist,Friday,32.4,65,8,1,Worli
+2024-01-05 09:00:00,Mumbai,7997,Mist,Friday,32.8,72,9,1,Bandra
+2024-01-05 10:00:00,Mumbai,6881,Mist,Friday,27.7,85,10,1,Andheri
+2024-01-05 11:00:00,Mumbai,1551,Clear,Friday,33.3,93,11,0,Dadar
+2024-01-05 12:00:00,Mumbai,2068,Cloudy,Friday,28.4,81,12,0,Powai
+2024-01-05 13:00:00,Mumbai,2661,Cloudy,Friday,29.8,68,13,0,Worli
+2024-01-05 14:00:00,Mumbai,2939,Mist,Friday,32.2,94,14,0,Bandra
+2024-01-05 15:00:00,Mumbai,1379,Cloudy,Friday,24.8,66,15,0,Andheri
+2024-01-05 16:00:00,Mumbai,1796,Drizzle,Friday,24.0,90,16,0,Dadar
+2024-01-05 17:00:00,Mumbai,5116,Rain,Friday,33.7,80,17,1,Powai
+2024-01-05 18:00:00,Mumbai,4443,Clear,Friday,31.5,68,18,1,Worli
+2024-01-05 19:00:00,Mumbai,6798,Haze,Friday,33.8,84,19,1,Bandra
+2024-01-05 20:00:00,Mumbai,4114,Rain,Friday,26.1,84,20,1,Andheri
+2024-01-05 21:00:00,Mumbai,1658,Cloudy,Friday,31.9,94,21,0,Dadar
+2024-01-05 22:00:00,Mumbai,2474,Cloudy,Friday,31.3,94,22,0,Powai
+2024-01-05 23:00:00,Mumbai,469,Cloudy,Friday,32.9,68,23,0,Worli
+2024-01-06 00:00:00,Mumbai,484,Mist,Saturday,28.1,78,0,0,Bandra
+2024-01-06 01:00:00,Mumbai,267,Mist,Saturday,32.3,81,1,0,Andheri
+2024-01-06 02:00:00,Mumbai,762,Cloudy,Saturday,29.1,82,2,0,Dadar
+2024-01-06 03:00:00,Mumbai,549,Cloudy,Saturday,30.9,75,3,0,Powai
+2024-01-06 04:00:00,Mumbai,532,Cloudy,Saturday,32.1,88,4,0,Worli
+2024-01-06 05:00:00,Mumbai,511,Mist,Saturday,26.9,70,5,0,Bandra
+2024-01-06 06:00:00,Mumbai,2403,Mist,Saturday,32.2,92,6,0,Andheri
+2024-01-06 07:00:00,Mumbai,1049,Rain,Saturday,24.5,83,7,0,Dadar
+2024-01-06 08:00:00,Mumbai,5792,Cloudy,Saturday,29.2,67,8,1,Powai
+2024-01-06 09:00:00,Mumbai,5792,Haze,Saturday,29.5,93,9,1,Worli
+2024-01-06 10:00:00,Mumbai,3690,Cloudy,Saturday,30.4,72,10,1,Bandra
+2024-01-06 11:00:00,Mumbai,1766,Clear,Saturday,27.5,70,11,0,Andheri
+2024-01-06 12:00:00,Mumbai,1642,Drizzle,Saturday,32.8,86,12,0,Dadar
+2024-01-06 13:00:00,Mumbai,1923,Drizzle,Saturday,28.7,79,13,0,Powai
+2024-01-06 14:00:00,Mumbai,1285,Drizzle,Saturday,26.8,66,14,0,Worli
+2024-01-06 15:00:00,Mumbai,1308,Mist,Saturday,24.3,65,15,0,Bandra
+2024-01-06 16:00:00,Mumbai,815,Drizzle,Saturday,33.8,74,16,0,Andheri
+2024-01-06 17:00:00,Mumbai,4210,Cloudy,Saturday,25.0,90,17,1,Dadar
+2024-01-06 18:00:00,Mumbai,4946,Cloudy,Saturday,25.7,69,18,1,Powai
+2024-01-06 19:00:00,Mumbai,5344,Haze,Saturday,25.6,78,19,1,Worli
+2024-01-06 20:00:00,Mumbai,4095,Drizzle,Saturday,33.7,66,20,1,Bandra
+2024-01-06 21:00:00,Mumbai,831,Haze,Saturday,34.2,74,21,0,Andheri
+2024-01-06 22:00:00,Mumbai,1889,Haze,Saturday,32.0,71,22,0,Dadar
+2024-01-06 23:00:00,Mumbai,374,Rain,Saturday,31.5,68,23,0,Powai
+2024-01-07 00:00:00,Mumbai,320,Haze,Sunday,25.2,89,0,0,Worli
+2024-01-07 01:00:00,Mumbai,466,Rain,Sunday,34.2,92,1,0,Bandra
+2024-01-07 02:00:00,Mumbai,435,Haze,Sunday,27.2,70,2,0,Andheri
+2024-01-07 03:00:00,Mumbai,390,Haze,Sunday,33.3,80,3,0,Dadar
+2024-01-07 04:00:00,Mumbai,758,Cloudy,Sunday,33.7,78,4,0,Powai
+2024-01-07 05:00:00,Mumbai,634,Clear,Sunday,32.9,67,5,0,Worli
+2024-01-07 06:00:00,Mumbai,1758,Cloudy,Sunday,33.4,71,6,0,Bandra
+2024-01-07 07:00:00,Mumbai,1440,Haze,Sunday,31.7,89,7,0,Andheri
+2024-01-07 08:00:00,Mumbai,3937,Rain,Sunday,31.2,80,8,1,Dadar
+2024-01-07 09:00:00,Mumbai,5629,Mist,Sunday,29.2,79,9,1,Powai
+2024-01-07 10:00:00,Mumbai,5055,Rain,Sunday,32.8,81,10,1,Worli
+2024-01-07 11:00:00,Mumbai,2447,Cloudy,Sunday,28.5,77,11,0,Bandra
+2024-01-07 12:00:00,Mumbai,1587,Cloudy,Sunday,32.3,88,12,0,Andheri
+2024-01-07 13:00:00,Mumbai,1696,Haze,Sunday,29.7,65,13,0,Dadar
+2024-01-07 14:00:00,Mumbai,2482,Mist,Sunday,30.0,90,14,0,Powai
+2024-01-07 15:00:00,Mumbai,1760,Cloudy,Sunday,32.4,72,15,0,Worli
+2024-01-07 16:00:00,Mumbai,1768,Mist,Sunday,33.5,72,16,0,Bandra
+2024-01-07 17:00:00,Mumbai,3426,Drizzle,Sunday,30.9,88,17,1,Andheri
+2024-01-07 18:00:00,Mumbai,5538,Mist,Sunday,26.2,78,18,1,Dadar
+2024-01-07 19:00:00,Mumbai,6270,Clear,Sunday,26.7,68,19,1,Powai
+2024-01-07 20:00:00,Mumbai,3979,Clear,Sunday,27.6,89,20,1,Worli
+2024-01-07 21:00:00,Mumbai,1862,Drizzle,Sunday,28.8,91,21,0,Bandra
+2024-01-07 22:00:00,Mumbai,2065,Cloudy,Sunday,27.8,92,22,0,Andheri
+2024-01-07 23:00:00,Mumbai,452,Mist,Sunday,26.7,72,23,0,Dadar
+2024-01-08 00:00:00,Mumbai,367,Cloudy,Monday,31.6,88,0,0,Powai
+2024-01-08 01:00:00,Mumbai,442,Mist,Monday,30.0,77,1,0,Worli
+2024-01-08 02:00:00,Mumbai,436,Drizzle,Monday,28.2,88,2,0,Bandra
+2024-01-08 03:00:00,Mumbai,820,Haze,Monday,33.3,81,3,0,Andheri
+2024-01-08 04:00:00,Mumbai,463,Haze,Monday,29.9,67,4,0,Dadar
+2024-01-08 05:00:00,Mumbai,549,Clear,Monday,29.2,82,5,0,Powai
+2024-01-08 06:00:00,Mumbai,1587,Clear,Monday,24.6,77,6,0,Worli
+2024-01-08 07:00:00,Mumbai,2583,Cloudy,Monday,29.1,89,7,0,Bandra
+2024-01-08 08:00:00,Mumbai,5389,Mist,Monday,27.2,87,8,1,Andheri
+2024-01-08 09:00:00,Mumbai,3617,Rain,Monday,31.4,88,9,1,Dadar
+2024-01-08 10:00:00,Mumbai,4372,Clear,Monday,28.8,84,10,1,Powai
+2024-01-08 11:00:00,Mumbai,1180,Rain,Monday,29.3,77,11,0,Worli
+2024-01-08 12:00:00,Mumbai,1061,Haze,Monday,24.0,74,12,0,Bandra
+2024-01-08 13:00:00,Mumbai,2008,Clear,Monday,29.0,75,13,0,Andheri
+2024-01-08 14:00:00,Mumbai,1751,Haze,Monday,28.5,74,14,0,Dadar
+2024-01-08 15:00:00,Mumbai,1926,Clear,Monday,27.4,92,15,0,Powai
+2024-01-08 16:00:00,Mumbai,1011,Mist,Monday,25.1,87,16,0,Worli
+2024-01-08 17:00:00,Mumbai,3813,Rain,Monday,24.4,73,17,1,Bandra
+2024-01-08 18:00:00,Mumbai,5053,Rain,Monday,24.3,80,18,1,Andheri
+2024-01-08 19:00:00,Mumbai,7475,Cloudy,Monday,31.8,94,19,1,Dadar
+2024-01-08 20:00:00,Mumbai,6191,Mist,Monday,34.3,90,20,1,Powai
+2024-01-08 21:00:00,Mumbai,2048,Cloudy,Monday,32.8,71,21,0,Worli
+2024-01-08 22:00:00,Mumbai,2239,Haze,Monday,27.3,65,22,0,Bandra
+2024-01-08 23:00:00,Mumbai,790,Mist,Monday,25.2,73,23,0,Andheri
+2024-01-09 00:00:00,Mumbai,300,Drizzle,Tuesday,27.9,91,0,0,Dadar
+2024-01-09 01:00:00,Mumbai,529,Rain,Tuesday,24.5,89,1,0,Powai
+2024-01-09 02:00:00,Mumbai,273,Drizzle,Tuesday,24.1,84,2,0,Worli
+2024-01-09 03:00:00,Mumbai,377,Rain,Tuesday,31.0,72,3,0,Bandra
+2024-01-09 04:00:00,Mumbai,725,Clear,Tuesday,31.7,70,4,0,Andheri
+2024-01-09 05:00:00,Mumbai,506,Rain,Tuesday,25.7,69,5,0,Dadar
+2024-01-09 06:00:00,Mumbai,1948,Rain,Tuesday,32.0,93,6,0,Powai
+2024-01-09 07:00:00,Mumbai,1193,Mist,Tuesday,27.6,69,7,0,Worli
+2024-01-09 08:00:00,Mumbai,7306,Haze,Tuesday,32.6,80,8,1,Bandra
+2024-01-09 09:00:00,Mumbai,5612,Clear,Tuesday,33.0,69,9,1,Andheri
+2024-01-09 10:00:00,Mumbai,6181,Haze,Tuesday,24.5,76,10,1,Dadar
+2024-01-09 11:00:00,Mumbai,1027,Rain,Tuesday,29.8,81,11,0,Powai
+2024-01-09 12:00:00,Mumbai,2250,Rain,Tuesday,24.9,69,12,0,Worli
+2024-01-09 13:00:00,Mumbai,1436,Mist,Tuesday,32.8,72,13,0,Bandra
+2024-01-09 14:00:00,Mumbai,2077,Drizzle,Tuesday,26.2,83,14,0,Andheri
+2024-01-09 15:00:00,Mumbai,2809,Clear,Tuesday,31.9,78,15,0,Dadar
+2024-01-09 16:00:00,Mumbai,2648,Mist,Tuesday,33.6,85,16,0,Powai
+2024-01-09 17:00:00,Mumbai,3941,Drizzle,Tuesday,26.2,92,17,1,Worli
+2024-01-09 18:00:00,Mumbai,6764,Haze,Tuesday,30.8,72,18,1,Bandra
+2024-01-09 19:00:00,Mumbai,4650,Haze,Tuesday,27.6,82,19,1,Andheri
+2024-01-09 20:00:00,Mumbai,4579,Drizzle,Tuesday,30.7,88,20,1,Dadar
+2024-01-09 21:00:00,Mumbai,1178,Drizzle,Tuesday,33.4,73,21,0,Powai
+2024-01-09 22:00:00,Mumbai,2579,Clear,Tuesday,24.3,81,22,0,Worli
+2024-01-09 23:00:00,Mumbai,275,Drizzle,Tuesday,34.9,78,23,0,Bandra
+2024-01-10 00:00:00,Mumbai,720,Cloudy,Wednesday,25.8,77,0,0,Andheri
+2024-01-10 01:00:00,Mumbai,546,Cloudy,Wednesday,27.5,65,1,0,Dadar
+2024-01-10 02:00:00,Mumbai,445,Mist,Wednesday,32.7,70,2,0,Powai
+2024-01-10 03:00:00,Mumbai,474,Drizzle,Wednesday,27.3,68,3,0,Worli
+2024-01-10 04:00:00,Mumbai,825,Haze,Wednesday,24.3,74,4,0,Bandra
+2024-01-10 05:00:00,Mumbai,607,Haze,Wednesday,31.2,76,5,0,Andheri
+2024-01-10 06:00:00,Mumbai,1672,Haze,Wednesday,30.3,87,6,0,Dadar
+2024-01-10 07:00:00,Mumbai,1662,Mist,Wednesday,33.4,72,7,0,Powai
+2024-01-10 08:00:00,Mumbai,3314,Rain,Wednesday,27.5,85,8,1,Worli
+2024-01-10 09:00:00,Mumbai,7126,Clear,Wednesday,32.9,66,9,1,Bandra
+2024-01-10 10:00:00,Mumbai,3478,Rain,Wednesday,28.7,84,10,1,Andheri
+2024-01-10 11:00:00,Mumbai,2602,Haze,Wednesday,33.5,67,11,0,Dadar
+2024-01-10 12:00:00,Mumbai,2569,Clear,Wednesday,27.9,81,12,0,Powai
+2024-01-10 13:00:00,Mumbai,1393,Haze,Wednesday,32.5,87,13,0,Worli
+2024-01-10 14:00:00,Mumbai,2182,Drizzle,Wednesday,27.3,65,14,0,Bandra
+2024-01-10 15:00:00,Mumbai,2583,Cloudy,Wednesday,24.4,70,15,0,Andheri
+2024-01-10 16:00:00,Mumbai,1309,Clear,Wednesday,24.2,72,16,0,Dadar
+2024-01-10 17:00:00,Mumbai,4193,Cloudy,Wednesday,24.6,94,17,1,Powai
+2024-01-10 18:00:00,Mumbai,4769,Rain,Wednesday,28.5,74,18,1,Worli
+2024-01-10 19:00:00,Mumbai,7651,Cloudy,Wednesday,34.3,89,19,1,Bandra
+2024-01-10 20:00:00,Mumbai,4688,Mist,Wednesday,32.3,82,20,1,Andheri
+2024-01-10 21:00:00,Mumbai,2830,Haze,Wednesday,27.4,82,21,0,Dadar
+2024-01-10 22:00:00,Mumbai,1287,Clear,Wednesday,27.5,92,22,0,Powai
+2024-01-10 23:00:00,Mumbai,734,Drizzle,Wednesday,32.4,74,23,0,Worli
+2024-01-11 00:00:00,Mumbai,509,Cloudy,Thursday,29.1,81,0,0,Bandra
+2024-01-11 01:00:00,Mumbai,473,Rain,Thursday,26.0,78,1,0,Andheri
+2024-01-11 02:00:00,Mumbai,532,Mist,Thursday,28.6,67,2,0,Dadar
+2024-01-11 03:00:00,Mumbai,887,Clear,Thursday,33.7,67,3,0,Powai
+2024-01-11 04:00:00,Mumbai,618,Clear,Thursday,27.9,92,4,0,Worli
+2024-01-11 05:00:00,Mumbai,413,Rain,Thursday,29.5,76,5,0,Bandra
+2024-01-11 06:00:00,Mumbai,2642,Clear,Thursday,32.7,67,6,0,Andheri
+2024-01-11 07:00:00,Mumbai,1470,Mist,Thursday,30.6,70,7,0,Dadar
+2024-01-11 08:00:00,Mumbai,4464,Cloudy,Thursday,25.4,68,8,1,Powai
+2024-01-11 09:00:00,Mumbai,6218,Mist,Thursday,31.6,72,9,1,Worli
+2024-01-11 10:00:00,Mumbai,5840,Cloudy,Thursday,30.2,89,10,1,Bandra
+2024-01-11 11:00:00,Mumbai,1575,Cloudy,Thursday,26.0,72,11,0,Andheri
+2024-01-11 12:00:00,Mumbai,1502,Clear,Thursday,24.6,83,12,0,Dadar
+2024-01-11 13:00:00,Mumbai,2271,Mist,Thursday,28.4,94,13,0,Powai
+2024-01-11 14:00:00,Mumbai,1538,Mist,Thursday,26.3,80,14,0,Worli
+2024-01-11 15:00:00,Mumbai,2609,Mist,Thursday,31.3,84,15,0,Bandra
+2024-01-11 16:00:00,Mumbai,1665,Cloudy,Thursday,31.1,67,16,0,Andheri
+2024-01-11 17:00:00,Mumbai,4710,Mist,Thursday,31.4,88,17,1,Dadar
+2024-01-11 18:00:00,Mumbai,7134,Clear,Thursday,24.9,89,18,1,Powai
+2024-01-11 19:00:00,Mumbai,3949,Drizzle,Thursday,30.3,65,19,1,Worli
+2024-01-11 20:00:00,Mumbai,5901,Drizzle,Thursday,26.3,72,20,1,Bandra
+2024-01-11 21:00:00,Mumbai,1271,Cloudy,Thursday,28.6,91,21,0,Andheri
+2024-01-11 22:00:00,Mumbai,1089,Rain,Thursday,32.3,76,22,0,Dadar
+2024-01-11 23:00:00,Mumbai,426,Drizzle,Thursday,24.9,94,23,0,Powai
+2024-01-12 00:00:00,Mumbai,463,Cloudy,Friday,31.0,79,0,0,Worli
+2024-01-12 01:00:00,Mumbai,852,Cloudy,Friday,24.9,87,1,0,Bandra
+2024-01-12 02:00:00,Mumbai,309,Cloudy,Friday,31.0,76,2,0,Andheri
+2024-01-12 03:00:00,Mumbai,847,Mist,Friday,26.3,79,3,0,Dadar
+2024-01-12 04:00:00,Mumbai,730,Haze,Friday,35.0,94,4,0,Powai
+2024-01-12 05:00:00,Mumbai,790,Mist,Friday,28.6,71,5,0,Worli
+2024-01-12 06:00:00,Mumbai,891,Drizzle,Friday,25.0,80,6,0,Bandra
+2024-01-12 07:00:00,Mumbai,1655,Rain,Friday,26.1,87,7,0,Andheri
+2024-01-12 08:00:00,Mumbai,6653,Cloudy,Friday,34.3,84,8,1,Dadar
+2024-01-12 09:00:00,Mumbai,6068,Drizzle,Friday,29.8,76,9,1,Powai
+2024-01-12 10:00:00,Mumbai,6360,Rain,Friday,33.3,80,10,1,Worli
+2024-01-12 11:00:00,Mumbai,2968,Cloudy,Friday,30.0,81,11,0,Bandra
+2024-01-12 12:00:00,Mumbai,2292,Drizzle,Friday,25.7,70,12,0,Andheri
+2024-01-12 13:00:00,Mumbai,2872,Cloudy,Friday,26.3,91,13,0,Dadar
+2024-01-12 14:00:00,Mumbai,2195,Cloudy,Friday,28.0,94,14,0,Powai
+2024-01-12 15:00:00,Mumbai,852,Rain,Friday,29.9,67,15,0,Worli
+2024-01-12 16:00:00,Mumbai,1339,Rain,Friday,25.9,69,16,0,Bandra
+2024-01-12 17:00:00,Mumbai,6537,Haze,Friday,31.8,74,17,1,Andheri
+2024-01-12 18:00:00,Mumbai,6989,Clear,Friday,27.2,87,18,1,Dadar
+2024-01-12 19:00:00,Mumbai,3672,Rain,Friday,29.7,86,19,1,Powai
+2024-01-12 20:00:00,Mumbai,7771,Mist,Friday,32.0,67,20,1,Worli
+2024-01-12 21:00:00,Mumbai,1023,Cloudy,Friday,34.0,78,21,0,Bandra
+2024-01-12 22:00:00,Mumbai,1361,Drizzle,Friday,30.4,76,22,0,Andheri
+2024-01-12 23:00:00,Mumbai,283,Drizzle,Friday,31.4,71,23,0,Dadar
+2024-01-13 00:00:00,Mumbai,479,Cloudy,Saturday,34.9,76,0,0,Powai
+2024-01-13 01:00:00,Mumbai,549,Rain,Saturday,26.4,72,1,0,Worli
+2024-01-13 02:00:00,Mumbai,486,Clear,Saturday,26.4,72,2,0,Bandra
+2024-01-13 03:00:00,Mumbai,633,Cloudy,Saturday,28.0,87,3,0,Andheri
+2024-01-13 04:00:00,Mumbai,556,Rain,Saturday,32.4,68,4,0,Dadar
+2024-01-13 05:00:00,Mumbai,505,Drizzle,Saturday,32.8,82,5,0,Powai
+2024-01-13 06:00:00,Mumbai,1849,Haze,Saturday,32.1,76,6,0,Worli
+2024-01-13 07:00:00,Mumbai,989,Haze,Saturday,31.1,81,7,0,Bandra
+2024-01-13 08:00:00,Mumbai,4292,Clear,Saturday,32.0,65,8,1,Andheri
+2024-01-13 09:00:00,Mumbai,5692,Mist,Saturday,25.4,85,9,1,Dadar
+2024-01-13 10:00:00,Mumbai,6375,Haze,Saturday,24.9,94,10,1,Powai
+2024-01-13 11:00:00,Mumbai,2624,Haze,Saturday,27.5,73,11,0,Worli
+2024-01-13 12:00:00,Mumbai,1476,Haze,Saturday,25.7,68,12,0,Bandra
+2024-01-13 13:00:00,Mumbai,959,Haze,Saturday,30.6,72,13,0,Andheri
+2024-01-13 14:00:00,Mumbai,1170,Cloudy,Saturday,25.6,88,14,0,Dadar
+2024-01-13 15:00:00,Mumbai,1192,Drizzle,Saturday,25.2,78,15,0,Powai
+2024-01-13 16:00:00,Mumbai,1579,Mist,Saturday,31.4,91,16,0,Worli
+2024-01-13 17:00:00,Mumbai,5132,Mist,Saturday,27.9,75,17,1,Bandra
+2024-01-13 18:00:00,Mumbai,3384,Rain,Saturday,32.4,81,18,1,Andheri
+2024-01-13 19:00:00,Mumbai,4397,Drizzle,Saturday,34.4,83,19,1,Dadar
+2024-01-13 20:00:00,Mumbai,7293,Cloudy,Saturday,28.6,75,20,1,Powai
+2024-01-13 21:00:00,Mumbai,955,Drizzle,Saturday,27.6,90,21,0,Worli
+2024-01-13 22:00:00,Mumbai,1287,Drizzle,Saturday,30.8,74,22,0,Bandra
+2024-01-13 23:00:00,Mumbai,623,Mist,Saturday,25.5,83,23,0,Andheri
+2024-01-14 00:00:00,Mumbai,378,Rain,Sunday,32.7,69,0,0,Dadar
+2024-01-14 01:00:00,Mumbai,611,Clear,Sunday,25.8,76,1,0,Powai
+2024-01-14 02:00:00,Mumbai,415,Cloudy,Sunday,29.7,81,2,0,Worli
+2024-01-14 03:00:00,Mumbai,621,Haze,Sunday,28.7,92,3,0,Bandra
+2024-01-14 04:00:00,Mumbai,347,Drizzle,Sunday,34.8,87,4,0,Andheri
+2024-01-14 05:00:00,Mumbai,236,Drizzle,Sunday,32.4,77,5,0,Dadar
+2024-01-14 06:00:00,Mumbai,892,Rain,Sunday,34.5,93,6,0,Powai
+2024-01-14 07:00:00,Mumbai,1394,Cloudy,Sunday,30.6,92,7,0,Worli
+2024-01-14 08:00:00,Mumbai,4203,Mist,Sunday,30.9,73,8,1,Bandra
+2024-01-14 09:00:00,Mumbai,4806,Clear,Sunday,32.6,87,9,1,Andheri
+2024-01-14 10:00:00,Mumbai,5312,Rain,Sunday,34.1,70,10,1,Dadar
+2024-01-14 11:00:00,Mumbai,2464,Cloudy,Sunday,32.7,93,11,0,Powai
+2024-01-14 12:00:00,Mumbai,842,Rain,Sunday,33.0,87,12,0,Worli
+2024-01-14 13:00:00,Mumbai,1655,Mist,Sunday,34.1,87,13,0,Bandra
+2024-01-14 14:00:00,Mumbai,2258,Cloudy,Sunday,25.7,71,14,0,Andheri
+2024-01-14 15:00:00,Mumbai,1390,Mist,Sunday,29.3,67,15,0,Dadar
+2024-01-14 16:00:00,Mumbai,1672,Haze,Sunday,29.3,88,16,0,Powai
+2024-01-14 17:00:00,Mumbai,4506,Rain,Sunday,34.2,67,17,1,Worli
+2024-01-14 18:00:00,Mumbai,3457,Drizzle,Sunday,25.0,83,18,1,Bandra
+2024-01-14 19:00:00,Mumbai,5091,Rain,Sunday,30.7,81,19,1,Andheri
+2024-01-14 20:00:00,Mumbai,6122,Clear,Sunday,33.1,87,20,1,Dadar
+2024-01-14 21:00:00,Mumbai,1228,Clear,Sunday,33.7,91,21,0,Powai
+2024-01-14 22:00:00,Mumbai,1752,Mist,Sunday,28.3,81,22,0,Worli
+2024-01-14 23:00:00,Mumbai,455,Mist,Sunday,32.6,81,23,0,Bandra
+2024-01-15 00:00:00,Mumbai,317,Rain,Monday,28.9,70,0,0,Andheri
+2024-01-15 01:00:00,Mumbai,882,Haze,Monday,25.4,75,1,0,Dadar
+2024-01-15 02:00:00,Mumbai,568,Rain,Monday,29.9,84,2,0,Powai
+2024-01-15 03:00:00,Mumbai,526,Cloudy,Monday,28.8,68,3,0,Worli
+2024-01-15 04:00:00,Mumbai,430,Mist,Monday,34.1,78,4,0,Bandra
+2024-01-15 05:00:00,Mumbai,585,Haze,Monday,31.3,65,5,0,Andheri
+2024-01-15 06:00:00,Mumbai,2226,Haze,Monday,33.7,77,6,0,Dadar
+2024-01-15 07:00:00,Mumbai,1911,Drizzle,Monday,33.5,71,7,0,Powai
+2024-01-15 08:00:00,Mumbai,6472,Cloudy,Monday,34.7,87,8,1,Worli
+2024-01-15 09:00:00,Mumbai,3982,Drizzle,Monday,34.1,79,9,1,Bandra
+2024-01-15 10:00:00,Mumbai,7631,Cloudy,Monday,26.3,65,10,1,Andheri
+2024-01-15 11:00:00,Mumbai,1505,Rain,Monday,32.8,66,11,0,Dadar
+2024-01-15 12:00:00,Mumbai,1585,Cloudy,Monday,32.0,90,12,0,Powai
+2024-01-15 13:00:00,Mumbai,1974,Haze,Monday,29.4,73,13,0,Worli
+2024-01-15 14:00:00,Mumbai,1731,Haze,Monday,31.3,90,14,0,Bandra
+2024-01-15 15:00:00,Mumbai,1789,Rain,Monday,31.4,75,15,0,Andheri
+2024-01-15 16:00:00,Mumbai,2669,Haze,Monday,34.1,75,16,0,Dadar
+2024-01-15 17:00:00,Mumbai,5159,Haze,Monday,33.0,83,17,1,Powai
+2024-01-15 18:00:00,Mumbai,4045,Rain,Monday,32.9,80,18,1,Worli
+2024-01-15 19:00:00,Mumbai,4644,Clear,Monday,31.3,69,19,1,Bandra
+2024-01-15 20:00:00,Mumbai,3378,Rain,Monday,34.5,86,20,1,Andheri
+2024-01-15 21:00:00,Mumbai,2329,Clear,Monday,26.3,91,21,0,Dadar
+2024-01-15 22:00:00,Mumbai,1318,Drizzle,Monday,29.1,68,22,0,Powai
+2024-01-15 23:00:00,Mumbai,321,Rain,Monday,30.4,68,23,0,Worli
+2024-01-16 00:00:00,Mumbai,500,Clear,Tuesday,31.3,77,0,0,Bandra
+2024-01-16 01:00:00,Mumbai,595,Haze,Tuesday,27.2,79,1,0,Andheri
+2024-01-16 02:00:00,Mumbai,540,Cloudy,Tuesday,29.6,87,2,0,Dadar
+2024-01-16 03:00:00,Mumbai,653,Cloudy,Tuesday,26.3,85,3,0,Powai
+2024-01-16 04:00:00,Mumbai,669,Mist,Tuesday,24.7,87,4,0,Worli
+2024-01-16 05:00:00,Mumbai,568,Drizzle,Tuesday,25.6,93,5,0,Bandra
+2024-01-16 06:00:00,Mumbai,2174,Clear,Tuesday,32.5,74,6,0,Andheri
+2024-01-16 07:00:00,Mumbai,2595,Mist,Tuesday,34.4,94,7,0,Dadar
+2024-01-16 08:00:00,Mumbai,5757,Drizzle,Tuesday,31.5,77,8,1,Powai
+2024-01-16 09:00:00,Mumbai,7027,Haze,Tuesday,28.5,86,9,1,Worli
+2024-01-16 10:00:00,Mumbai,6276,Mist,Tuesday,34.0,69,10,1,Bandra
+2024-01-16 11:00:00,Mumbai,1570,Mist,Tuesday,30.5,77,11,0,Andheri
+2024-01-16 12:00:00,Mumbai,1174,Rain,Tuesday,33.1,79,12,0,Dadar
+2024-01-16 13:00:00,Mumbai,864,Rain,Tuesday,28.3,78,13,0,Powai
+2024-01-16 14:00:00,Mumbai,2357,Cloudy,Tuesday,26.8,77,14,0,Worli
+2024-01-16 15:00:00,Mumbai,1991,Clear,Tuesday,27.0,89,15,0,Bandra
+2024-01-16 16:00:00,Mumbai,1519,Drizzle,Tuesday,34.2,79,16,0,Andheri
+2024-01-16 17:00:00,Mumbai,4766,Haze,Tuesday,30.7,78,17,1,Dadar
+2024-01-16 18:00:00,Mumbai,7680,Haze,Tuesday,27.8,83,18,1,Powai
+2024-01-16 19:00:00,Mumbai,4478,Haze,Tuesday,33.8,79,19,1,Worli
+2024-01-16 20:00:00,Mumbai,6176,Haze,Tuesday,24.4,90,20,1,Bandra
+2024-01-16 21:00:00,Mumbai,1562,Mist,Tuesday,29.6,74,21,0,Andheri
+2024-01-16 22:00:00,Mumbai,1797,Cloudy,Tuesday,30.7,93,22,0,Dadar
+2024-01-16 23:00:00,Mumbai,501,Haze,Tuesday,30.6,78,23,0,Powai
+2024-01-17 00:00:00,Mumbai,875,Clear,Wednesday,33.4,94,0,0,Worli
+2024-01-17 01:00:00,Mumbai,411,Haze,Wednesday,27.4,76,1,0,Bandra
+2024-01-17 02:00:00,Mumbai,881,Haze,Wednesday,28.6,90,2,0,Andheri
+2024-01-17 03:00:00,Mumbai,489,Drizzle,Wednesday,34.5,71,3,0,Dadar
+2024-01-17 04:00:00,Mumbai,461,Mist,Wednesday,28.9,88,4,0,Powai
+2024-01-17 05:00:00,Mumbai,383,Drizzle,Wednesday,28.1,68,5,0,Worli
+2024-01-17 06:00:00,Mumbai,2352,Mist,Wednesday,28.3,87,6,0,Bandra
+2024-01-17 07:00:00,Mumbai,2146,Haze,Wednesday,29.1,73,7,0,Andheri
+2024-01-17 08:00:00,Mumbai,6156,Clear,Wednesday,25.0,78,8,1,Dadar
+2024-01-17 09:00:00,Mumbai,3324,Drizzle,Wednesday,24.1,84,9,1,Powai
+2024-01-17 10:00:00,Mumbai,7352,Clear,Wednesday,29.5,93,10,1,Worli
+2024-01-17 11:00:00,Mumbai,917,Drizzle,Wednesday,25.9,72,11,0,Bandra
+2024-01-17 12:00:00,Mumbai,2807,Clear,Wednesday,33.7,88,12,0,Andheri
+2024-01-17 13:00:00,Mumbai,2460,Rain,Wednesday,32.8,88,13,0,Dadar
+2024-01-17 14:00:00,Mumbai,1012,Drizzle,Wednesday,26.4,86,14,0,Powai
+2024-01-17 15:00:00,Mumbai,977,Drizzle,Wednesday,32.1,92,15,0,Worli
+2024-01-17 16:00:00,Mumbai,1340,Rain,Wednesday,34.2,93,16,0,Bandra
+2024-01-17 17:00:00,Mumbai,4002,Cloudy,Wednesday,30.1,82,17,1,Andheri
+2024-01-17 18:00:00,Mumbai,4588,Rain,Wednesday,24.2,73,18,1,Dadar
+2024-01-17 19:00:00,Mumbai,5081,Haze,Wednesday,29.4,74,19,1,Powai
+2024-01-17 20:00:00,Mumbai,4324,Rain,Wednesday,25.9,67,20,1,Worli
+2024-01-17 21:00:00,Mumbai,1074,Cloudy,Wednesday,32.9,87,21,0,Bandra
+2024-01-17 22:00:00,Mumbai,1231,Drizzle,Wednesday,34.9,67,22,0,Andheri
+2024-01-17 23:00:00,Mumbai,574,Drizzle,Wednesday,29.1,86,23,0,Dadar
+2024-01-18 00:00:00,Mumbai,397,Mist,Thursday,34.0,93,0,0,Powai
+2024-01-18 01:00:00,Mumbai,409,Cloudy,Thursday,29.2,69,1,0,Worli
+2024-01-18 02:00:00,Mumbai,362,Drizzle,Thursday,33.5,91,2,0,Bandra
+2024-01-18 03:00:00,Mumbai,546,Clear,Thursday,28.2,82,3,0,Andheri
+2024-01-18 04:00:00,Mumbai,388,Haze,Thursday,34.0,91,4,0,Dadar
+2024-01-18 05:00:00,Mumbai,856,Cloudy,Thursday,29.3,81,5,0,Powai
+2024-01-18 06:00:00,Mumbai,1231,Haze,Thursday,28.8,67,6,0,Worli
+2024-01-18 07:00:00,Mumbai,1548,Mist,Thursday,25.9,75,7,0,Bandra
+2024-01-18 08:00:00,Mumbai,4954,Rain,Thursday,25.8,90,8,1,Andheri
+2024-01-18 09:00:00,Mumbai,7510,Cloudy,Thursday,33.8,68,9,1,Dadar
+2024-01-18 10:00:00,Mumbai,6933,Haze,Thursday,31.9,74,10,1,Powai
+2024-01-18 11:00:00,Mumbai,2609,Haze,Thursday,29.7,76,11,0,Worli
+2024-01-18 12:00:00,Mumbai,824,Rain,Thursday,24.9,91,12,0,Bandra
+2024-01-18 13:00:00,Mumbai,2355,Clear,Thursday,30.2,73,13,0,Andheri
+2024-01-18 14:00:00,Mumbai,1868,Mist,Thursday,31.2,86,14,0,Dadar
+2024-01-18 15:00:00,Mumbai,2090,Clear,Thursday,24.5,90,15,0,Powai
+2024-01-18 16:00:00,Mumbai,1811,Cloudy,Thursday,33.7,67,16,0,Worli
+2024-01-18 17:00:00,Mumbai,7976,Mist,Thursday,29.3,83,17,1,Bandra
+2024-01-18 18:00:00,Mumbai,6004,Drizzle,Thursday,26.9,90,18,1,Andheri
+2024-01-18 19:00:00,Mumbai,7770,Clear,Thursday,33.5,87,19,1,Dadar
+2024-01-18 20:00:00,Mumbai,5623,Haze,Thursday,32.7,82,20,1,Powai
+2024-01-18 21:00:00,Mumbai,2000,Rain,Thursday,25.9,83,21,0,Worli
+2024-01-18 22:00:00,Mumbai,917,Drizzle,Thursday,27.1,92,22,0,Bandra
+2024-01-18 23:00:00,Mumbai,525,Haze,Thursday,34.2,88,23,0,Andheri
+2024-01-19 00:00:00,Mumbai,479,Mist,Friday,29.8,91,0,0,Dadar
+2024-01-19 01:00:00,Mumbai,440,Drizzle,Friday,33.2,72,1,0,Powai
+2024-01-19 02:00:00,Mumbai,791,Clear,Friday,28.0,71,2,0,Worli
+2024-01-19 03:00:00,Mumbai,471,Rain,Friday,34.9,79,3,0,Bandra
+2024-01-19 04:00:00,Mumbai,614,Mist,Friday,29.4,93,4,0,Andheri
+2024-01-19 05:00:00,Mumbai,647,Mist,Friday,24.3,71,5,0,Dadar
+2024-01-19 06:00:00,Mumbai,1420,Mist,Friday,32.5,85,6,0,Powai
+2024-01-19 07:00:00,Mumbai,1383,Haze,Friday,27.6,76,7,0,Worli
+2024-01-19 08:00:00,Mumbai,7682,Cloudy,Friday,24.5,65,8,1,Bandra
+2024-01-19 09:00:00,Mumbai,6996,Clear,Friday,26.8,88,9,1,Andheri
+2024-01-19 10:00:00,Mumbai,3160,Rain,Friday,32.7,71,10,1,Dadar
+2024-01-19 11:00:00,Mumbai,1507,Clear,Friday,28.2,81,11,0,Powai
+2024-01-19 12:00:00,Mumbai,1996,Rain,Friday,27.3,73,12,0,Worli
+2024-01-19 13:00:00,Mumbai,2852,Cloudy,Friday,30.3,89,13,0,Bandra
+2024-01-19 14:00:00,Mumbai,2633,Clear,Friday,24.7,84,14,0,Andheri
+2024-01-19 15:00:00,Mumbai,1989,Cloudy,Friday,30.6,88,15,0,Dadar
+2024-01-19 16:00:00,Mumbai,1316,Cloudy,Friday,32.2,70,16,0,Powai
+2024-01-19 17:00:00,Mumbai,5246,Clear,Friday,25.2,79,17,1,Worli
+2024-01-19 18:00:00,Mumbai,7770,Haze,Friday,28.3,84,18,1,Bandra
+2024-01-19 19:00:00,Mumbai,4133,Drizzle,Friday,32.4,77,19,1,Andheri
+2024-01-19 20:00:00,Mumbai,3679,Rain,Friday,27.4,70,20,1,Dadar
+2024-01-19 21:00:00,Mumbai,2446,Cloudy,Friday,25.3,94,21,0,Powai
+2024-01-19 22:00:00,Mumbai,1530,Drizzle,Friday,24.7,89,22,0,Worli
+2024-01-19 23:00:00,Mumbai,459,Drizzle,Friday,27.8,88,23,0,Bandra
+2024-01-20 00:00:00,Mumbai,766,Cloudy,Saturday,34.8,93,0,0,Andheri
+2024-01-20 01:00:00,Mumbai,223,Drizzle,Saturday,34.9,88,1,0,Dadar
+2024-01-20 02:00:00,Mumbai,712,Mist,Saturday,32.9,84,2,0,Powai
+2024-01-20 03:00:00,Mumbai,589,Cloudy,Saturday,34.7,92,3,0,Worli
+2024-01-20 04:00:00,Mumbai,433,Rain,Saturday,27.9,68,4,0,Bandra
+2024-01-20 05:00:00,Mumbai,557,Rain,Saturday,32.6,86,5,0,Andheri
+2024-01-20 06:00:00,Mumbai,1403,Clear,Saturday,25.5,81,6,0,Dadar
+2024-01-20 07:00:00,Mumbai,1683,Haze,Saturday,31.1,76,7,0,Powai
+2024-01-20 08:00:00,Mumbai,4434,Mist,Saturday,29.6,76,8,1,Worli
+2024-01-20 09:00:00,Mumbai,5647,Rain,Saturday,30.6,77,9,1,Bandra
+2024-01-20 10:00:00,Mumbai,4122,Rain,Saturday,31.6,70,10,1,Andheri
+2024-01-20 11:00:00,Mumbai,1396,Cloudy,Saturday,28.9,73,11,0,Dadar
+2024-01-20 12:00:00,Mumbai,1482,Clear,Saturday,26.9,79,12,0,Powai
+2024-01-20 13:00:00,Mumbai,1406,Drizzle,Saturday,31.0,78,13,0,Worli
+2024-01-20 14:00:00,Mumbai,1447,Rain,Saturday,25.9,87,14,0,Bandra
+2024-01-20 15:00:00,Mumbai,2058,Clear,Saturday,24.1,77,15,0,Andheri
+2024-01-20 16:00:00,Mumbai,2003,Clear,Saturday,26.1,94,16,0,Dadar
+2024-01-20 17:00:00,Mumbai,3258,Rain,Saturday,33.5,84,17,1,Powai
+2024-01-20 18:00:00,Mumbai,4852,Rain,Saturday,25.0,71,18,1,Worli
+2024-01-20 19:00:00,Mumbai,4205,Clear,Saturday,26.7,76,19,1,Bandra
+2024-01-20 20:00:00,Mumbai,4623,Haze,Saturday,30.2,68,20,1,Andheri
+2024-01-20 21:00:00,Mumbai,2369,Haze,Saturday,34.1,69,21,0,Dadar
+2024-01-20 22:00:00,Mumbai,1548,Rain,Saturday,26.6,80,22,0,Powai
+2024-01-20 23:00:00,Mumbai,329,Rain,Saturday,28.5,68,23,0,Worli
+2024-01-21 00:00:00,Mumbai,682,Cloudy,Sunday,24.0,88,0,0,Bandra
+2024-01-21 01:00:00,Mumbai,420,Clear,Sunday,34.9,68,1,0,Andheri
+2024-01-21 02:00:00,Mumbai,631,Mist,Sunday,30.5,91,2,0,Dadar
+2024-01-21 03:00:00,Mumbai,403,Drizzle,Sunday,33.0,90,3,0,Powai
+2024-01-21 04:00:00,Mumbai,668,Haze,Sunday,29.4,69,4,0,Worli
+2024-01-21 05:00:00,Mumbai,334,Rain,Sunday,33.2,83,5,0,Bandra
+2024-01-21 06:00:00,Mumbai,2254,Mist,Sunday,34.5,80,6,0,Andheri
+2024-01-21 07:00:00,Mumbai,2641,Haze,Sunday,24.6,91,7,0,Dadar
+2024-01-21 08:00:00,Mumbai,6825,Mist,Sunday,30.2,74,8,1,Powai
+2024-01-21 09:00:00,Mumbai,4159,Clear,Sunday,32.3,78,9,1,Worli
+2024-01-21 10:00:00,Mumbai,2680,Rain,Sunday,31.1,67,10,1,Bandra
+2024-01-21 11:00:00,Mumbai,1412,Mist,Sunday,32.8,93,11,0,Andheri
+2024-01-21 12:00:00,Mumbai,1259,Rain,Sunday,31.4,80,12,0,Dadar
+2024-01-21 13:00:00,Mumbai,875,Drizzle,Sunday,33.6,77,13,0,Powai
+2024-01-21 14:00:00,Mumbai,2230,Drizzle,Sunday,28.3,76,14,0,Worli
+2024-01-21 15:00:00,Mumbai,1910,Drizzle,Sunday,25.8,80,15,0,Bandra
+2024-01-21 16:00:00,Mumbai,1031,Clear,Sunday,31.0,73,16,0,Andheri
+2024-01-21 17:00:00,Mumbai,4478,Drizzle,Sunday,25.1,88,17,1,Dadar
+2024-01-21 18:00:00,Mumbai,4038,Drizzle,Sunday,32.3,65,18,1,Powai
+2024-01-21 19:00:00,Mumbai,6413,Mist,Sunday,29.2,81,19,1,Worli
+2024-01-21 20:00:00,Mumbai,5130,Mist,Sunday,28.1,93,20,1,Bandra
+2024-01-21 21:00:00,Mumbai,1960,Drizzle,Sunday,34.5,89,21,0,Andheri
+2024-01-21 22:00:00,Mumbai,1822,Cloudy,Sunday,29.7,86,22,0,Dadar
+2024-01-21 23:00:00,Mumbai,648,Mist,Sunday,25.4,80,23,0,Powai
+2024-01-22 00:00:00,Mumbai,344,Mist,Monday,31.6,79,0,0,Worli
+2024-01-22 01:00:00,Mumbai,317,Rain,Monday,25.9,75,1,0,Bandra
+2024-01-22 02:00:00,Mumbai,839,Haze,Monday,25.6,85,2,0,Andheri
+2024-01-22 03:00:00,Mumbai,525,Cloudy,Monday,25.1,83,3,0,Dadar
+2024-01-22 04:00:00,Mumbai,783,Mist,Monday,29.0,68,4,0,Powai
+2024-01-22 05:00:00,Mumbai,599,Drizzle,Monday,32.1,66,5,0,Worli
+2024-01-22 06:00:00,Mumbai,1523,Clear,Monday,26.3,82,6,0,Bandra
+2024-01-22 07:00:00,Mumbai,2774,Mist,Monday,24.2,85,7,0,Andheri
+2024-01-22 08:00:00,Mumbai,4835,Mist,Monday,32.0,66,8,1,Dadar
+2024-01-22 09:00:00,Mumbai,6389,Mist,Monday,24.6,69,9,1,Powai
+2024-01-22 10:00:00,Mumbai,7760,Mist,Monday,26.5,67,10,1,Worli
+2024-01-22 11:00:00,Mumbai,1430,Rain,Monday,33.3,82,11,0,Bandra
+2024-01-22 12:00:00,Mumbai,1672,Clear,Monday,30.9,91,12,0,Andheri
+2024-01-22 13:00:00,Mumbai,2675,Haze,Monday,33.6,71,13,0,Dadar
+2024-01-22 14:00:00,Mumbai,1525,Clear,Monday,24.9,87,14,0,Powai
+2024-01-22 15:00:00,Mumbai,1081,Mist,Monday,25.3,81,15,0,Worli
+2024-01-22 16:00:00,Mumbai,2879,Haze,Monday,26.4,78,16,0,Bandra
+2024-01-22 17:00:00,Mumbai,5314,Clear,Monday,29.0,66,17,1,Andheri
+2024-01-22 18:00:00,Mumbai,4866,Mist,Monday,31.1,74,18,1,Dadar
+2024-01-22 19:00:00,Mumbai,4291,Drizzle,Monday,24.5,92,19,1,Powai
+2024-01-22 20:00:00,Mumbai,5397,Clear,Monday,30.7,91,20,1,Worli
+2024-01-22 21:00:00,Mumbai,1433,Clear,Monday,33.7,83,21,0,Bandra
+2024-01-22 22:00:00,Mumbai,1652,Cloudy,Monday,34.2,88,22,0,Andheri
+2024-01-22 23:00:00,Mumbai,441,Rain,Monday,27.1,76,23,0,Dadar
+2024-01-23 00:00:00,Mumbai,651,Haze,Tuesday,26.4,77,0,0,Powai
+2024-01-23 01:00:00,Mumbai,419,Cloudy,Tuesday,32.7,71,1,0,Worli
+2024-01-23 02:00:00,Mumbai,444,Drizzle,Tuesday,33.7,81,2,0,Bandra
+2024-01-23 03:00:00,Mumbai,578,Cloudy,Tuesday,33.9,66,3,0,Andheri
+2024-01-23 04:00:00,Mumbai,550,Drizzle,Tuesday,25.0,73,4,0,Dadar
+2024-01-23 05:00:00,Mumbai,760,Clear,Tuesday,34.5,70,5,0,Powai
+2024-01-23 06:00:00,Mumbai,2274,Drizzle,Tuesday,30.5,92,6,0,Worli
+2024-01-23 07:00:00,Mumbai,2356,Rain,Tuesday,34.4,92,7,0,Bandra
+2024-01-23 08:00:00,Mumbai,3939,Rain,Tuesday,31.1,87,8,1,Andheri
+2024-01-23 09:00:00,Mumbai,4010,Rain,Tuesday,28.7,82,9,1,Dadar
+2024-01-23 10:00:00,Mumbai,4269,Cloudy,Tuesday,31.6,83,10,1,Powai
+2024-01-23 11:00:00,Mumbai,1157,Drizzle,Tuesday,25.5,85,11,0,Worli
+2024-01-23 12:00:00,Mumbai,1658,Clear,Tuesday,28.1,77,12,0,Bandra
+2024-01-23 13:00:00,Mumbai,2151,Cloudy,Tuesday,30.6,67,13,0,Andheri
+2024-01-23 14:00:00,Mumbai,1006,Haze,Tuesday,35.0,67,14,0,Dadar
+2024-01-23 15:00:00,Mumbai,2629,Haze,Tuesday,26.3,67,15,0,Powai
+2024-01-23 16:00:00,Mumbai,2485,Cloudy,Tuesday,29.5,88,16,0,Worli
+2024-01-23 17:00:00,Mumbai,6169,Rain,Tuesday,27.4,72,17,1,Bandra
+2024-01-23 18:00:00,Mumbai,5638,Haze,Tuesday,30.1,91,18,1,Andheri
+2024-01-23 19:00:00,Mumbai,6056,Mist,Tuesday,34.9,87,19,1,Dadar
+2024-01-23 20:00:00,Mumbai,4435,Haze,Tuesday,33.0,82,20,1,Powai
+2024-01-23 21:00:00,Mumbai,2224,Mist,Tuesday,34.1,71,21,0,Worli
+2024-01-23 22:00:00,Mumbai,2162,Cloudy,Tuesday,31.1,90,22,0,Bandra
+2024-01-23 23:00:00,Mumbai,406,Rain,Tuesday,33.5,78,23,0,Andheri
+2024-01-24 00:00:00,Mumbai,629,Cloudy,Wednesday,33.7,93,0,0,Dadar
+2024-01-24 01:00:00,Mumbai,818,Clear,Wednesday,27.9,70,1,0,Powai
+2024-01-24 02:00:00,Mumbai,374,Rain,Wednesday,35.0,73,2,0,Worli
+2024-01-24 03:00:00,Mumbai,326,Rain,Wednesday,26.9,77,3,0,Bandra
+2024-01-24 04:00:00,Mumbai,883,Clear,Wednesday,24.3,70,4,0,Andheri
+2024-01-24 05:00:00,Mumbai,694,Mist,Wednesday,28.4,90,5,0,Dadar
+2024-01-24 06:00:00,Mumbai,2969,Clear,Wednesday,25.3,92,6,0,Powai
+2024-01-24 07:00:00,Mumbai,1714,Clear,Wednesday,28.6,75,7,0,Worli
+2024-01-24 08:00:00,Mumbai,4856,Haze,Wednesday,30.2,65,8,1,Bandra
+2024-01-24 09:00:00,Mumbai,5336,Mist,Wednesday,32.8,77,9,1,Andheri
+2024-01-24 10:00:00,Mumbai,6697,Drizzle,Wednesday,32.0,76,10,1,Dadar
+2024-01-24 11:00:00,Mumbai,2691,Mist,Wednesday,24.6,84,11,0,Powai
+2024-01-24 12:00:00,Mumbai,2752,Cloudy,Wednesday,32.2,84,12,0,Worli
+2024-01-24 13:00:00,Mumbai,1216,Haze,Wednesday,25.3,76,13,0,Bandra
+2024-01-24 14:00:00,Mumbai,1158,Haze,Wednesday,32.9,92,14,0,Andheri
+2024-01-24 15:00:00,Mumbai,1687,Drizzle,Wednesday,31.4,70,15,0,Dadar
+2024-01-24 16:00:00,Mumbai,1499,Rain,Wednesday,30.8,65,16,0,Powai
+2024-01-24 17:00:00,Mumbai,6155,Mist,Wednesday,29.2,86,17,1,Worli
+2024-01-24 18:00:00,Mumbai,7561,Mist,Wednesday,34.5,71,18,1,Bandra
+2024-01-24 19:00:00,Mumbai,5250,Mist,Wednesday,27.8,78,19,1,Andheri
+2024-01-24 20:00:00,Mumbai,4964,Drizzle,Wednesday,32.5,92,20,1,Dadar
+2024-01-24 21:00:00,Mumbai,2395,Haze,Wednesday,32.5,65,21,0,Powai
+2024-01-24 22:00:00,Mumbai,1795,Rain,Wednesday,25.6,69,22,0,Worli
+2024-01-24 23:00:00,Mumbai,554,Haze,Wednesday,28.6,76,23,0,Bandra
+2024-01-25 00:00:00,Mumbai,881,Haze,Thursday,30.6,91,0,0,Andheri
+2024-01-25 01:00:00,Mumbai,608,Cloudy,Thursday,34.3,65,1,0,Dadar
+2024-01-25 02:00:00,Mumbai,531,Cloudy,Thursday,30.4,77,2,0,Powai
+2024-01-25 03:00:00,Mumbai,300,Rain,Thursday,33.1,69,3,0,Worli
+2024-01-25 04:00:00,Mumbai,433,Drizzle,Thursday,27.9,71,4,0,Bandra
+2024-01-25 05:00:00,Mumbai,518,Cloudy,Thursday,26.0,90,5,0,Andheri
+2024-01-25 06:00:00,Mumbai,1232,Rain,Thursday,33.8,75,6,0,Dadar
+2024-01-25 07:00:00,Mumbai,2334,Clear,Thursday,27.3,66,7,0,Powai
+2024-01-25 08:00:00,Mumbai,6939,Haze,Thursday,26.7,66,8,1,Worli
+2024-01-25 09:00:00,Mumbai,5642,Mist,Thursday,32.8,93,9,1,Bandra
+2024-01-25 10:00:00,Mumbai,5248,Haze,Thursday,30.2,77,10,1,Andheri
+2024-01-25 11:00:00,Mumbai,1327,Cloudy,Thursday,29.9,87,11,0,Dadar
+2024-01-25 12:00:00,Mumbai,2925,Cloudy,Thursday,24.3,88,12,0,Powai
+2024-01-25 13:00:00,Mumbai,2105,Cloudy,Thursday,28.7,93,13,0,Worli
+2024-01-25 14:00:00,Mumbai,2971,Clear,Thursday,34.5,75,14,0,Bandra
+2024-01-25 15:00:00,Mumbai,2831,Cloudy,Thursday,33.7,74,15,0,Andheri
+2024-01-25 16:00:00,Mumbai,1957,Drizzle,Thursday,26.9,91,16,0,Dadar
+2024-01-25 17:00:00,Mumbai,4353,Clear,Thursday,30.0,81,17,1,Powai
+2024-01-25 18:00:00,Mumbai,4266,Mist,Thursday,24.8,94,18,1,Worli
+2024-01-25 19:00:00,Mumbai,5824,Haze,Thursday,33.6,83,19,1,Bandra
+2024-01-25 20:00:00,Mumbai,5111,Mist,Thursday,32.8,66,20,1,Andheri
+2024-01-25 21:00:00,Mumbai,1379,Rain,Thursday,32.3,65,21,0,Dadar
+2024-01-25 22:00:00,Mumbai,2294,Rain,Thursday,24.9,71,22,0,Powai
+2024-01-25 23:00:00,Mumbai,684,Haze,Thursday,26.8,80,23,0,Worli
+2024-01-26 00:00:00,Mumbai,433,Drizzle,Friday,24.5,72,0,0,Bandra
+2024-01-26 01:00:00,Mumbai,363,Rain,Friday,34.7,88,1,0,Andheri
+2024-01-26 02:00:00,Mumbai,761,Mist,Friday,28.2,79,2,0,Dadar
+2024-01-26 03:00:00,Mumbai,719,Clear,Friday,31.7,90,3,0,Powai
+2024-01-26 04:00:00,Mumbai,387,Clear,Friday,29.2,72,4,0,Worli
+2024-01-26 05:00:00,Mumbai,689,Mist,Friday,31.2,65,5,0,Bandra
+2024-01-26 06:00:00,Mumbai,1833,Drizzle,Friday,29.1,92,6,0,Andheri
+2024-01-26 07:00:00,Mumbai,1731,Rain,Friday,27.6,65,7,0,Dadar
+2024-01-26 08:00:00,Mumbai,7986,Mist,Friday,28.8,88,8,1,Powai
+2024-01-26 09:00:00,Mumbai,4984,Clear,Friday,30.8,76,9,1,Worli
+2024-01-26 10:00:00,Mumbai,6485,Clear,Friday,28.9,87,10,1,Bandra
+2024-01-26 11:00:00,Mumbai,1041,Drizzle,Friday,29.6,70,11,0,Andheri
+2024-01-26 12:00:00,Mumbai,1860,Rain,Friday,24.6,74,12,0,Dadar
+2024-01-26 13:00:00,Mumbai,2183,Clear,Friday,29.3,77,13,0,Powai
+2024-01-26 14:00:00,Mumbai,1554,Drizzle,Friday,28.3,74,14,0,Worli
+2024-01-26 15:00:00,Mumbai,1331,Rain,Friday,32.5,89,15,0,Bandra
+2024-01-26 16:00:00,Mumbai,2699,Cloudy,Friday,33.7,66,16,0,Andheri
+2024-01-26 17:00:00,Mumbai,4120,Cloudy,Friday,28.7,70,17,1,Dadar
+2024-01-26 18:00:00,Mumbai,6498,Clear,Friday,33.1,92,18,1,Powai
+2024-01-26 19:00:00,Mumbai,5797,Haze,Friday,32.2,80,19,1,Worli
+2024-01-26 20:00:00,Mumbai,5822,Haze,Friday,34.5,87,20,1,Bandra
+2024-01-26 21:00:00,Mumbai,1436,Mist,Friday,33.9,74,21,0,Andheri
+2024-01-26 22:00:00,Mumbai,1086,Clear,Friday,26.1,68,22,0,Dadar
+2024-01-26 23:00:00,Mumbai,387,Haze,Friday,33.3,72,23,0,Powai
+2024-01-27 00:00:00,Mumbai,420,Rain,Saturday,34.2,85,0,0,Worli
+2024-01-27 01:00:00,Mumbai,741,Clear,Saturday,31.3,88,1,0,Bandra
+2024-01-27 02:00:00,Mumbai,526,Cloudy,Saturday,29.9,84,2,0,Andheri
+2024-01-27 03:00:00,Mumbai,356,Haze,Saturday,27.7,81,3,0,Dadar
+2024-01-27 04:00:00,Mumbai,281,Haze,Saturday,31.2,80,4,0,Powai
+2024-01-27 05:00:00,Mumbai,455,Drizzle,Saturday,31.2,71,5,0,Worli
+2024-01-27 06:00:00,Mumbai,1077,Mist,Saturday,25.2,72,6,0,Bandra
+2024-01-27 07:00:00,Mumbai,2354,Clear,Saturday,24.2,80,7,0,Andheri
+2024-01-27 08:00:00,Mumbai,4812,Cloudy,Saturday,32.0,68,8,1,Dadar
+2024-01-27 09:00:00,Mumbai,5497,Clear,Saturday,25.9,91,9,1,Powai
+2024-01-27 10:00:00,Mumbai,5288,Mist,Saturday,27.7,70,10,1,Worli
+2024-01-27 11:00:00,Mumbai,1457,Mist,Saturday,32.5,86,11,0,Bandra
+2024-01-27 12:00:00,Mumbai,1039,Mist,Saturday,28.2,70,12,0,Andheri
+2024-01-27 13:00:00,Mumbai,2282,Clear,Saturday,24.4,92,13,0,Dadar
+2024-01-27 14:00:00,Mumbai,1361,Clear,Saturday,31.1,65,14,0,Powai
+2024-01-27 15:00:00,Mumbai,1602,Mist,Saturday,25.4,76,15,0,Worli
+2024-01-27 16:00:00,Mumbai,1104,Rain,Saturday,29.8,82,16,0,Bandra
+2024-01-27 17:00:00,Mumbai,6595,Clear,Saturday,32.0,70,17,1,Andheri
+2024-01-27 18:00:00,Mumbai,4644,Cloudy,Saturday,26.1,73,18,1,Dadar
+2024-01-27 19:00:00,Mumbai,3477,Drizzle,Saturday,31.0,79,19,1,Powai
+2024-01-27 20:00:00,Mumbai,6147,Mist,Saturday,25.0,70,20,1,Worli
+2024-01-27 21:00:00,Mumbai,1913,Drizzle,Saturday,32.4,78,21,0,Bandra
+2024-01-27 22:00:00,Mumbai,2140,Rain,Saturday,27.6,75,22,0,Andheri
+2024-01-27 23:00:00,Mumbai,450,Rain,Saturday,25.0,85,23,0,Dadar
+2024-01-28 00:00:00,Mumbai,291,Clear,Sunday,29.6,85,0,0,Powai
+2024-01-28 01:00:00,Mumbai,564,Mist,Sunday,29.6,88,1,0,Worli
+2024-01-28 02:00:00,Mumbai,676,Clear,Sunday,32.4,89,2,0,Bandra
+2024-01-28 03:00:00,Mumbai,709,Cloudy,Sunday,34.1,94,3,0,Andheri
+2024-01-28 04:00:00,Mumbai,291,Rain,Sunday,31.6,85,4,0,Dadar
+2024-01-28 05:00:00,Mumbai,621,Cloudy,Sunday,29.7,74,5,0,Powai
+2024-01-28 06:00:00,Mumbai,2492,Haze,Sunday,31.7,77,6,0,Worli
+2024-01-28 07:00:00,Mumbai,1293,Mist,Sunday,28.7,70,7,0,Bandra
+2024-01-28 08:00:00,Mumbai,5553,Clear,Sunday,30.4,77,8,1,Andheri
+2024-01-28 09:00:00,Mumbai,7300,Cloudy,Sunday,27.7,68,9,1,Dadar
+2024-01-28 10:00:00,Mumbai,5264,Clear,Sunday,33.5,81,10,1,Powai
+2024-01-28 11:00:00,Mumbai,1102,Rain,Sunday,27.3,94,11,0,Worli
+2024-01-28 12:00:00,Mumbai,1977,Rain,Sunday,31.5,71,12,0,Bandra
+2024-01-28 13:00:00,Mumbai,961,Mist,Sunday,31.1,77,13,0,Andheri
+2024-01-28 14:00:00,Mumbai,1235,Drizzle,Sunday,32.8,86,14,0,Dadar
+2024-01-28 15:00:00,Mumbai,1319,Drizzle,Sunday,31.5,88,15,0,Powai
+2024-01-28 16:00:00,Mumbai,1673,Mist,Sunday,25.1,92,16,0,Worli
+2024-01-28 17:00:00,Mumbai,3881,Cloudy,Sunday,32.1,74,17,1,Bandra
+2024-01-28 18:00:00,Mumbai,5014,Rain,Sunday,33.4,68,18,1,Andheri
+2024-01-28 19:00:00,Mumbai,4399,Clear,Sunday,34.9,67,19,1,Dadar
+2024-01-28 20:00:00,Mumbai,3141,Rain,Sunday,33.4,68,20,1,Powai
+2024-01-28 21:00:00,Mumbai,977,Haze,Sunday,28.9,82,21,0,Worli
+2024-01-28 22:00:00,Mumbai,1297,Clear,Sunday,29.0,91,22,0,Bandra
+2024-01-28 23:00:00,Mumbai,319,Clear,Sunday,30.2,83,23,0,Andheri
+2024-01-29 00:00:00,Mumbai,519,Cloudy,Monday,28.6,94,0,0,Dadar
+2024-01-29 01:00:00,Mumbai,818,Cloudy,Monday,32.3,82,1,0,Powai
+2024-01-29 02:00:00,Mumbai,429,Haze,Monday,28.4,87,2,0,Worli
+2024-01-29 03:00:00,Mumbai,605,Rain,Monday,25.6,73,3,0,Bandra
+2024-01-29 04:00:00,Mumbai,684,Cloudy,Monday,33.8,70,4,0,Andheri
+2024-01-29 05:00:00,Mumbai,621,Cloudy,Monday,31.5,75,5,0,Dadar
+2024-01-29 06:00:00,Mumbai,2887,Mist,Monday,34.0,66,6,0,Powai
+2024-01-29 07:00:00,Mumbai,2381,Clear,Monday,25.1,89,7,0,Worli
+2024-01-29 08:00:00,Mumbai,5125,Cloudy,Monday,30.2,89,8,1,Bandra
+2024-01-29 09:00:00,Mumbai,5752,Mist,Monday,24.7,79,9,1,Andheri
+2024-01-29 10:00:00,Mumbai,6831,Haze,Monday,29.1,68,10,1,Dadar
+2024-01-29 11:00:00,Mumbai,2553,Haze,Monday,30.3,75,11,0,Powai
+2024-01-29 12:00:00,Mumbai,2908,Cloudy,Monday,33.5,82,12,0,Worli
+2024-01-29 13:00:00,Mumbai,2004,Haze,Monday,34.6,81,13,0,Bandra
+2024-01-29 14:00:00,Mumbai,1383,Haze,Monday,32.0,81,14,0,Andheri
+2024-01-29 15:00:00,Mumbai,1942,Mist,Monday,24.3,73,15,0,Dadar
+2024-01-29 16:00:00,Mumbai,2629,Mist,Monday,27.2,84,16,0,Powai
+2024-01-29 17:00:00,Mumbai,6753,Haze,Monday,28.4,84,17,1,Worli
+2024-01-29 18:00:00,Mumbai,5279,Cloudy,Monday,29.3,86,18,1,Bandra
+2024-01-29 19:00:00,Mumbai,7237,Mist,Monday,33.3,87,19,1,Andheri
+2024-01-29 20:00:00,Mumbai,4447,Haze,Monday,26.3,80,20,1,Dadar
+2024-01-29 21:00:00,Mumbai,2558,Cloudy,Monday,31.6,75,21,0,Powai
+2024-01-29 22:00:00,Mumbai,1216,Clear,Monday,31.3,67,22,0,Worli
+2024-01-29 23:00:00,Mumbai,709,Mist,Monday,29.3,87,23,0,Bandra
+2024-01-30 00:00:00,Mumbai,885,Mist,Tuesday,32.7,88,0,0,Andheri
+2024-01-30 01:00:00,Mumbai,775,Haze,Tuesday,33.6,82,1,0,Dadar
+2024-01-30 02:00:00,Mumbai,448,Mist,Tuesday,28.0,83,2,0,Powai
+2024-01-30 03:00:00,Mumbai,653,Mist,Tuesday,32.0,67,3,0,Worli
+2024-01-30 04:00:00,Mumbai,709,Clear,Tuesday,31.3,75,4,0,Bandra
+2024-01-30 05:00:00,Mumbai,513,Rain,Tuesday,28.6,73,5,0,Andheri
+2024-01-30 06:00:00,Mumbai,2410,Haze,Tuesday,27.8,80,6,0,Dadar
+2024-01-30 07:00:00,Mumbai,2853,Cloudy,Tuesday,28.2,84,7,0,Powai
+2024-01-30 08:00:00,Mumbai,5707,Rain,Tuesday,28.2,94,8,1,Worli
+2024-01-30 09:00:00,Mumbai,5737,Rain,Tuesday,29.2,89,9,1,Bandra
+2024-01-30 10:00:00,Mumbai,7985,Haze,Tuesday,32.5,65,10,1,Andheri
+2024-01-30 11:00:00,Mumbai,1777,Mist,Tuesday,28.9,66,11,0,Dadar
+2024-01-30 12:00:00,Mumbai,1783,Drizzle,Tuesday,34.8,75,12,0,Powai
+2024-01-30 13:00:00,Mumbai,1891,Mist,Tuesday,25.0,70,13,0,Worli
+2024-01-30 14:00:00,Mumbai,1737,Clear,Tuesday,33.1,76,14,0,Bandra
+2024-01-30 15:00:00,Mumbai,1566,Drizzle,Tuesday,32.2,80,15,0,Andheri
+2024-01-30 16:00:00,Mumbai,965,Drizzle,Tuesday,32.9,70,16,0,Dadar
+2024-01-30 17:00:00,Mumbai,5150,Clear,Tuesday,29.4,67,17,1,Powai
+2024-01-30 18:00:00,Mumbai,5526,Rain,Tuesday,31.7,69,18,1,Worli
+2024-01-30 19:00:00,Mumbai,4980,Haze,Tuesday,32.8,75,19,1,Bandra
+2024-01-30 20:00:00,Mumbai,5025,Cloudy,Tuesday,24.0,91,20,1,Andheri
+2024-01-30 21:00:00,Mumbai,2123,Haze,Tuesday,26.8,70,21,0,Dadar
+2024-01-30 22:00:00,Mumbai,1577,Clear,Tuesday,26.5,91,22,0,Powai
+2024-01-30 23:00:00,Mumbai,523,Clear,Tuesday,27.4,88,23,0,Worli
+2024-01-31 00:00:00,Mumbai,630,Haze,Wednesday,28.7,71,0,0,Bandra
+2024-01-31 01:00:00,Mumbai,470,Clear,Wednesday,33.3,86,1,0,Andheri
+2024-01-31 02:00:00,Mumbai,327,Rain,Wednesday,24.5,87,2,0,Dadar
+2024-01-31 03:00:00,Mumbai,581,Rain,Wednesday,29.1,72,3,0,Powai
+2024-01-31 04:00:00,Mumbai,549,Cloudy,Wednesday,26.8,92,4,0,Worli
+2024-01-31 05:00:00,Mumbai,579,Rain,Wednesday,30.6,80,5,0,Bandra
+2024-01-31 06:00:00,Mumbai,1478,Mist,Wednesday,24.5,72,6,0,Andheri
+2024-01-31 07:00:00,Mumbai,1561,Cloudy,Wednesday,27.8,74,7,0,Dadar
+2024-01-31 08:00:00,Mumbai,4831,Drizzle,Wednesday,32.2,83,8,1,Powai
+2024-01-31 09:00:00,Mumbai,4100,Rain,Wednesday,24.3,91,9,1,Worli
+2024-01-31 10:00:00,Mumbai,7548,Clear,Wednesday,30.2,82,10,1,Bandra
+2024-01-31 11:00:00,Mumbai,2686,Cloudy,Wednesday,33.3,82,11,0,Andheri
+2024-01-31 12:00:00,Mumbai,1371,Drizzle,Wednesday,31.7,85,12,0,Dadar
+2024-01-31 13:00:00,Mumbai,2592,Clear,Wednesday,28.2,68,13,0,Powai
+2024-01-31 14:00:00,Mumbai,2160,Mist,Wednesday,30.7,75,14,0,Worli
+2024-01-31 15:00:00,Mumbai,1683,Cloudy,Wednesday,25.6,85,15,0,Bandra
+2024-01-31 16:00:00,Mumbai,1051,Clear,Wednesday,31.9,69,16,0,Andheri
+2024-01-31 17:00:00,Mumbai,6164,Rain,Wednesday,30.7,75,17,1,Dadar
+2024-01-31 18:00:00,Mumbai,7121,Haze,Wednesday,32.6,76,18,1,Powai
+2024-01-31 19:00:00,Mumbai,5361,Haze,Wednesday,27.2,89,19,1,Worli
+2024-01-31 20:00:00,Mumbai,5867,Mist,Wednesday,32.0,92,20,1,Bandra
+2024-01-31 21:00:00,Mumbai,1211,Haze,Wednesday,33.6,69,21,0,Andheri
+2024-01-31 22:00:00,Mumbai,2116,Clear,Wednesday,24.3,80,22,0,Dadar
+2024-01-31 23:00:00,Mumbai,720,Cloudy,Wednesday,33.5,94,23,0,Powai
+2024-02-01 00:00:00,Mumbai,730,Mist,Thursday,28.7,81,0,0,Worli
+2024-02-01 01:00:00,Mumbai,589,Mist,Thursday,29.6,70,1,0,Bandra
+2024-02-01 02:00:00,Mumbai,301,Haze,Thursday,24.9,84,2,0,Andheri
+2024-02-01 03:00:00,Mumbai,740,Cloudy,Thursday,34.7,88,3,0,Dadar
+2024-02-01 04:00:00,Mumbai,591,Rain,Thursday,32.4,82,4,0,Powai
+2024-02-01 05:00:00,Mumbai,750,Cloudy,Thursday,26.6,75,5,0,Worli
+2024-02-01 06:00:00,Mumbai,1721,Haze,Thursday,31.5,90,6,0,Bandra
+2024-02-01 07:00:00,Mumbai,1108,Drizzle,Thursday,33.8,88,7,0,Andheri
+2024-02-01 08:00:00,Mumbai,4634,Rain,Thursday,26.5,84,8,1,Dadar
+2024-02-01 09:00:00,Mumbai,4904,Haze,Thursday,29.9,69,9,1,Powai
+2024-02-01 10:00:00,Mumbai,6028,Rain,Thursday,34.7,69,10,1,Worli
+2024-02-01 11:00:00,Mumbai,995,Rain,Thursday,30.7,71,11,0,Bandra
+2024-02-01 12:00:00,Mumbai,2331,Clear,Thursday,27.7,87,12,0,Andheri
+2024-02-01 13:00:00,Mumbai,2953,Clear,Thursday,27.1,66,13,0,Dadar
+2024-02-01 14:00:00,Mumbai,2449,Mist,Thursday,24.9,78,14,0,Powai
+2024-02-01 15:00:00,Mumbai,2095,Rain,Thursday,28.1,89,15,0,Worli
+2024-02-01 16:00:00,Mumbai,1076,Cloudy,Thursday,33.3,91,16,0,Bandra
+2024-02-01 17:00:00,Mumbai,3445,Drizzle,Thursday,31.8,85,17,1,Andheri
+2024-02-01 18:00:00,Mumbai,6218,Mist,Thursday,26.5,90,18,1,Dadar
+2024-02-01 19:00:00,Mumbai,6419,Cloudy,Thursday,28.8,94,19,1,Powai
+2024-02-01 20:00:00,Mumbai,6488,Cloudy,Thursday,25.0,82,20,1,Worli
+2024-02-01 21:00:00,Mumbai,1915,Haze,Thursday,29.2,90,21,0,Bandra
+2024-02-01 22:00:00,Mumbai,1615,Drizzle,Thursday,26.8,92,22,0,Andheri
+2024-02-01 23:00:00,Mumbai,547,Drizzle,Thursday,29.1,83,23,0,Dadar
+2024-02-02 00:00:00,Mumbai,758,Haze,Friday,27.1,82,0,0,Powai
+2024-02-02 01:00:00,Mumbai,686,Cloudy,Friday,26.3,67,1,0,Worli
+2024-02-02 02:00:00,Mumbai,666,Haze,Friday,29.8,77,2,0,Bandra
+2024-02-02 03:00:00,Mumbai,602,Cloudy,Friday,29.8,68,3,0,Andheri
+2024-02-02 04:00:00,Mumbai,519,Clear,Friday,25.8,70,4,0,Dadar
+2024-02-02 05:00:00,Mumbai,463,Drizzle,Friday,30.9,65,5,0,Powai
+2024-02-02 06:00:00,Mumbai,1961,Clear,Friday,33.0,93,6,0,Worli
+2024-02-02 07:00:00,Mumbai,2151,Mist,Friday,26.1,85,7,0,Bandra
+2024-02-02 08:00:00,Mumbai,4054,Rain,Friday,26.0,88,8,1,Andheri
+2024-02-02 09:00:00,Mumbai,6930,Mist,Friday,34.9,90,9,1,Dadar
+2024-02-02 10:00:00,Mumbai,6609,Haze,Friday,34.3,91,10,1,Powai
+2024-02-02 11:00:00,Mumbai,1320,Mist,Friday,34.3,78,11,0,Worli
+2024-02-02 12:00:00,Mumbai,2477,Clear,Friday,24.0,82,12,0,Bandra
+2024-02-02 13:00:00,Mumbai,2990,Mist,Friday,28.2,91,13,0,Andheri
+2024-02-02 14:00:00,Mumbai,2891,Mist,Friday,27.1,81,14,0,Dadar
+2024-02-02 15:00:00,Mumbai,1429,Clear,Friday,34.5,78,15,0,Powai
+2024-02-02 16:00:00,Mumbai,2207,Clear,Friday,30.9,72,16,0,Worli
+2024-02-02 17:00:00,Mumbai,4023,Clear,Friday,24.7,82,17,1,Bandra
+2024-02-02 18:00:00,Mumbai,3746,Drizzle,Friday,34.8,76,18,1,Andheri
+2024-02-02 19:00:00,Mumbai,3361,Rain,Friday,25.6,78,19,1,Dadar
+2024-02-02 20:00:00,Mumbai,7187,Cloudy,Friday,27.6,91,20,1,Powai
+2024-02-02 21:00:00,Mumbai,1067,Drizzle,Friday,24.7,80,21,0,Worli
+2024-02-02 22:00:00,Mumbai,1126,Rain,Friday,24.6,72,22,0,Bandra
+2024-02-02 23:00:00,Mumbai,873,Cloudy,Friday,31.2,89,23,0,Andheri
+2024-02-03 00:00:00,Mumbai,435,Rain,Saturday,24.2,85,0,0,Dadar
+2024-02-03 01:00:00,Mumbai,686,Haze,Saturday,29.4,90,1,0,Powai
+2024-02-03 02:00:00,Mumbai,649,Mist,Saturday,26.4,66,2,0,Worli
+2024-02-03 03:00:00,Mumbai,713,Cloudy,Saturday,31.4,80,3,0,Bandra
+2024-02-03 04:00:00,Mumbai,522,Clear,Saturday,26.7,73,4,0,Andheri
+2024-02-03 05:00:00,Mumbai,435,Mist,Saturday,30.1,77,5,0,Dadar
+2024-02-03 06:00:00,Mumbai,1724,Clear,Saturday,29.2,89,6,0,Powai
+2024-02-03 07:00:00,Mumbai,2207,Drizzle,Saturday,29.3,84,7,0,Worli
+2024-02-03 08:00:00,Mumbai,4792,Rain,Saturday,33.1,85,8,1,Bandra
+2024-02-03 09:00:00,Mumbai,5322,Rain,Saturday,33.2,93,9,1,Andheri
+2024-02-03 10:00:00,Mumbai,3088,Drizzle,Saturday,29.7,87,10,1,Dadar
+2024-02-03 11:00:00,Mumbai,1614,Rain,Saturday,33.1,81,11,0,Powai
+2024-02-03 12:00:00,Mumbai,2246,Haze,Saturday,32.6,91,12,0,Worli
+2024-02-03 13:00:00,Mumbai,1211,Drizzle,Saturday,28.4,76,13,0,Bandra
+2024-02-03 14:00:00,Mumbai,1574,Mist,Saturday,26.0,77,14,0,Andheri
+2024-02-03 15:00:00,Mumbai,1601,Clear,Saturday,26.6,67,15,0,Dadar
+2024-02-03 16:00:00,Mumbai,2463,Mist,Saturday,30.0,69,16,0,Powai
+2024-02-03 17:00:00,Mumbai,6308,Clear,Saturday,25.2,90,17,1,Worli
+2024-02-03 18:00:00,Mumbai,4095,Rain,Saturday,29.3,91,18,1,Bandra
+2024-02-03 19:00:00,Mumbai,6124,Mist,Saturday,25.5,76,19,1,Andheri
+2024-02-03 20:00:00,Mumbai,5771,Clear,Saturday,26.2,72,20,1,Dadar
+2024-02-03 21:00:00,Mumbai,808,Rain,Saturday,30.0,69,21,0,Powai
+2024-02-03 22:00:00,Mumbai,2019,Clear,Saturday,28.7,77,22,0,Worli
+2024-02-03 23:00:00,Mumbai,592,Mist,Saturday,33.5,90,23,0,Bandra
+2024-02-04 00:00:00,Mumbai,210,Drizzle,Sunday,25.3,84,0,0,Andheri
+2024-02-04 01:00:00,Mumbai,257,Mist,Sunday,25.8,72,1,0,Dadar
+2024-02-04 02:00:00,Mumbai,244,Drizzle,Sunday,29.5,91,2,0,Powai
+2024-02-04 03:00:00,Mumbai,325,Cloudy,Sunday,31.8,83,3,0,Worli
+2024-02-04 04:00:00,Mumbai,392,Drizzle,Sunday,32.1,68,4,0,Bandra
+2024-02-04 05:00:00,Mumbai,544,Cloudy,Sunday,34.4,71,5,0,Andheri
+2024-02-04 06:00:00,Mumbai,1181,Haze,Sunday,27.0,73,6,0,Dadar
+2024-02-04 07:00:00,Mumbai,1281,Rain,Sunday,27.3,87,7,0,Powai
+2024-02-04 08:00:00,Mumbai,3915,Mist,Sunday,25.2,81,8,1,Worli
+2024-02-04 09:00:00,Mumbai,4820,Cloudy,Sunday,25.5,65,9,1,Bandra
+2024-02-04 10:00:00,Mumbai,5144,Drizzle,Sunday,24.7,85,10,1,Andheri
+2024-02-04 11:00:00,Mumbai,1045,Cloudy,Sunday,34.8,80,11,0,Dadar
+2024-02-04 12:00:00,Mumbai,1062,Clear,Sunday,27.5,83,12,0,Powai
+2024-02-04 13:00:00,Mumbai,1085,Cloudy,Sunday,33.6,72,13,0,Worli
+2024-02-04 14:00:00,Mumbai,2448,Cloudy,Sunday,30.1,77,14,0,Bandra
+2024-02-04 15:00:00,Mumbai,1818,Cloudy,Sunday,29.6,75,15,0,Andheri
+2024-02-04 16:00:00,Mumbai,1393,Clear,Sunday,25.7,92,16,0,Dadar
+2024-02-04 17:00:00,Mumbai,3230,Rain,Sunday,32.5,80,17,1,Powai
+2024-02-04 18:00:00,Mumbai,5074,Mist,Sunday,28.7,84,18,1,Worli
+2024-02-04 19:00:00,Mumbai,5113,Drizzle,Sunday,33.7,91,19,1,Bandra
+2024-02-04 20:00:00,Mumbai,4137,Mist,Sunday,29.4,82,20,1,Andheri
+2024-02-04 21:00:00,Mumbai,1408,Mist,Sunday,31.7,78,21,0,Dadar
+2024-02-04 22:00:00,Mumbai,1454,Mist,Sunday,32.2,81,22,0,Powai
+2024-02-04 23:00:00,Mumbai,276,Mist,Sunday,32.5,74,23,0,Worli
+2024-02-05 00:00:00,Mumbai,462,Drizzle,Monday,26.0,82,0,0,Bandra
+2024-02-05 01:00:00,Mumbai,880,Cloudy,Monday,28.1,78,1,0,Andheri
+2024-02-05 02:00:00,Mumbai,348,Rain,Monday,24.2,92,2,0,Dadar
+2024-02-05 03:00:00,Mumbai,417,Cloudy,Monday,28.0,78,3,0,Powai
+2024-02-05 04:00:00,Mumbai,323,Cloudy,Monday,32.9,67,4,0,Worli
+2024-02-05 05:00:00,Mumbai,677,Clear,Monday,25.7,67,5,0,Bandra
+2024-02-05 06:00:00,Mumbai,2589,Cloudy,Monday,24.9,79,6,0,Andheri
+2024-02-05 07:00:00,Mumbai,2359,Clear,Monday,34.5,77,7,0,Dadar
+2024-02-05 08:00:00,Mumbai,5453,Drizzle,Monday,32.7,92,8,1,Powai
+2024-02-05 09:00:00,Mumbai,7296,Mist,Monday,34.7,89,9,1,Worli
+2024-02-05 10:00:00,Mumbai,5134,Cloudy,Monday,32.8,84,10,1,Bandra
+2024-02-05 11:00:00,Mumbai,1284,Clear,Monday,29.0,80,11,0,Andheri
+2024-02-05 12:00:00,Mumbai,1596,Mist,Monday,30.8,89,12,0,Dadar
+2024-02-05 13:00:00,Mumbai,2166,Haze,Monday,33.3,77,13,0,Powai
+2024-02-05 14:00:00,Mumbai,2328,Rain,Monday,26.2,73,14,0,Worli
+2024-02-05 15:00:00,Mumbai,2864,Haze,Monday,28.8,74,15,0,Bandra
+2024-02-05 16:00:00,Mumbai,1210,Clear,Monday,30.9,82,16,0,Andheri
+2024-02-05 17:00:00,Mumbai,5497,Rain,Monday,31.8,89,17,1,Dadar
+2024-02-05 18:00:00,Mumbai,6443,Mist,Monday,29.6,76,18,1,Powai
+2024-02-05 19:00:00,Mumbai,4281,Mist,Monday,33.8,93,19,1,Worli
+2024-02-05 20:00:00,Mumbai,6633,Clear,Monday,26.4,94,20,1,Bandra
+2024-02-05 21:00:00,Mumbai,1601,Drizzle,Monday,28.4,81,21,0,Andheri
+2024-02-05 22:00:00,Mumbai,1424,Mist,Monday,29.6,89,22,0,Dadar
+2024-02-05 23:00:00,Mumbai,783,Mist,Monday,34.3,82,23,0,Powai
+2024-02-06 00:00:00,Mumbai,620,Cloudy,Tuesday,34.7,83,0,0,Worli
+2024-02-06 01:00:00,Mumbai,336,Drizzle,Tuesday,27.5,83,1,0,Bandra
+2024-02-06 02:00:00,Mumbai,504,Mist,Tuesday,28.7,73,2,0,Andheri
+2024-02-06 03:00:00,Mumbai,451,Mist,Tuesday,33.7,81,3,0,Dadar
+2024-02-06 04:00:00,Mumbai,795,Cloudy,Tuesday,34.3,92,4,0,Powai
+2024-02-06 05:00:00,Mumbai,501,Cloudy,Tuesday,28.3,79,5,0,Worli
+2024-02-06 06:00:00,Mumbai,2859,Mist,Tuesday,29.1,73,6,0,Bandra
+2024-02-06 07:00:00,Mumbai,1412,Cloudy,Tuesday,34.9,79,7,0,Andheri
+2024-02-06 08:00:00,Mumbai,5601,Rain,Tuesday,29.6,82,8,1,Dadar
+2024-02-06 09:00:00,Mumbai,4672,Cloudy,Tuesday,32.2,69,9,1,Powai
+2024-02-06 10:00:00,Mumbai,4008,Rain,Tuesday,27.5,94,10,1,Worli
+2024-02-06 11:00:00,Mumbai,1601,Haze,Tuesday,24.2,78,11,0,Bandra
+2024-02-06 12:00:00,Mumbai,2110,Cloudy,Tuesday,28.7,65,12,0,Andheri
+2024-02-06 13:00:00,Mumbai,1919,Haze,Tuesday,33.8,84,13,0,Dadar
+2024-02-06 14:00:00,Mumbai,2086,Clear,Tuesday,24.1,88,14,0,Powai
+2024-02-06 15:00:00,Mumbai,2916,Cloudy,Tuesday,28.0,92,15,0,Worli
+2024-02-06 16:00:00,Mumbai,918,Rain,Tuesday,27.7,84,16,0,Bandra
+2024-02-06 17:00:00,Mumbai,5549,Mist,Tuesday,28.6,92,17,1,Andheri
+2024-02-06 18:00:00,Mumbai,5374,Drizzle,Tuesday,31.1,82,18,1,Dadar
+2024-02-06 19:00:00,Mumbai,5599,Mist,Tuesday,31.5,89,19,1,Powai
+2024-02-06 20:00:00,Mumbai,4506,Rain,Tuesday,27.7,69,20,1,Worli
+2024-02-06 21:00:00,Mumbai,1278,Clear,Tuesday,29.4,82,21,0,Bandra
+2024-02-06 22:00:00,Mumbai,2348,Rain,Tuesday,32.8,74,22,0,Andheri
+2024-02-06 23:00:00,Mumbai,301,Rain,Tuesday,31.6,78,23,0,Dadar
+2024-02-07 00:00:00,Mumbai,682,Mist,Wednesday,24.3,81,0,0,Powai
+2024-02-07 01:00:00,Mumbai,532,Cloudy,Wednesday,25.1,74,1,0,Worli
+2024-02-07 02:00:00,Mumbai,793,Mist,Wednesday,28.8,83,2,0,Bandra
+2024-02-07 03:00:00,Mumbai,781,Haze,Wednesday,33.1,69,3,0,Andheri
+2024-02-07 04:00:00,Mumbai,411,Cloudy,Wednesday,29.8,91,4,0,Dadar
+2024-02-07 05:00:00,Mumbai,725,Haze,Wednesday,32.7,72,5,0,Powai
+2024-02-07 06:00:00,Mumbai,1433,Cloudy,Wednesday,28.6,66,6,0,Worli
+2024-02-07 07:00:00,Mumbai,2204,Mist,Wednesday,24.5,71,7,0,Bandra
+2024-02-07 08:00:00,Mumbai,4195,Drizzle,Wednesday,28.4,93,8,1,Andheri
+2024-02-07 09:00:00,Mumbai,4836,Cloudy,Wednesday,29.7,68,9,1,Dadar
+2024-02-07 10:00:00,Mumbai,4608,Rain,Wednesday,32.9,88,10,1,Powai
+2024-02-07 11:00:00,Mumbai,1979,Rain,Wednesday,25.1,91,11,0,Worli
+2024-02-07 12:00:00,Mumbai,1815,Clear,Wednesday,26.4,82,12,0,Bandra
+2024-02-07 13:00:00,Mumbai,2439,Rain,Wednesday,31.6,90,13,0,Andheri
+2024-02-07 14:00:00,Mumbai,1371,Drizzle,Wednesday,25.6,87,14,0,Dadar
+2024-02-07 15:00:00,Mumbai,2030,Cloudy,Wednesday,30.7,75,15,0,Powai
+2024-02-07 16:00:00,Mumbai,1873,Mist,Wednesday,33.5,87,16,0,Worli
+2024-02-07 17:00:00,Mumbai,6179,Haze,Wednesday,26.7,68,17,1,Bandra
+2024-02-07 18:00:00,Mumbai,5256,Cloudy,Wednesday,29.9,89,18,1,Andheri
+2024-02-07 19:00:00,Mumbai,4480,Cloudy,Wednesday,27.6,78,19,1,Dadar
+2024-02-07 20:00:00,Mumbai,4691,Clear,Wednesday,25.1,82,20,1,Powai
+2024-02-07 21:00:00,Mumbai,2559,Mist,Wednesday,29.7,84,21,0,Worli
+2024-02-07 22:00:00,Mumbai,1278,Rain,Wednesday,27.1,68,22,0,Bandra
+2024-02-07 23:00:00,Mumbai,550,Drizzle,Wednesday,27.6,77,23,0,Andheri
+2024-02-08 00:00:00,Mumbai,807,Cloudy,Thursday,31.6,86,0,0,Dadar
+2024-02-08 01:00:00,Mumbai,695,Mist,Thursday,24.4,83,1,0,Powai
+2024-02-08 02:00:00,Mumbai,761,Cloudy,Thursday,32.2,71,2,0,Worli
+2024-02-08 03:00:00,Mumbai,654,Mist,Thursday,28.3,81,3,0,Bandra
+2024-02-08 04:00:00,Mumbai,332,Rain,Thursday,32.8,92,4,0,Andheri
+2024-02-08 05:00:00,Mumbai,870,Haze,Thursday,29.0,88,5,0,Dadar
+2024-02-08 06:00:00,Mumbai,2833,Clear,Thursday,30.4,65,6,0,Powai
+2024-02-08 07:00:00,Mumbai,1167,Haze,Thursday,30.7,73,7,0,Worli
+2024-02-08 08:00:00,Mumbai,5162,Drizzle,Thursday,30.3,66,8,1,Bandra
+2024-02-08 09:00:00,Mumbai,7041,Haze,Thursday,27.4,70,9,1,Andheri
+2024-02-08 10:00:00,Mumbai,4454,Clear,Thursday,31.7,66,10,1,Dadar
+2024-02-08 11:00:00,Mumbai,1611,Drizzle,Thursday,33.8,71,11,0,Powai
+2024-02-08 12:00:00,Mumbai,1517,Cloudy,Thursday,29.6,68,12,0,Worli
+2024-02-08 13:00:00,Mumbai,2766,Haze,Thursday,34.0,80,13,0,Bandra
+2024-02-08 14:00:00,Mumbai,1160,Drizzle,Thursday,25.8,69,14,0,Andheri
+2024-02-08 15:00:00,Mumbai,2286,Haze,Thursday,34.3,76,15,0,Dadar
+2024-02-08 16:00:00,Mumbai,2557,Mist,Thursday,26.8,90,16,0,Powai
+2024-02-08 17:00:00,Mumbai,5015,Mist,Thursday,27.5,86,17,1,Worli
+2024-02-08 18:00:00,Mumbai,7316,Mist,Thursday,30.5,81,18,1,Bandra
+2024-02-08 19:00:00,Mumbai,7774,Mist,Thursday,32.0,86,19,1,Andheri
+2024-02-08 20:00:00,Mumbai,6283,Cloudy,Thursday,31.3,85,20,1,Dadar
+2024-02-08 21:00:00,Mumbai,1683,Cloudy,Thursday,27.3,73,21,0,Powai
+2024-02-08 22:00:00,Mumbai,2030,Rain,Thursday,34.8,93,22,0,Worli
+2024-02-08 23:00:00,Mumbai,626,Drizzle,Thursday,35.0,79,23,0,Bandra
+2024-02-09 00:00:00,Mumbai,415,Cloudy,Friday,34.9,82,0,0,Andheri
+2024-02-09 01:00:00,Mumbai,731,Cloudy,Friday,24.2,77,1,0,Dadar
+2024-02-09 02:00:00,Mumbai,539,Mist,Friday,31.9,65,2,0,Powai
+2024-02-09 03:00:00,Mumbai,575,Clear,Friday,31.9,93,3,0,Worli
+2024-02-09 04:00:00,Mumbai,854,Mist,Friday,25.1,80,4,0,Bandra
+2024-02-09 05:00:00,Mumbai,440,Haze,Friday,28.2,80,5,0,Andheri
+2024-02-09 06:00:00,Mumbai,840,Drizzle,Friday,24.2,71,6,0,Dadar
+2024-02-09 07:00:00,Mumbai,1485,Haze,Friday,29.5,71,7,0,Powai
+2024-02-09 08:00:00,Mumbai,5580,Haze,Friday,26.3,81,8,1,Worli
+2024-02-09 09:00:00,Mumbai,7153,Haze,Friday,24.5,77,9,1,Bandra
+2024-02-09 10:00:00,Mumbai,5266,Haze,Friday,27.4,78,10,1,Andheri
+2024-02-09 11:00:00,Mumbai,2318,Haze,Friday,30.5,66,11,0,Dadar
+2024-02-09 12:00:00,Mumbai,2140,Mist,Friday,30.0,67,12,0,Powai
+2024-02-09 13:00:00,Mumbai,1547,Haze,Friday,31.3,70,13,0,Worli
+2024-02-09 14:00:00,Mumbai,1421,Cloudy,Friday,26.9,87,14,0,Bandra
+2024-02-09 15:00:00,Mumbai,2849,Mist,Friday,30.7,94,15,0,Andheri
+2024-02-09 16:00:00,Mumbai,1354,Mist,Friday,33.8,83,16,0,Dadar
+2024-02-09 17:00:00,Mumbai,4099,Rain,Friday,29.4,92,17,1,Powai
+2024-02-09 18:00:00,Mumbai,7042,Clear,Friday,25.5,69,18,1,Worli
+2024-02-09 19:00:00,Mumbai,4787,Cloudy,Friday,25.7,81,19,1,Bandra
+2024-02-09 20:00:00,Mumbai,3553,Rain,Friday,32.4,73,20,1,Andheri
+2024-02-09 21:00:00,Mumbai,2599,Mist,Friday,24.3,87,21,0,Dadar
+2024-02-09 22:00:00,Mumbai,1894,Rain,Friday,29.9,80,22,0,Powai
+2024-02-09 23:00:00,Mumbai,383,Mist,Friday,32.3,77,23,0,Worli
+2024-02-10 00:00:00,Mumbai,640,Cloudy,Saturday,30.7,71,0,0,Bandra
+2024-02-10 01:00:00,Mumbai,701,Mist,Saturday,29.2,81,1,0,Andheri
+2024-02-10 02:00:00,Mumbai,511,Cloudy,Saturday,24.0,81,2,0,Dadar
+2024-02-10 03:00:00,Mumbai,671,Rain,Saturday,27.4,89,3,0,Powai
+2024-02-10 04:00:00,Mumbai,738,Haze,Saturday,24.7,85,4,0,Worli
+2024-02-10 05:00:00,Mumbai,693,Cloudy,Saturday,30.9,87,5,0,Bandra
+2024-02-10 06:00:00,Mumbai,1300,Rain,Saturday,34.4,75,6,0,Andheri
+2024-02-10 07:00:00,Mumbai,2408,Cloudy,Saturday,24.2,92,7,0,Dadar
+2024-02-10 08:00:00,Mumbai,3461,Rain,Saturday,25.4,87,8,1,Powai
+2024-02-10 09:00:00,Mumbai,2985,Rain,Saturday,31.8,77,9,1,Worli
+2024-02-10 10:00:00,Mumbai,4819,Rain,Saturday,30.7,68,10,1,Bandra
+2024-02-10 11:00:00,Mumbai,1459,Rain,Saturday,29.0,85,11,0,Andheri
+2024-02-10 12:00:00,Mumbai,1265,Mist,Saturday,25.7,69,12,0,Dadar
+2024-02-10 13:00:00,Mumbai,1722,Cloudy,Saturday,26.1,77,13,0,Powai
+2024-02-10 14:00:00,Mumbai,1143,Drizzle,Saturday,26.3,77,14,0,Worli
+2024-02-10 15:00:00,Mumbai,1080,Cloudy,Saturday,24.9,79,15,0,Bandra
+2024-02-10 16:00:00,Mumbai,1289,Rain,Saturday,28.8,83,16,0,Andheri
+2024-02-10 17:00:00,Mumbai,4082,Cloudy,Saturday,33.6,82,17,1,Dadar
+2024-02-10 18:00:00,Mumbai,4384,Clear,Saturday,29.5,92,18,1,Powai
+2024-02-10 19:00:00,Mumbai,6093,Clear,Saturday,28.7,87,19,1,Worli
+2024-02-10 20:00:00,Mumbai,4562,Rain,Saturday,30.5,76,20,1,Bandra
+2024-02-10 21:00:00,Mumbai,1309,Drizzle,Saturday,24.9,81,21,0,Andheri
+2024-02-10 22:00:00,Mumbai,1788,Clear,Saturday,24.9,65,22,0,Dadar
+2024-02-10 23:00:00,Mumbai,300,Clear,Saturday,28.2,65,23,0,Powai
+2024-02-11 00:00:00,Mumbai,504,Drizzle,Sunday,30.8,67,0,0,Worli
+2024-02-11 01:00:00,Mumbai,282,Drizzle,Sunday,27.1,88,1,0,Bandra
+2024-02-11 02:00:00,Mumbai,594,Drizzle,Sunday,28.8,68,2,0,Andheri
+2024-02-11 03:00:00,Mumbai,783,Clear,Sunday,25.7,88,3,0,Dadar
+2024-02-11 04:00:00,Mumbai,724,Mist,Sunday,28.5,77,4,0,Powai
+2024-02-11 05:00:00,Mumbai,392,Clear,Sunday,31.3,75,5,0,Worli
+2024-02-11 06:00:00,Mumbai,957,Clear,Sunday,28.2,69,6,0,Bandra
+2024-02-11 07:00:00,Mumbai,955,Rain,Sunday,24.7,73,7,0,Andheri
+2024-02-11 08:00:00,Mumbai,6791,Haze,Sunday,33.8,81,8,1,Dadar
+2024-02-11 09:00:00,Mumbai,4121,Rain,Sunday,32.3,93,9,1,Powai
+2024-02-11 10:00:00,Mumbai,5046,Drizzle,Sunday,24.0,84,10,1,Worli
+2024-02-11 11:00:00,Mumbai,2221,Clear,Sunday,33.7,85,11,0,Bandra
+2024-02-11 12:00:00,Mumbai,2322,Clear,Sunday,26.2,85,12,0,Andheri
+2024-02-11 13:00:00,Mumbai,1788,Cloudy,Sunday,27.8,81,13,0,Dadar
+2024-02-11 14:00:00,Mumbai,1171,Clear,Sunday,34.8,86,14,0,Powai
+2024-02-11 15:00:00,Mumbai,1984,Cloudy,Sunday,30.1,80,15,0,Worli
