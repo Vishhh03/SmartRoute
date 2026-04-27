@@ -911,11 +911,13 @@ def get_ors_route(start_coords: Tuple[float, float], end_coords: Tuple[float, fl
     
     try:
         response = requests.get(url, headers=headers, params=params, timeout=10)
-        response.raise_for_status()
+        if not response.ok:
+            print(f"ORS API Error ({response.status_code}): {response.text}")
+            return {"_is_error": True, "status": response.status_code, "message": response.text}
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"ORS API Error: {e}")
-        return None
+        print(f"ORS API Request Exception: {e}")
+        return {"_is_error": True, "status": 500, "message": str(e)}
 
 
 def downsample_coordinates(route_coords: List[List[float]], max_points: int = 100) -> List[List[float]]:
@@ -1157,6 +1159,9 @@ def api_route_path():
         
         if not ors_response:
             return jsonify({"error": "Failed to fetch route from ORS - service may be unavailable"}), 500
+            
+        if ors_response.get("_is_error"):
+            return jsonify({"error": ors_response.get("message", "ORS Error")}), ors_response.get("status", 500)
         
         # Extract route geometry
         route_geometry = ors_response['features'][0]['geometry']

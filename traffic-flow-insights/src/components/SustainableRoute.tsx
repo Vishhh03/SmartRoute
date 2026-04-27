@@ -66,8 +66,8 @@ const SustainableRoute = () => {
   const [cityCarbonSaved, setCityCarbonSaved] = useState(1247.3);
   const [showTransparency, setShowTransparency] = useState(false);
   const [isFlipping, setIsFlipping] = useState(false);
-  const [startCoords, setStartCoords] = useState<[number, number]>([44.9778, -93.2650]);
-  const [endCoords, setEndCoords] = useState<[number, number]>([44.9444, -93.2650]);
+  const [startCoords, setStartCoords] = useState<[number, number]>([44.9530, -93.2981]); // Start in Uptown by default
+  const [endCoords, setEndCoords] = useState<[number, number]>([44.9778, -93.2650]); // Default to Downtown
   const [showRouteComparison, setShowRouteComparison] = useState(false);
   const [mapInstance, setMapInstance] = useState<any>(null);
   const [routePolylines, setRoutePolylines] = useState<any[]>([]);
@@ -100,7 +100,7 @@ const SustainableRoute = () => {
     };
 
     initMap();
-  }, [mapInstance]);
+  }, []); // Run once on mount so mapRef.current is always the real DOM node
 
   // Clear existing routes from map
   const clearRoutesFromMap = () => {
@@ -206,14 +206,21 @@ const SustainableRoute = () => {
     }
   };
 
+  // Automatically draw routes when mapInstance or routes change
+  useEffect(() => {
+    if (mapInstance && routes.length > 0) {
+      drawRoutesOnMap(routes);
+    }
+  }, [mapInstance, routes]);
+
   // Geocode destination to get coordinates
   const geocodeDestination = async (destination: string): Promise<[number, number] | null> => {
     try {
       // Common Minneapolis area destinations with their coordinates
       const destinations: Record<string, [number, number]> = {
-        'airport': [44.8847, -93.2223], // Minneapolis-St. Paul International Airport
-        'msp airport': [44.8847, -93.2223],
-        'minneapolis airport': [44.8847, -93.2223],
+        'airport': [44.8833, -93.2120], // Minneapolis-St. Paul International Airport
+        'msp airport': [44.8833, -93.2120],
+        'minneapolis airport': [44.8833, -93.2120],
         'downtown': [44.9778, -93.2650], // Minneapolis downtown
         'minneapolis downtown': [44.9778, -93.2650],
         'university': [44.9728, -93.2353], // University of Minnesota
@@ -621,32 +628,30 @@ const SustainableRoute = () => {
           </div>
         )}
 
-        {/* Map Visualization - Mobile Optimized */}
-        {routes.length > 0 && (
-          <div className="max-w-6xl mx-auto mb-8 px-4 sm:px-6">
-            <Card className="bg-white/90 backdrop-blur-lg border-green-200/50 shadow-2xl">
-              <CardHeader className="pb-4 px-4 sm:px-6">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                  <div className="flex items-center gap-2">
-                    <MapPin className="h-5 w-5 text-green-600" />
-                    <CardTitle className="text-lg sm:text-xl text-green-600">Live Route Map</CardTitle>
-                  </div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Badge className="bg-cyan-500 text-white text-xs sm:text-sm">AI Routes Active</Badge>
-                    <Badge className="bg-green-500 text-white text-xs sm:text-sm">{routes.length} Routes</Badge>
-                  </div>
+        {/* Map Visualization - always in DOM so Leaflet can attach, hidden until routes load */}
+        <div className="max-w-6xl mx-auto mb-8 px-4 sm:px-6" style={{ display: routes.length > 0 ? 'block' : 'none' }}>
+          <Card className="bg-white/90 backdrop-blur-lg border-green-200/50 shadow-2xl">
+            <CardHeader className="pb-4 px-4 sm:px-6">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                <div className="flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-green-600" />
+                  <CardTitle className="text-lg sm:text-xl text-green-600">Live Route Map</CardTitle>
                 </div>
-              </CardHeader>
-              <CardContent className="p-2 sm:p-4">
-                <div
-                  ref={mapRef}
-                  className="h-[300px] sm:h-[400px] w-full rounded-lg border-2 border-green-500/30"
-                  style={{ backgroundColor: "#0a0a0a" }}
-                />
-              </CardContent>
-            </Card>
-          </div>
-        )}
+                <div className="flex flex-wrap items-center gap-2">
+                  <Badge className="bg-cyan-500 text-white text-xs sm:text-sm">AI Routes Active</Badge>
+                  <Badge className="bg-green-500 text-white text-xs sm:text-sm">{routes.length} Routes</Badge>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent className="p-2 sm:p-4">
+              <div
+                ref={mapRef}
+                className="h-[300px] sm:h-[400px] w-full rounded-lg border-2 border-green-500/30"
+                style={{ backgroundColor: "#0a0a0a" }}
+              />
+            </CardContent>
+          </Card>
+        </div>
 
         {/* Route Comparison Panel - Mobile Optimized */}
         {showRouteComparison && routes.length > 0 && (
