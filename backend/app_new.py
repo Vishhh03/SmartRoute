@@ -1038,7 +1038,16 @@ def calculate_model_confidence(segments: List[Dict], route_length_km: float) -> 
 def analyze_route_congestion(route_coords: List[List[float]], prediction_engine) -> Dict[str, Any]:
     """Analyze route segments for congestion using ML model with optimizations"""
     if not prediction_engine:
-        return {"segments": [], "congestion_score": 0.5, "sustainability_score": 0.5, "model_confidence": 0.5}
+        return {
+            "segments": [], 
+            "congestion_score": 0.5, 
+            "sustainability_score": 0.5, 
+            "model_confidence": 0.5,
+            "congested_segments": 0,
+            "total_segments": 0,
+            "total_idling_time": 0,
+            "free_flow_time": 0
+        }
     
     # Downsample coordinates to prevent timeout
     max_points = 100  # Limit to prevent rate limiting
