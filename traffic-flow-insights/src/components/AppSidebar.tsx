@@ -62,7 +62,7 @@ const LiveTicker = () => {
         <div className="flex items-center gap-1.5 mb-1.5">
           <Radio className="h-2.5 w-2.5 neon-teal animate-pulse" />
           <span className="orbitron-mono text-[9px] font-bold uppercase tracking-widest neon-teal">
-            SYSTEM FEED
+            PROJECT LOGS
           </span>
         </div>
       <p
@@ -107,7 +107,7 @@ export function AppSidebar() {
                   TRAFFIC NET
                 </span>
                 <span className="text-[10px] neon-teal opacity-80 leading-tight font-mono">
-                  CYBER CONTROL v2.1
+                  PROJECT DASHBOARD
                 </span>
               </div>
             )}

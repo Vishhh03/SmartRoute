@@ -1172,6 +1172,21 @@ def api_route_path():
         # Analyze route with ML model (includes downsampling)
         analysis = analyze_route_congestion(route_coords_latlon, prediction_engine)
         
+        # Extract route properties safely
+        try:
+            route_properties = ors_response['features'][0]['properties']
+            if 'segments' in route_properties and len(route_properties['segments']) > 0:
+                distance = route_properties['segments'][0]['distance']
+                duration = route_properties['segments'][0]['duration']
+            else:
+                # Fallback calculation if segment data missing
+                distance = sum(analysis['segments'][i].get('distance', 100) for i in range(len(analysis['segments'])))
+                duration = distance / 50 * 3600  # Rough estimate: 50 km/h average
+        except (KeyError, IndexError) as e:
+            print(f"Warning: Could not extract route properties: {e}")
+            distance = 10000  # 10km fallback
+            duration = 720    # 12 minutes fallback
+            
         # Enhanced CO2 calculations
         # Base assumption: 200g CO2 per km for stop-and-go traffic, 120g CO2 per km for free-flow
         route_distance_km = distance / 1000  # Convert meters to km
@@ -1189,21 +1204,6 @@ def api_route_path():
         # Average car produces 4090g CO2 per day (EPA estimate)
         # Per hour equivalent for this route
         cars_off_road_equivalent = co2_saved / (4090 / 24)  # grams / (grams per hour)
-        
-        # Extract route properties safely
-        try:
-            route_properties = ors_response['features'][0]['properties']
-            if 'segments' in route_properties and len(route_properties['segments']) > 0:
-                distance = route_properties['segments'][0]['distance']
-                duration = route_properties['segments'][0]['duration']
-            else:
-                # Fallback calculation if segment data missing
-                distance = sum(analysis['segments'][i].get('distance', 100) for i in range(len(analysis['segments'])))
-                duration = distance / 50 * 3600  # Rough estimate: 50 km/h average
-        except (KeyError, IndexError) as e:
-            print(f"Warning: Could not extract route properties: {e}")
-            distance = 10000  # 10km fallback
-            duration = 720    # 12 minutes fallback
         
         # Create response with GeoJSON LineString
         response = {
@@ -1267,6 +1267,6 @@ def handle_disconnect():
 
 
 if __name__ == "__main__":
-    socketio.run(app, host="0.0.0.0", port=API_PORT, debug=False, load_dotenv=False)
+    socketio.run(app, host="0.0.0.0", port=API_PORT, debug=False, load_dotenv=False, allow_unsafe_werkzeug=True)
 
 

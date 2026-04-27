@@ -122,10 +122,10 @@ const SmartTrafficWarden = () => {
         <div className="max-w-7xl mx-auto mb-8">
           <div className="text-center">
             <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent mb-4">
-              SMART TRAFFIC WARDEN
+              TRAFFIC PREDICTION MODULE
             </h1>
             <p className="text-xl text-gray-400">
-              Decision Support System • Real-time Weather Intelligence
+              Experimental Analysis • Real-time Weather Impact
             </p>
           </div>
         </div>
@@ -218,7 +218,7 @@ const SmartTrafficWarden = () => {
               <CardHeader className="pb-4">
                 <div className="flex items-center gap-2">
                   <Shield className="h-5 w-5 text-blue-600" />
-                  <CardTitle className="text-xl text-gray-900">Decision Support</CardTitle>
+                  <CardTitle className="text-xl text-gray-900">Routing Analysis</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="p-6">
@@ -356,13 +356,13 @@ const SmartTrafficWarden = () => {
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-between">
                   <Clock className="h-5 w-5 text-cyan-400" />
-                  <CardTitle className="text-xl text-gray-100">System Status</CardTitle>
+                  <CardTitle className="text-xl text-gray-100">Project Status</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-400">Last System Audit:</span>
+                    <span className="text-sm text-gray-400">Last Evaluation:</span>
                     <span className="font-semibold text-gray-100">{lastAuditTime}</span>
                   </div>
                   
@@ -395,7 +395,7 @@ const SmartTrafficWarden = () => {
                   </div>
                   
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-400">System Health:</span>
+                    <span className="text-sm text-gray-400">Module Health:</span>
                     <Badge variant="default" className="bg-emerald-500/20 text-emerald-400 border-emerald-500/50">
                       Operational
                     </Badge>

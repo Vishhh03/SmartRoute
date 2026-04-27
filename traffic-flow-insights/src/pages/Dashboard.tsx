@@ -275,7 +275,7 @@ const Dashboard = () => {
             <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-500"></span>
           </div>
           <span className="orbitron-mono text-teal-400 font-bold tracking-widest uppercase text-xs">
-            System Live
+            Project Live
           </span>
         </div>
       </div>
