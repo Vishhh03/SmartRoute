@@ -48,20 +48,15 @@ app = Flask(__name__)
 CORS(
     app,
     resources={
-        r"/api/*": {
-            "origins": [
-                "http://localhost:3000",
-                "http://localhost:5173",
-                "http://localhost:8080",
-                "http://127.0.0.1:3000",
-                "http://127.0.0.1:5173",
-            ]
+        r"/*": {
+            "origins": "*"
         }
     },
 )
 
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
 streaming_active = False
+latest_stream_data = None
 
 # Load additional models and encoders with individual error handling
 try:
@@ -174,12 +169,13 @@ def api_predict():
     #                  visibility_in_miles, air_pollution_index, clouds_all, rain_p_h, snow_p_h, etc.
     
     try:
-        # Convert temperature from Fahrenheit to Kelvin if needed (frontend uses Â°F)
-        temp_f = float(data.get("temperature", 0))
-        if temp_f > 100:  # Likely Fahrenheit (e.g., 72Â°F)
-            temp_k = (temp_f - 32) * 5/9 + 273.15
-        else:  # Already Kelvin or Celsius
-            temp_k = float(data.get("temperature", 293))
+        temp_raw = float(data.get("temperature", 293))
+        if temp_raw > 150: # Likely Kelvin (e.g. 293K)
+            temp_k = temp_raw
+        elif temp_raw > 35: # Likely Fahrenheit (e.g. 72F)
+            temp_k = (temp_raw - 32) * 5/9 + 273.15
+        else: # Likely Celsius (e.g. 20C)
+            temp_k = temp_raw + 273.15
         
         # Build the input for the prediction engine
         input_data = {
@@ -742,6 +738,8 @@ def api_stream_start():
                     "accuracy_note": accuracy_note
                 }
                 
+                global latest_stream_data
+                latest_stream_data = data
                 socketio.emit('traffic_update', data, namespace='/')
                 time.sleep(STREAM_INTERVAL_SECONDS)
                 
@@ -764,7 +762,11 @@ def api_stream_stop():
 
 @app.route("/api/stream/status", methods=["GET"])
 def api_stream_status():
-    return jsonify({"active": streaming_active})
+    global streaming_active, latest_stream_data
+    return jsonify({
+        "active": streaming_active,
+        "latest": latest_stream_data
+    })
 
 
 @app.route("/api/routes", methods=["GET"])
