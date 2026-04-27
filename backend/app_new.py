@@ -1069,9 +1069,11 @@ def analyze_route_congestion(route_coords: List[List[float]], prediction_engine)
         
         try:
             # Get prediction from ML model
-            prediction = prediction_engine.predict_single(features)
-            predicted_volume = prediction.get('predicted_volume', 3000)
-            congestion_probability = prediction.get('congestion_probability', 0.5)
+            prediction = prediction_engine.predict_with_confidence(features)
+            predicted_volume = prediction.get('prediction', 3000)
+            
+            # Simple congestion heuristic based on volume
+            congestion_probability = min(1.0, predicted_volume / 5000)
             
             # Flag high congestion segments
             is_congested = congestion_probability > 0.8
@@ -1107,7 +1109,10 @@ def analyze_route_congestion(route_coords: List[List[float]], prediction_engine)
     
     # Calculate sustainability score based on idling time vs free-flow
     free_flow_time = len(segments) * 30  # Assume 30s per segment free flow
-    sustainability_score = max(0, 1 - (total_idling_time / (free_flow_time + total_idling_time)))
+    if (free_flow_time + total_idling_time) > 0:
+        sustainability_score = max(0, 1 - (total_idling_time / (free_flow_time + total_idling_time)))
+    else:
+        sustainability_score = 0.5
     
     avg_congestion_score = total_congestion / len(segments) if segments else 0.5
     
@@ -1158,10 +1163,14 @@ def api_route_path():
         )
         
         if not ors_response:
-            return jsonify({"error": "Failed to fetch route from ORS - service may be unavailable"}), 500
+            return jsonify({"error": "Failed to fetch route from ORS - service may be unavailable"}), 401
             
         if ors_response.get("_is_error"):
-            return jsonify({"error": ors_response.get("message", "ORS Error")}), ors_response.get("status", 500)
+            # Check if it's an auth error from ORS
+            status_code = ors_response.get("status", 500)
+            if status_code == 401 or status_code == 403:
+                return jsonify({"error": "Invalid API key"}), 401
+            return jsonify({"error": ors_response.get("message", "ORS Error")}), status_code
         
         # Extract route geometry
         route_geometry = ors_response['features'][0]['geometry']

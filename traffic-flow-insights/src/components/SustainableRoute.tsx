@@ -65,13 +65,15 @@ const SustainableRoute = () => {
   const [error, setError] = useState('');
   const [cityCarbonSaved, setCityCarbonSaved] = useState(1247.3);
   const [showTransparency, setShowTransparency] = useState(false);
+  const [isCardVisible, setIsCardVisible] = useState(false);
   const [isFlipping, setIsFlipping] = useState(false);
   const [startCoords, setStartCoords] = useState<[number, number]>([44.9530, -93.2981]); // Start in Uptown by default
   const [endCoords, setEndCoords] = useState<[number, number]>([44.9778, -93.2650]); // Default to Downtown
   const [showRouteComparison, setShowRouteComparison] = useState(false);
   const [mapInstance, setMapInstance] = useState<any>(null);
-  const [routePolylines, setRoutePolylines] = useState<any[]>([]);
   const mapRef = useRef<HTMLDivElement>(null);
+  const leafletRef = useRef<any>(null);
+  const routePolylinesRef = useRef<any[]>([]); // use ref so clearRoutesFromMap always has fresh value
 
   // Initialize map for route visualization
   useEffect(() => {
@@ -80,6 +82,8 @@ const SustainableRoute = () => {
     const initMap = async () => {
       const L = await import("leaflet");
       await import("leaflet/dist/leaflet.css");
+
+      leafletRef.current = L; // Store for use in drawRoutesOnMap
 
       const map = L.map(mapRef.current!, {
         center: [44.9778, -93.2650],
@@ -104,12 +108,12 @@ const SustainableRoute = () => {
 
   // Clear existing routes from map
   const clearRoutesFromMap = () => {
-    routePolylines.forEach(polyline => {
+    routePolylinesRef.current.forEach(polyline => {
       if (mapInstance && polyline) {
         mapInstance.removeLayer(polyline);
       }
     });
-    setRoutePolylines([]);
+    routePolylinesRef.current = [];
   };
 
   // Draw routes on map with dynamic styling
@@ -121,7 +125,8 @@ const SustainableRoute = () => {
     const polylines: any[] = [];
 
     routes.forEach((route) => {
-      const L = (window as any).L;
+      const L = leafletRef.current;
+      if (!L) { console.error('Leaflet not loaded yet'); return; }
       
       // Validate route coordinates before drawing
       if (!route.path || route.path.length < 2) {
@@ -178,7 +183,7 @@ const SustainableRoute = () => {
       }
     });
 
-    setRoutePolylines(polylines);
+    routePolylinesRef.current = polylines;
 
     // Fit map to show all routes
     if (routes.length > 0 && polylines.length > 0) {
@@ -194,7 +199,7 @@ const SustainableRoute = () => {
         });
         
         if (validCoords.length > 0) {
-          const bounds = (window as any).L.latLngBounds(validCoords);
+          const bounds = leafletRef.current.latLngBounds(validCoords);
           mapInstance.fitBounds(bounds, { padding: [50, 50] });
           console.log('Map bounds set successfully');
         } else {
@@ -480,6 +485,11 @@ const SustainableRoute = () => {
   }, []);
 
   const handleTransparency = () => {
+    if (!isCardVisible) {
+      setIsCardVisible(true);
+      return;
+    }
+    
     setIsFlipping(true);
     setTimeout(() => {
       setShowTransparency(!showTransparency);
@@ -937,15 +947,12 @@ const SustainableRoute = () => {
         </div>
           
           {/* Flip Card */}
-          <div 
-            className={`absolute bottom-20 right-8 w-96 bg-gray-900/95 backdrop-blur-xl border border-gray-700 rounded-xl shadow-2xl transition-all duration-500 ${
-              isFlipping ? 'animate-flip' : ''
-            }`}
-            style={{ 
-              transform: showTransparency ? 'rotateY(0deg)' : 'rotateY(180deg)',
-              transformStyle: 'preserve-3d'
-            }}
-          >
+          {isCardVisible && (
+            <div 
+              className={`absolute bottom-20 right-8 w-96 bg-gray-900/95 backdrop-blur-xl border border-gray-700 rounded-xl shadow-2xl transition-all duration-500 ${
+                isFlipping ? 'animate-flip' : ''
+              }`}
+            >
             <div className="p-6">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-white">
@@ -979,34 +986,53 @@ const SustainableRoute = () => {
                 </div>
               </div>
               
-              <div className={`space-y-3 ${!showTransparency ? 'block' : 'hidden'}`}>
-                <div className="p-4 bg-blue-900/50 border border-blue-700/50 rounded-lg">
-                  <div className="space-y-3 text-sm">
+              <div className={`space-y-4 ${!showTransparency ? 'block' : 'hidden'}`}>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-xs font-semibold text-blue-400 uppercase tracking-wider">
+                    <div className="h-1 w-1 rounded-full bg-blue-400 animate-pulse"></div>
+                    System Architecture
+                  </div>
+                  <div className="p-3 bg-blue-900/30 border border-blue-700/30 rounded-lg space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-blue-400">Model:</span>
-                      <span className="text-white font-bold">Gradient Boosting v2.1</span>
+                      <span className="text-gray-400">Core Engine</span>
+                      <span className="text-blue-300 font-medium">Gradient Boosting v2.1</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-blue-400">Training:</span>
-                      <span className="text-white font-bold">150 epochs • 2.3s</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-blue-400">Features:</span>
-                      <span className="text-white font-bold">Hour, Weather, Temperature, Humidity</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-blue-400">Validation:</span>
-                      <span className="text-white font-bold">5-fold cross-validation</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-blue-400">Last Updated:</span>
-                      <span className="text-white font-bold">2025-04-21 19:30</span>
+                      <span className="text-gray-400">Input Features</span>
+                      <span className="text-blue-300 font-medium">Temporal + Weather + Bio</span>
                     </div>
                   </div>
                 </div>
+
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-xs font-semibold text-purple-400 uppercase tracking-wider">
+                    <div className="h-1 w-1 rounded-full bg-purple-400 animate-pulse"></div>
+                    Training Statistics
+                  </div>
+                  <div className="p-3 bg-purple-900/30 border border-purple-700/30 rounded-lg space-y-2 text-sm">
+                    <div className="flex justify-between">
+                      <span className="text-gray-400">Iterations</span>
+                      <span className="text-purple-300 font-medium">150 Epochs</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-400">Compute Time</span>
+                      <span className="text-purple-300 font-medium">2.3s Latency</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-400">Methodology</span>
+                      <span className="text-purple-300 font-medium">5-Fold Cross-Val</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between pt-2 border-t border-gray-800">
+                  <span className="text-[10px] text-gray-500 uppercase">Last Synchronization</span>
+                  <span className="text-[10px] font-mono text-blue-400">2025-04-21 19:30 UTC</span>
+                </div>
+                </div>
               </div>
             </div>
-          </div>
+          )}
       </div>
 
       {/* Custom Animations */}
